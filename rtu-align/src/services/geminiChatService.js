@@ -1,4 +1,5 @@
-const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || '';
+const DEFAULT_GEMINI_KEY = 'AQ.Ab8RN6KWXPPM3PVKLS-3Yog2aTR9VxfPgbxqSj15OZTKHXLBdQ';
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || DEFAULT_GEMINI_KEY;
 
 const CANDIDATE_MODELS = [
   'gemini-2.0-flash',
