@@ -1,0 +1,9 @@
+{
+  "name": "rtu-kota-syllabus-helper-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix rtu-align run dev",
+    "build": "npm --prefix rtu-align run build",
+    "preview": "npm --prefix rtu-align run preview"
+  }
+}

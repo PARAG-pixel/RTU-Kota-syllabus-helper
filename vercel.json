@@ -1,0 +1,11 @@
+{
+  "framework": "vite",
+  "buildCommand": "cd rtu-align && npm install && npm run build",
+  "outputDirectory": "rtu-align/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

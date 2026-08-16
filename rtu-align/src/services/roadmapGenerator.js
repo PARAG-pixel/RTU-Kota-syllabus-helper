@@ -93,11 +93,10 @@ export function generateLocalRoadmap(subject, results, targetDays = 5) {
 }
 
 const CANDIDATE_MODELS = [
-  'gemini-3.5-flash',
-  'gemini-3.1-flash-lite',
-  'gemini-3-flash-preview',
-  'gemini-3.7-flash',
-  'gemini-flash-latest'
+  'gemini-2.0-flash',
+  'gemini-1.5-flash',
+  'gemini-2.5-flash',
+  'gemini-1.5-pro'
 ];
 
 // Gemini API roadmap generation with clean error handling and local fallback

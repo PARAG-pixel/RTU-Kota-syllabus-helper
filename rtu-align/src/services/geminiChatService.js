@@ -1,13 +1,10 @@
-// Gemini Topic Tutor Service for RTU Kota B.Tech Syllabus
-
-const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || 'AQ.Ab8RN6KWXPPM3PVKLS-3Yog2aTR9VxfPgbxqSj15OZTKHXLBdQ';
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || '';
 
 const CANDIDATE_MODELS = [
-  'gemini-3.5-flash',
-  'gemini-3.1-flash-lite',
-  'gemini-3-flash-preview',
-  'gemini-3.7-flash',
-  'gemini-flash-latest'
+  'gemini-2.0-flash',
+  'gemini-1.5-flash',
+  'gemini-2.5-flash',
+  'gemini-1.5-pro'
 ];
 
 // Helper to call Gemini with cascading model fallback
