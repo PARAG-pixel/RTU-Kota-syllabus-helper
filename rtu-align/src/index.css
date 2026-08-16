@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-base: #060913;
+    --bg-surface: rgba(15, 23, 42, 0.65);
+    --border-subtle: rgba(255, 255, 255, 0.08);
+    --border-highlight: rgba(255, 255, 255, 0.18);
+  }
+
+  body {
+    @apply bg-[#060913] text-gray-100 font-sans antialiased selection:bg-accent-blue/30 selection:text-white;
+    background-image: 
+      radial-gradient(ellipse at 15% 0%, rgba(59, 130, 246, 0.15) 0%, transparent 45%),
+      radial-gradient(ellipse at 85% 15%, rgba(139, 92, 246, 0.12) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 85%, rgba(6, 182, 212, 0.08) 0%, transparent 55%),
+      linear-gradient(to bottom, #060913 0%, #0a0f1e 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #334155 #0a0f1e;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  }
+
+  code, kbd, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer components {
+  /* Ambient Grid Background Overlay */
+  .bg-grid-pattern {
+    background-size: 32px 32px;
+    background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  }
+
+  /* Bento & Glass Card 2.0 */
+  .glass-card {
+    @apply bg-slate-900/60 backdrop-blur-xl border border-white/[0.08] rounded-2xl relative overflow-hidden;
+    box-shadow: 
+      0 0 0 1px rgba(255, 255, 255, 0.04),
+      0 8px 32px -4px rgba(0, 0, 0, 0.5),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
+
+  .glass-card-hover {
+    @apply glass-card transition-all duration-300;
+  }
+
+  .glass-card-hover:hover {
+    @apply bg-slate-800/70 border-white/[0.16];
+    box-shadow: 
+      0 0 0 1px rgba(255, 255, 255, 0.1),
+      0 16px 40px -8px rgba(0, 0, 0, 0.6),
+      0 0 28px rgba(59, 130, 246, 0.16),
+      inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+  }
+
+  /* Bento Specific Styles */
+  .bento-card {
+    @apply glass-card p-6 flex flex-col justify-between transition-all duration-300;
+  }
+
+  .bento-card:hover {
+    @apply border-white/[0.14];
+    box-shadow: 
+      0 12px 36px -6px rgba(0, 0, 0, 0.5),
+      0 0 24px rgba(139, 92, 246, 0.12);
+  }
+
+  /* Primary Button with Gradient Aura */
+  .btn-primary {
+    @apply relative px-6 py-3 bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 
+           text-white font-semibold rounded-xl
+           hover:from-blue-500 hover:to-violet-500 active:scale-[0.98]
+           transition-all duration-200 
+           shadow-lg shadow-blue-500/25 border border-white/20;
+  }
+
+  .btn-primary:hover {
+    box-shadow: 0 0 24px rgba(59, 130, 246, 0.4);
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-white/[0.05] border border-white/[0.1]
+           text-gray-200 font-medium rounded-xl
+           hover:bg-white/[0.1] hover:border-white/[0.2] hover:text-white
+           active:scale-[0.98]
+           transition-all duration-200;
+  }
+
+  /* Glowing Badges */
+  .badge-critical {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold
+           bg-rose-500/15 text-rose-400 border border-rose-500/30;
+  }
+
+  .badge-warning {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold
+           bg-amber-500/15 text-amber-400 border border-amber-500/30;
+  }
+
+  .badge-success {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold
+           bg-emerald-500/15 text-emerald-400 border border-emerald-500/30;
+  }
+
+  .badge-neutral {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold
+           bg-blue-500/15 text-blue-400 border border-blue-500/30;
+  }
+
+  /* Smooth Progress Bar */
+  .progress-bar {
+    @apply h-2 rounded-full bg-slate-800/80 border border-white/[0.05] overflow-hidden;
+  }
+
+  .progress-bar-fill {
+    @apply h-full rounded-full transition-all duration-500 ease-out;
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6, #06b6d4);
+  }
+
+  /* Quiz Option Cards */
+  .option-card {
+    @apply glass-card p-4 cursor-pointer transition-all duration-200
+           hover:bg-slate-800/70 hover:border-white/[0.15];
+  }
+
+  .option-card.selected {
+    @apply bg-blue-600/15 border-blue-500/50;
+    box-shadow: 0 0 24px rgba(59, 130, 246, 0.2);
+  }
+
+  .option-card.correct {
+    @apply bg-emerald-600/15 border-emerald-500/50 text-emerald-100;
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.15);
+  }
+
+  .option-card.incorrect {
+    @apply bg-rose-600/15 border-rose-500/50 text-rose-100;
+    box-shadow: 0 0 20px rgba(244, 63, 94, 0.15);
+  }
+
+  /* High-Contrast Gradient Texts */
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-400 via-violet-400 to-cyan-400 bg-clip-text text-transparent;
+  }
+
+  .gradient-text-amber {
+    @apply bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400 bg-clip-text text-transparent;
+  }
+
+  .section-divider {
+    @apply h-px bg-gradient-to-r from-transparent via-white/[0.1] to-transparent;
+  }
+
+  /* Glowing ambient nodes */
+  .glow-node {
+    box-shadow: 0 0 12px currentColor;
+  }
+}
