@@ -134,7 +134,7 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
           <span className="font-semibold text-gray-300">
             Question <span className="text-white font-bold">{currentIdx + 1}</span> of {allQuestions.length}
           </span>
-          
+
           <div className="flex items-center gap-2">
             {currentQ.isHighYield && (
               <span className="badge-critical text-[10px] py-0.5 px-2">
@@ -148,8 +148,8 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
         </div>
 
         <div className="progress-bar">
-          <motion.div 
-            className="progress-bar-fill" 
+          <motion.div
+            className="progress-bar-fill"
             animate={{ width: `${progress}%` }}
             transition={{ duration: 0.4 }}
           />
@@ -196,11 +196,10 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
                   className={`${optClass} w-full text-left flex items-center gap-3.5 py-3.5 px-4`}
                   disabled={showResult}
                 >
-                  <span className={`w-7 h-7 rounded-lg border flex items-center justify-center text-xs font-mono font-bold flex-shrink-0 transition-all ${
-                    opt === selectedOption 
-                      ? 'border-blue-400 bg-blue-500 text-white shadow-lg shadow-blue-500/30' 
+                  <span className={`w-7 h-7 rounded-lg border flex items-center justify-center text-xs font-mono font-bold flex-shrink-0 transition-all ${opt === selectedOption
+                      ? 'border-blue-400 bg-blue-500 text-white shadow-lg shadow-blue-500/30'
                       : 'border-white/[0.12] bg-white/[0.04] text-gray-400'
-                  }`}>
+                    }`}>
                     {letter}
                   </span>
                   <span className="text-sm text-gray-200 font-medium flex-1">{opt}</span>
@@ -220,11 +219,10 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
             <motion.div
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
-              className={`p-4 rounded-xl text-sm border flex items-start gap-3 ${
-                isCorrect 
-                  ? 'bg-emerald-500/10 text-emerald-300 border-emerald-500/30' 
+              className={`p-4 rounded-xl text-sm border flex items-start gap-3 ${isCorrect
+                  ? 'bg-emerald-500/10 text-emerald-300 border-emerald-500/30'
                   : 'bg-rose-500/10 text-rose-300 border-rose-500/30'
-              }`}
+                }`}
             >
               {isCorrect ? (
                 <CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" />
@@ -268,9 +266,8 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
           whileTap={{ scale: 0.99 }}
           onClick={handleConfirm}
           disabled={!selectedOption}
-          className={`btn-primary w-full flex items-center justify-center gap-2 py-3.5 ${
-            !selectedOption ? 'opacity-50 cursor-not-allowed' : ''
-          }`}
+          className={`btn-primary w-full flex items-center justify-center gap-2 py-3.5 ${!selectedOption ? 'opacity-50 cursor-not-allowed' : ''
+            }`}
         >
           <span className="font-bold">
             {!showResult ? 'Submit Answer' : isLastQuestion ? 'Complete Assessment & View Gap Analysis' : 'Next Question'}
@@ -280,7 +277,7 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
             <CornerDownLeft className="w-3 h-3 mr-0.5" /> ↵
           </span>
         </motion.button>
-        
+
         <p className="text-center text-[11px] text-gray-500">
           Pro-tip: Press <kbd className="px-1.5 py-0.5 bg-white/10 rounded text-gray-300 font-mono text-[10px]">A</kbd>-<kbd className="px-1.5 py-0.5 bg-white/10 rounded text-gray-300 font-mono text-[10px]">D</kbd> or <kbd className="px-1.5 py-0.5 bg-white/10 rounded text-gray-300 font-mono text-[10px]">1</kbd>-<kbd className="px-1.5 py-0.5 bg-white/10 rounded text-gray-300 font-mono text-[10px]">4</kbd> on your keyboard, and press <kbd className="px-1.5 py-0.5 bg-white/10 rounded text-gray-300 font-mono text-[10px]">Enter</kbd> to proceed.
         </p>
@@ -291,13 +288,12 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
         {allQuestions.map((q, idx) => (
           <div
             key={q.id || idx}
-            className={`transition-all duration-300 rounded-full ${
-              idx === currentIdx 
-                ? 'w-5 sm:w-6 h-1.5 sm:h-2 bg-blue-500 shadow-md shadow-blue-500/50' 
-                : idx < currentIdx 
-                  ? (answers[q.id] === q.answer ? 'w-1.5 sm:w-2 h-1.5 sm:h-2 bg-emerald-400' : 'w-1.5 sm:w-2 h-1.5 sm:h-2 bg-rose-400') 
+            className={`transition-all duration-300 rounded-full ${idx === currentIdx
+                ? 'w-5 sm:w-6 h-1.5 sm:h-2 bg-blue-500 shadow-md shadow-blue-500/50'
+                : idx < currentIdx
+                  ? (answers[q.id] === q.answer ? 'w-1.5 sm:w-2 h-1.5 sm:h-2 bg-emerald-400' : 'w-1.5 sm:w-2 h-1.5 sm:h-2 bg-rose-400')
                   : 'w-1.5 sm:w-2 h-1.5 sm:h-2 bg-white/10'
-            }`}
+              }`}
             title={`Question ${idx + 1}`}
           />
         ))}
