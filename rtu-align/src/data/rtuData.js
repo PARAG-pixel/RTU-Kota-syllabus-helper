@@ -36,7 +36,7 @@ export const rtuData = {
           "subjects": [
             {
               "code": "1FY2-01",
-              "name": "Engineering Mathematics-I) ON CONFLICT (code",
+              "name": "Engineering Mathematics-I",
               "units": [
                 {
                   "number": 1,
@@ -59,7 +59,7 @@ export const rtuData = {
                         "Lemniscate"
                       ],
                       "answer": "Cissoid of Diocles",
-                      "topic": "Curve Tracing) ON CONFLICT (id"
+                      "topic": "Curve Tracing"
                     },
                     {
                       "id": "1fy201_u1_q2",
@@ -71,7 +71,7 @@ export const rtuData = {
                         "Alternate curves"
                       ],
                       "answer": "Every member of the family",
-                      "topic": "Envelopes) ON CONFLICT (id"
+                      "topic": "Envelopes"
                     },
                     {
                       "id": "1fy201_u1_q3",
@@ -120,7 +120,7 @@ export const rtuData = {
                         "Linear only"
                       ],
                       "answer": "Homogeneous",
-                      "topic": "Euler's Theorem) ON CONFLICT (id"
+                      "topic": "Euler's Theorem"
                     },
                     {
                       "id": "1fy201_u2_q2",
@@ -132,7 +132,7 @@ export const rtuData = {
                         "Differentiation only"
                       ],
                       "answer": "Constrained optimization",
-                      "topic": "Lagrange Multipliers) ON CONFLICT (id"
+                      "topic": "Lagrange Multipliers"
                     },
                     {
                       "id": "1fy201_u2_q3",
@@ -181,7 +181,7 @@ export const rtuData = {
                         "ΓêÜ2"
                       ],
                       "answer": "ΓêÜ╧Ç",
-                      "topic": "Gamma Functions) ON CONFLICT (id"
+                      "topic": "Gamma Functions"
                     },
                     {
                       "id": "1fy201_u3_q2",
@@ -193,7 +193,7 @@ export const rtuData = {
                         "B(1,mn)"
                       ],
                       "answer": "B(n,m)",
-                      "topic": "Beta Functions) ON CONFLICT (id"
+                      "topic": "Beta Functions"
                     },
                     {
                       "id": "1fy201_u3_q3",
@@ -242,7 +242,7 @@ export const rtuData = {
                         "1"
                       ],
                       "answer": "r",
-                      "topic": "Jacobian) ON CONFLICT (id"
+                      "topic": "Jacobian"
                     },
                     {
                       "id": "1fy201_u4_q2",
@@ -254,7 +254,7 @@ export const rtuData = {
                         "None of these"
                       ],
                       "answer": "Redrawing the region of integration",
-                      "topic": "Change of Order) ON CONFLICT (id"
+                      "topic": "Change of Order"
                     },
                     {
                       "id": "1fy201_u4_q3",
@@ -303,7 +303,7 @@ export const rtuData = {
                         "F = 0"
                       ],
                       "answer": "div F = 0",
-                      "topic": "Divergence) ON CONFLICT (id"
+                      "topic": "Divergence"
                     },
                     {
                       "id": "1fy201_u5_q2",
@@ -315,7 +315,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Line integral to double integral",
-                      "topic": "Green's Theorem) ON CONFLICT (id"
+                      "topic": "Green's Theorem"
                     },
                     {
                       "id": "1fy201_u5_q3",
@@ -347,7 +347,7 @@ export const rtuData = {
             },
             {
               "code": "1FY2-02",
-              "name": "Engineering Physics) ON CONFLICT (code",
+              "name": "Engineering Physics",
               "units": [
                 {
                   "number": 1,
@@ -370,7 +370,7 @@ export const rtuData = {
                         "Variable"
                       ],
                       "answer": "Dark",
-                      "topic": "Newton's Rings) ON CONFLICT (id"
+                      "topic": "Newton's Rings"
                     },
                     {
                       "id": "1fy202_u1_q2",
@@ -382,7 +382,7 @@ export const rtuData = {
                         "Distance to screen"
                       ],
                       "answer": "Number of slits",
-                      "topic": "Diffraction Grating) ON CONFLICT (id"
+                      "topic": "Diffraction Grating"
                     },
                     {
                       "id": "1fy202_u1_q3",
@@ -431,7 +431,7 @@ export const rtuData = {
                         "Electromagnetic radiation only"
                       ],
                       "answer": "Wave-particle duality",
-                      "topic": "de-Broglie) ON CONFLICT (id"
+                      "topic": "de-Broglie"
                     },
                     {
                       "id": "1fy202_u2_q2",
@@ -443,7 +443,7 @@ export const rtuData = {
                         "Infinite"
                       ],
                       "answer": "Quantized",
-                      "topic": "Particle in 1D Box) ON CONFLICT (id"
+                      "topic": "Particle in 1D Box"
                     },
                     {
                       "id": "1fy202_u2_q3",
@@ -492,7 +492,7 @@ export const rtuData = {
                         "Compton scattering"
                       ],
                       "answer": "Laser action",
-                      "topic": "Population Inversion) ON CONFLICT (id"
+                      "topic": "Population Inversion"
                     },
                     {
                       "id": "1fy202_u3_q2",
@@ -504,7 +504,7 @@ export const rtuData = {
                         "532 nm"
                       ],
                       "answer": "632.8 nm",
-                      "topic": "He-Ne Laser) ON CONFLICT (id"
+                      "topic": "He-Ne Laser"
                     },
                     {
                       "id": "1fy202_u3_q3",
@@ -553,7 +553,7 @@ export const rtuData = {
                         "Wavelength only"
                       ],
                       "answer": "Refractive indices of core and cladding",
-                      "topic": "Numerical Aperture) ON CONFLICT (id"
+                      "topic": "Numerical Aperture"
                     },
                     {
                       "id": "1fy202_u4_q2",
@@ -565,7 +565,7 @@ export const rtuData = {
                         "Scattering only"
                       ],
                       "answer": "Modal dispersion",
-                      "topic": "Graded-index) ON CONFLICT (id"
+                      "topic": "Graded-index"
                     },
                     {
                       "id": "1fy202_u4_q3",
@@ -614,7 +614,7 @@ export const rtuData = {
                         "Light"
                       ],
                       "answer": "Magnetic flux from superconductor",
-                      "topic": "Meissner Effect) ON CONFLICT (id"
+                      "topic": "Meissner Effect"
                     },
                     {
                       "id": "1fy202_u5_q2",
@@ -626,7 +626,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Electricity and magnetism",
-                      "topic": "Maxwell's Equations) ON CONFLICT (id"
+                      "topic": "Maxwell's Equations"
                     },
                     {
                       "id": "1fy202_u5_q3",
@@ -658,7 +658,7 @@ export const rtuData = {
             },
             {
               "code": "1FY3-06",
-              "name": "Programming for Problem Solving (C)) ON CONFLICT (code",
+              "name": "Programming for Problem Solving (C)",
               "units": [
                 {
                   "number": 1,
@@ -681,7 +681,7 @@ export const rtuData = {
                         "<>"
                       ],
                       "answer": "? :",
-                      "topic": "Operators) ON CONFLICT (id"
+                      "topic": "Operators"
                     },
                     {
                       "id": "1fy306_u1_q2",
@@ -693,7 +693,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "do-while",
-                      "topic": "Loops) ON CONFLICT (id"
+                      "topic": "Loops"
                     },
                     {
                       "id": "1fy306_u1_q3",
@@ -742,7 +742,7 @@ export const rtuData = {
                         "Linked"
                       ],
                       "answer": "Row-major order",
-                      "topic": "2D Arrays) ON CONFLICT (id"
+                      "topic": "2D Arrays"
                     },
                     {
                       "id": "1fy306_u2_q2",
@@ -754,7 +754,7 @@ export const rtuData = {
                         "Number of words"
                       ],
                       "answer": "Length excluding null terminator",
-                      "topic": "String Functions) ON CONFLICT (id"
+                      "topic": "String Functions"
                     },
                     {
                       "id": "1fy306_u2_q3",
@@ -803,7 +803,7 @@ export const rtuData = {
                         "Files"
                       ],
                       "answer": "Function calls",
-                      "topic": "Storage Classes) ON CONFLICT (id"
+                      "topic": "Storage Classes"
                     },
                     {
                       "id": "1fy306_u3_q2",
@@ -815,7 +815,7 @@ export const rtuData = {
                         "N!"
                       ],
                       "answer": "2^N - 1",
-                      "topic": "Tower of Hanoi) ON CONFLICT (id"
+                      "topic": "Tower of Hanoi"
                     },
                     {
                       "id": "1fy306_u3_q3",
@@ -864,7 +864,7 @@ export const rtuData = {
                         "-1"
                       ],
                       "answer": "Garbage values",
-                      "topic": "malloc) ON CONFLICT (id"
+                      "topic": "malloc"
                     },
                     {
                       "id": "1fy306_u4_q2",
@@ -876,7 +876,7 @@ export const rtuData = {
                         "Stack"
                       ],
                       "answer": "Deallocated memory",
-                      "topic": "Dangling Pointers) ON CONFLICT (id"
+                      "topic": "Dangling Pointers"
                     },
                     {
                       "id": "1fy306_u4_q3",
@@ -925,7 +925,7 @@ export const rtuData = {
                         "Same name"
                       ],
                       "answer": "Same memory location",
-                      "topic": "Unions) ON CONFLICT (id"
+                      "topic": "Unions"
                     },
                     {
                       "id": "1fy306_u5_q2",
@@ -937,7 +937,7 @@ export const rtuData = {
                         "Binary read"
                       ],
                       "answer": "Appending",
-                      "topic": "File Modes) ON CONFLICT (id"
+                      "topic": "File Modes"
                     },
                     {
                       "id": "1fy306_u5_q3",
@@ -969,7 +969,7 @@ export const rtuData = {
             },
             {
               "code": "1FY3-08",
-              "name": "Basic Electrical Engineering) ON CONFLICT (code",
+              "name": "Basic Electrical Engineering",
               "units": [
                 {
                   "number": 1,
@@ -992,7 +992,7 @@ export const rtuData = {
                         "Twice source resistance"
                       ],
                       "answer": "Source resistance",
-                      "topic": "Max Power Transfer) ON CONFLICT (id"
+                      "topic": "Max Power Transfer"
                     },
                     {
                       "id": "1fy308_u1_q2",
@@ -1004,7 +1004,7 @@ export const rtuData = {
                         "Momentum"
                       ],
                       "answer": "Energy",
-                      "topic": "KVL) ON CONFLICT (id"
+                      "topic": "KVL"
                     },
                     {
                       "id": "1fy308_u1_q3",
@@ -1053,7 +1053,7 @@ export const rtuData = {
                         "Infinite"
                       ],
                       "answer": "Minimum (purely resistive)",
-                      "topic": "Resonance) ON CONFLICT (id"
+                      "topic": "Resonance"
                     },
                     {
                       "id": "1fy308_u2_q2",
@@ -1065,7 +1065,7 @@ export const rtuData = {
                         "Infinity"
                       ],
                       "answer": "1 (unity)",
-                      "topic": "Power Factor) ON CONFLICT (id"
+                      "topic": "Power Factor"
                     },
                     {
                       "id": "1fy308_u2_q3",
@@ -1114,7 +1114,7 @@ export const rtuData = {
                         "Friction losses"
                       ],
                       "answer": "Eddy current losses",
-                      "topic": "Transformers) ON CONFLICT (id"
+                      "topic": "Transformers"
                     },
                     {
                       "id": "1fy308_u3_q2",
@@ -1126,7 +1126,7 @@ export const rtuData = {
                         "Capacitance"
                       ],
                       "answer": "Frequency & flux",
-                      "topic": "EMF Equation) ON CONFLICT (id"
+                      "topic": "EMF Equation"
                     },
                     {
                       "id": "1fy308_u3_q3",
@@ -1175,7 +1175,7 @@ export const rtuData = {
                         "Filter"
                       ],
                       "answer": "Self-regulating mechanism",
-                      "topic": "Back EMF) ON CONFLICT (id"
+                      "topic": "Back EMF"
                     },
                     {
                       "id": "1fy308_u4_q2",
@@ -1187,7 +1187,7 @@ export const rtuData = {
                         "Infinity"
                       ],
                       "answer": "0",
-                      "topic": "Induction Motor) ON CONFLICT (id"
+                      "topic": "Induction Motor"
                     },
                     {
                       "id": "1fy308_u4_q3",
@@ -1236,7 +1236,7 @@ export const rtuData = {
                         "Main Control Box"
                       ],
                       "answer": "Miniature Circuit Breaker",
-                      "topic": "MCB) ON CONFLICT (id"
+                      "topic": "MCB"
                     },
                     {
                       "id": "1fy308_u5_q2",
@@ -1248,7 +1248,7 @@ export const rtuData = {
                         "6"
                       ],
                       "answer": "4",
-                      "topic": "Rectifiers) ON CONFLICT (id"
+                      "topic": "Rectifiers"
                     },
                     {
                       "id": "1fy308_u5_q3",
@@ -1286,7 +1286,7 @@ export const rtuData = {
           "subjects": [
             {
               "code": "3CS3-04",
-              "name": "Digital Electronics) ON CONFLICT (code",
+              "name": "Digital Electronics",
               "units": [
                 {
                   "number": 1,
@@ -1309,7 +1309,7 @@ export const rtuData = {
                         "Sequential gates"
                       ],
                       "answer": "Universal gates",
-                      "topic": "Logic Gates) ON CONFLICT (id"
+                      "topic": "Logic Gates"
                     },
                     {
                       "id": "3cs304_u1_q2",
@@ -1321,7 +1321,7 @@ export const rtuData = {
                         "1001"
                       ],
                       "answer": "0110",
-                      "topic": "2's Complement) ON CONFLICT (id"
+                      "topic": "2's Complement"
                     },
                     {
                       "id": "3cs304_u1_q3",
@@ -1370,7 +1370,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Low power consumption",
-                      "topic": "CMOS) ON CONFLICT (id"
+                      "topic": "CMOS"
                     },
                     {
                       "id": "3cs304_u2_q2",
@@ -1382,7 +1382,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Input change and output change",
-                      "topic": "Propagation Delay) ON CONFLICT (id"
+                      "topic": "Propagation Delay"
                     },
                     {
                       "id": "3cs304_u2_q3",
@@ -1431,7 +1431,7 @@ export const rtuData = {
                         "Must be ignored"
                       ],
                       "answer": "Either 0 or 1",
-                      "topic": "Don't Care) ON CONFLICT (id"
+                      "topic": "Don't Care"
                     },
                     {
                       "id": "3cs304_u3_q2",
@@ -1443,7 +1443,7 @@ export const rtuData = {
                         "Never"
                       ],
                       "answer": "More than 5 variables",
-                      "topic": "Quine-McCluskey) ON CONFLICT (id"
+                      "topic": "Quine-McCluskey"
                     },
                     {
                       "id": "3cs304_u3_q3",
@@ -1492,7 +1492,7 @@ export const rtuData = {
                         "3"
                       ],
                       "answer": "2",
-                      "topic": "Multiplexers) ON CONFLICT (id"
+                      "topic": "Multiplexers"
                     },
                     {
                       "id": "3cs304_u4_q2",
@@ -1504,7 +1504,7 @@ export const rtuData = {
                         "1"
                       ],
                       "answer": "3",
-                      "topic": "Full Adder) ON CONFLICT (id"
+                      "topic": "Full Adder"
                     },
                     {
                       "id": "3cs304_u4_q3",
@@ -1553,7 +1553,7 @@ export const rtuData = {
                         "T Flip-Flop"
                       ],
                       "answer": "JK Flip-Flop when J=K=1",
-                      "topic": "Race-Around) ON CONFLICT (id"
+                      "topic": "Race-Around"
                     },
                     {
                       "id": "3cs304_u5_q2",
@@ -1565,7 +1565,7 @@ export const rtuData = {
                         "1 to 7"
                       ],
                       "answer": "0 to 7",
-                      "topic": "Counters) ON CONFLICT (id"
+                      "topic": "Counters"
                     },
                     {
                       "id": "3cs304_u5_q3",
@@ -1597,7 +1597,7 @@ export const rtuData = {
             },
             {
               "code": "3CS4-05",
-              "name": "Data Structures & Algorithms) ON CONFLICT (code",
+              "name": "Data Structures & Algorithms",
               "units": [
                 {
                   "number": 1,
@@ -1620,7 +1620,7 @@ export const rtuData = {
                         "Random Access"
                       ],
                       "answer": "LIFO",
-                      "topic": "Stack ADT) ON CONFLICT (id"
+                      "topic": "Stack ADT"
                     },
                     {
                       "id": "3cs405_u1_q2",
@@ -1632,7 +1632,7 @@ export const rtuData = {
                         "Tree"
                       ],
                       "answer": "Stack",
-                      "topic": "Infix to Postfix) ON CONFLICT (id"
+                      "topic": "Infix to Postfix"
                     },
                     {
                       "id": "3cs405_u1_q3",
@@ -1681,7 +1681,7 @@ export const rtuData = {
                         "Searching"
                       ],
                       "answer": "Memory wastage in linear queue",
-                      "topic": "Circular Queue) ON CONFLICT (id"
+                      "topic": "Circular Queue"
                     },
                     {
                       "id": "3cs405_u2_q2",
@@ -1693,7 +1693,7 @@ export const rtuData = {
                         "O(log n) time"
                       ],
                       "answer": "O(n) time, O(1) space",
-                      "topic": "Linked List Reversal) ON CONFLICT (id"
+                      "topic": "Linked List Reversal"
                     },
                     {
                       "id": "3cs405_u2_q3",
@@ -1742,7 +1742,7 @@ export const rtuData = {
                         "O(log n)"
                       ],
                       "answer": "O(n┬▓)",
-                      "topic": "Quick Sort) ON CONFLICT (id"
+                      "topic": "Quick Sort"
                     },
                     {
                       "id": "3cs405_u3_q2",
@@ -1754,7 +1754,7 @@ export const rtuData = {
                         "O(log n)"
                       ],
                       "answer": "O(n log n)",
-                      "topic": "Merge Sort) ON CONFLICT (id"
+                      "topic": "Merge Sort"
                     },
                     {
                       "id": "3cs405_u3_q3",
@@ -1803,7 +1803,7 @@ export const rtuData = {
                         "-2 to +2"
                       ],
                       "answer": "-1, 0, or +1",
-                      "topic": "AVL Trees) ON CONFLICT (id"
+                      "topic": "AVL Trees"
                     },
                     {
                       "id": "3cs405_u4_q2",
@@ -1815,7 +1815,7 @@ export const rtuData = {
                         "Level order"
                       ],
                       "answer": "Sorted ascending order",
-                      "topic": "BST Traversal) ON CONFLICT (id"
+                      "topic": "BST Traversal"
                     },
                     {
                       "id": "3cs405_u4_q3",
@@ -1864,7 +1864,7 @@ export const rtuData = {
                         "Dense graphs"
                       ],
                       "answer": "Negative weight edges",
-                      "topic": "Dijkstra's) ON CONFLICT (id"
+                      "topic": "Dijkstra's"
                     },
                     {
                       "id": "3cs405_u5_q2",
@@ -1876,7 +1876,7 @@ export const rtuData = {
                         "Sorting"
                       ],
                       "answer": "Collision resolution in hashing",
-                      "topic": "Hashing) ON CONFLICT (id"
+                      "topic": "Hashing"
                     },
                     {
                       "id": "3cs405_u5_q3",
@@ -1908,7 +1908,7 @@ export const rtuData = {
             },
             {
               "code": "3CS4-06",
-              "name": "Object Oriented Programming (C++)) ON CONFLICT (code",
+              "name": "Object Oriented Programming (C++)",
               "units": [
                 {
                   "number": 1,
@@ -1931,7 +1931,7 @@ export const rtuData = {
                         "Loop runs"
                       ],
                       "answer": "Object is initialized from another object",
-                      "topic": "Copy Constructor) ON CONFLICT (id"
+                      "topic": "Copy Constructor"
                     },
                     {
                       "id": "3cs406_u1_q2",
@@ -1943,7 +1943,7 @@ export const rtuData = {
                         "$ (dollar)"
                       ],
                       "answer": "~ (tilde)",
-                      "topic": "Destructors) ON CONFLICT (id"
+                      "topic": "Destructors"
                     },
                     {
                       "id": "3cs406_u1_q3",
@@ -1992,7 +1992,7 @@ export const rtuData = {
                         "Hierarchical"
                       ],
                       "answer": "Multiple inheritance",
-                      "topic": "Diamond Problem) ON CONFLICT (id"
+                      "topic": "Diamond Problem"
                     },
                     {
                       "id": "3cs406_u2_q2",
@@ -2004,7 +2004,7 @@ export const rtuData = {
                         "== (equality)"
                       ],
                       "answer": ":: (scope resolution)",
-                      "topic": "Operator Overloading) ON CONFLICT (id"
+                      "topic": "Operator Overloading"
                     },
                     {
                       "id": "3cs406_u2_q3",
@@ -2053,7 +2053,7 @@ export const rtuData = {
                         "Static class"
                       ],
                       "answer": "Abstract class",
-                      "topic": "Abstract Classes) ON CONFLICT (id"
+                      "topic": "Abstract Classes"
                     },
                     {
                       "id": "3cs406_u3_q2",
@@ -2065,7 +2065,7 @@ export const rtuData = {
                         "Friend functions"
                       ],
                       "answer": "Virtual functions",
-                      "topic": "VTABLE) ON CONFLICT (id"
+                      "topic": "VTABLE"
                     },
                     {
                       "id": "3cs406_u3_q3",
@@ -2114,7 +2114,7 @@ export const rtuData = {
                         "Error handling"
                       ],
                       "answer": "Generic/type-independent programming",
-                      "topic": "Templates) ON CONFLICT (id"
+                      "topic": "Templates"
                     },
                     {
                       "id": "3cs406_u4_q2",
@@ -2126,7 +2126,7 @@ export const rtuData = {
                         "Only runtime_error"
                       ],
                       "answer": "All exceptions",
-                      "topic": "Exception Handling) ON CONFLICT (id"
+                      "topic": "Exception Handling"
                     },
                     {
                       "id": "3cs406_u4_q3",
@@ -2175,7 +2175,7 @@ export const rtuData = {
                         "Binary tree"
                       ],
                       "answer": "Dynamic array with random access",
-                      "topic": "STL vector) ON CONFLICT (id"
+                      "topic": "STL vector"
                     },
                     {
                       "id": "3cs406_u5_q2",
@@ -2187,7 +2187,7 @@ export const rtuData = {
                         "Binary mode"
                       ],
                       "answer": "Appending at end",
-                      "topic": "File I/O) ON CONFLICT (id"
+                      "topic": "File I/O"
                     },
                     {
                       "id": "3cs406_u5_q3",
@@ -2219,7 +2219,7 @@ export const rtuData = {
             },
             {
               "code": "3CS4-07",
-              "name": "Software Engineering) ON CONFLICT (code",
+              "name": "Software Engineering",
               "units": [
                 {
                   "number": 1,
@@ -2242,7 +2242,7 @@ export const rtuData = {
                         "Test-driven"
                       ],
                       "answer": "Risk-driven",
-                      "topic": "Spiral Model) ON CONFLICT (id"
+                      "topic": "Spiral Model"
                     },
                     {
                       "id": "3cs407_u1_q2",
@@ -2254,7 +2254,7 @@ export const rtuData = {
                         "1 year"
                       ],
                       "answer": "2-4 weeks",
-                      "topic": "Agile/Scrum) ON CONFLICT (id"
+                      "topic": "Agile/Scrum"
                     },
                     {
                       "id": "3cs407_u1_q3",
@@ -2303,7 +2303,7 @@ export const rtuData = {
                         "Class Diagram"
                       ],
                       "answer": "Context Diagram",
-                      "topic": "DFD) ON CONFLICT (id"
+                      "topic": "DFD"
                     },
                     {
                       "id": "3cs407_u2_q2",
@@ -2315,7 +2315,7 @@ export const rtuData = {
                         "UML notation"
                       ],
                       "answer": "SRS document structure",
-                      "topic": "SRS) ON CONFLICT (id"
+                      "topic": "SRS"
                     },
                     {
                       "id": "3cs407_u2_q3",
@@ -2364,7 +2364,7 @@ export const rtuData = {
                         "Code Optimization Model"
                       ],
                       "answer": "Constructive Cost Model",
-                      "topic": "COCOMO) ON CONFLICT (id"
+                      "topic": "COCOMO"
                     },
                     {
                       "id": "3cs407_u3_q2",
@@ -2376,7 +2376,7 @@ export const rtuData = {
                         "Runtime performance"
                       ],
                       "answer": "Software functionality from user perspective",
-                      "topic": "Function Points) ON CONFLICT (id"
+                      "topic": "Function Points"
                     },
                     {
                       "id": "3cs407_u3_q3",
@@ -2425,7 +2425,7 @@ export const rtuData = {
                         "Both low"
                       ],
                       "answer": "High cohesion, low coupling",
-                      "topic": "Cohesion & Coupling) ON CONFLICT (id"
+                      "topic": "Cohesion & Coupling"
                     },
                     {
                       "id": "3cs407_u4_q2",
@@ -2437,7 +2437,7 @@ export const rtuData = {
                         "Memory layout"
                       ],
                       "answer": "System functionality from user perspective",
-                      "topic": "UML) ON CONFLICT (id"
+                      "topic": "UML"
                     },
                     {
                       "id": "3cs407_u4_q3",
@@ -2486,7 +2486,7 @@ export const rtuData = {
                         "Speed"
                       ],
                       "answer": "Number of independent paths",
-                      "topic": "Cyclomatic Complexity) ON CONFLICT (id"
+                      "topic": "Cyclomatic Complexity"
                     },
                     {
                       "id": "3cs407_u5_q2",
@@ -2498,7 +2498,7 @@ export const rtuData = {
                         "Middle values only"
                       ],
                       "answer": "Edge values of input domain",
-                      "topic": "BVA) ON CONFLICT (id"
+                      "topic": "BVA"
                     },
                     {
                       "id": "3cs407_u5_q3",
@@ -2536,7 +2536,7 @@ export const rtuData = {
           "subjects": [
             {
               "code": "4CS4-05",
-              "name": "Database Management Systems) ON CONFLICT (code",
+              "name": "Database Management Systems",
               "units": [
                 {
                   "number": 1,
@@ -2559,7 +2559,7 @@ export const rtuData = {
                         "Views only"
                       ],
                       "answer": "Strong entity for identification",
-                      "topic": "Weak Entities) ON CONFLICT (id"
+                      "topic": "Weak Entities"
                     },
                     {
                       "id": "4cs405_u1_q2",
@@ -2571,7 +2571,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Data independence",
-                      "topic": "3-Schema) ON CONFLICT (id"
+                      "topic": "3-Schema"
                     },
                     {
                       "id": "4cs405_u1_q3",
@@ -2620,7 +2620,7 @@ export const rtuData = {
                         "All columns"
                       ],
                       "answer": "Common attribute names",
-                      "topic": "Joins) ON CONFLICT (id"
+                      "topic": "Joins"
                     },
                     {
                       "id": "4cs405_u2_q2",
@@ -2632,7 +2632,7 @@ export const rtuData = {
                         "Twice"
                       ],
                       "answer": "Once for each row of outer query",
-                      "topic": "Subqueries) ON CONFLICT (id"
+                      "topic": "Subqueries"
                     },
                     {
                       "id": "4cs405_u2_q3",
@@ -2681,7 +2681,7 @@ export const rtuData = {
                         "Candidate key only"
                       ],
                       "answer": "Super key",
-                      "topic": "BCNF) ON CONFLICT (id"
+                      "topic": "BCNF"
                     },
                     {
                       "id": "4cs405_u3_q2",
@@ -2693,7 +2693,7 @@ export const rtuData = {
                         "Neither"
                       ],
                       "answer": "Transitive dependency on non-prime attribute",
-                      "topic": "3NF) ON CONFLICT (id"
+                      "topic": "3NF"
                     },
                     {
                       "id": "4cs405_u3_q3",
@@ -2742,7 +2742,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Atomicity, Consistency, Isolation, Durability",
-                      "topic": "ACID) ON CONFLICT (id"
+                      "topic": "ACID"
                     },
                     {
                       "id": "4cs405_u4_q2",
@@ -2754,7 +2754,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Growing (acquire) and Shrinking (release)",
-                      "topic": "2PL) ON CONFLICT (id"
+                      "topic": "2PL"
                     },
                     {
                       "id": "4cs405_u4_q3",
@@ -2803,7 +2803,7 @@ export const rtuData = {
                         "All nodes"
                       ],
                       "answer": "Leaf nodes",
-                      "topic": "B+ Trees) ON CONFLICT (id"
+                      "topic": "B+ Trees"
                     },
                     {
                       "id": "4cs405_u5_q2",
@@ -2815,7 +2815,7 @@ export const rtuData = {
                         "Index size"
                       ],
                       "answer": "Recovery time after crash",
-                      "topic": "Checkpoints) ON CONFLICT (id"
+                      "topic": "Checkpoints"
                     },
                     {
                       "id": "4cs405_u5_q3",
@@ -2847,7 +2847,7 @@ export const rtuData = {
             },
             {
               "code": "4CS4-06",
-              "name": "Theory of Computation) ON CONFLICT (code",
+              "name": "Theory of Computation",
               "units": [
                 {
                   "number": 1,
@@ -2870,7 +2870,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Input symbol from each state",
-                      "topic": "DFA) ON CONFLICT (id"
+                      "topic": "DFA"
                     },
                     {
                       "id": "4cs406_u1_q2",
@@ -2882,7 +2882,7 @@ export const rtuData = {
                         "Arden's theorem"
                       ],
                       "answer": "Subset construction",
-                      "topic": "NFA to DFA) ON CONFLICT (id"
+                      "topic": "NFA to DFA"
                     },
                     {
                       "id": "4cs406_u1_q3",
@@ -2931,7 +2931,7 @@ export const rtuData = {
                         "Recursive"
                       ],
                       "answer": "NOT regular",
-                      "topic": "Pumping Lemma) ON CONFLICT (id"
+                      "topic": "Pumping Lemma"
                     },
                     {
                       "id": "4cs406_u2_q2",
@@ -2943,7 +2943,7 @@ export const rtuData = {
                         "TM to RE"
                       ],
                       "answer": "DFA/NFA to regular expression",
-                      "topic": "Arden's Theorem) ON CONFLICT (id"
+                      "topic": "Arden's Theorem"
                     },
                     {
                       "id": "4cs406_u2_q3",
@@ -2992,7 +2992,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "More than one parse tree for some string",
-                      "topic": "Ambiguity) ON CONFLICT (id"
+                      "topic": "Ambiguity"
                     },
                     {
                       "id": "4cs406_u3_q2",
@@ -3004,7 +3004,7 @@ export const rtuData = {
                         "AΓåÆABCD"
                       ],
                       "answer": "AΓåÆBC or AΓåÆa",
-                      "topic": "CNF) ON CONFLICT (id"
+                      "topic": "CNF"
                     },
                     {
                       "id": "4cs406_u3_q3",
@@ -3053,7 +3053,7 @@ export const rtuData = {
                         "Register"
                       ],
                       "answer": "Stack",
-                      "topic": "PDA) ON CONFLICT (id"
+                      "topic": "PDA"
                     },
                     {
                       "id": "4cs406_u4_q2",
@@ -3065,7 +3065,7 @@ export const rtuData = {
                         "RE languages"
                       ],
                       "answer": "Subset of context-free languages",
-                      "topic": "DPDA) ON CONFLICT (id"
+                      "topic": "DPDA"
                     },
                     {
                       "id": "4cs406_u4_q3",
@@ -3114,7 +3114,7 @@ export const rtuData = {
                         "Regular"
                       ],
                       "answer": "Undecidable",
-                      "topic": "Halting Problem) ON CONFLICT (id"
+                      "topic": "Halting Problem"
                     },
                     {
                       "id": "4cs406_u5_q2",
@@ -3126,7 +3126,7 @@ export const rtuData = {
                         "2"
                       ],
                       "answer": "4 (Type 0-3)",
-                      "topic": "Chomsky Hierarchy) ON CONFLICT (id"
+                      "topic": "Chomsky Hierarchy"
                     },
                     {
                       "id": "4cs406_u5_q3",
@@ -3158,7 +3158,7 @@ export const rtuData = {
             },
             {
               "code": "4CS4-07",
-              "name": "Computer Networks) ON CONFLICT (code",
+              "name": "Computer Networks",
               "units": [
                 {
                   "number": 1,
@@ -3181,7 +3181,7 @@ export const rtuData = {
                         "6"
                       ],
                       "answer": "7",
-                      "topic": "OSI Model) ON CONFLICT (id"
+                      "topic": "OSI Model"
                     },
                     {
                       "id": "4cs407_u1_q2",
@@ -3193,7 +3193,7 @@ export const rtuData = {
                         "Analog signals"
                       ],
                       "answer": "Bursty data traffic",
-                      "topic": "Switching) ON CONFLICT (id"
+                      "topic": "Switching"
                     },
                     {
                       "id": "4cs407_u1_q3",
@@ -3242,7 +3242,7 @@ export const rtuData = {
                         "Satellite"
                       ],
                       "answer": "Ethernet (wired)",
-                      "topic": "CSMA/CD) ON CONFLICT (id"
+                      "topic": "CSMA/CD"
                     },
                     {
                       "id": "4cs407_u2_q2",
@@ -3254,7 +3254,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Cyclic Redundancy Check",
-                      "topic": "CRC) ON CONFLICT (id"
+                      "topic": "CRC"
                     },
                     {
                       "id": "4cs407_u2_q3",
@@ -3303,7 +3303,7 @@ export const rtuData = {
                         "255.255.255.128"
                       ],
                       "answer": "255.255.255.0",
-                      "topic": "Subnetting) ON CONFLICT (id"
+                      "topic": "Subnetting"
                     },
                     {
                       "id": "4cs407_u3_q2",
@@ -3315,7 +3315,7 @@ export const rtuData = {
                         "Default routing"
                       ],
                       "answer": "Distance vector routing",
-                      "topic": "Routing) ON CONFLICT (id"
+                      "topic": "Routing"
                     },
                     {
                       "id": "4cs407_u3_q3",
@@ -3364,7 +3364,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "SYN, SYN-ACK, ACK",
-                      "topic": "TCP Handshake) ON CONFLICT (id"
+                      "topic": "TCP Handshake"
                     },
                     {
                       "id": "4cs407_u4_q2",
@@ -3376,7 +3376,7 @@ export const rtuData = {
                         "Web browsing"
                       ],
                       "answer": "Real-time streaming",
-                      "topic": "UDP) ON CONFLICT (id"
+                      "topic": "UDP"
                     },
                     {
                       "id": "4cs407_u4_q3",
@@ -3425,7 +3425,7 @@ export const rtuData = {
                         "Port to process"
                       ],
                       "answer": "Domain names to IP addresses",
-                      "topic": "DNS) ON CONFLICT (id"
+                      "topic": "DNS"
                     },
                     {
                       "id": "4cs407_u5_q2",
@@ -3437,7 +3437,7 @@ export const rtuData = {
                         "MAC algorithm"
                       ],
                       "answer": "Asymmetric key cryptography",
-                      "topic": "RSA) ON CONFLICT (id"
+                      "topic": "RSA"
                     },
                     {
                       "id": "4cs407_u5_q3",
@@ -3469,7 +3469,7 @@ export const rtuData = {
             },
             {
               "code": "4CS3-04",
-              "name": "Microprocessor & Interfaces (8085)) ON CONFLICT (code",
+              "name": "Microprocessor & Interfaces (8085)",
               "units": [
                 {
                   "number": 1,
@@ -3492,7 +3492,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Address Latch Enable",
-                      "topic": "ALE) ON CONFLICT (id"
+                      "topic": "ALE"
                     },
                     {
                       "id": "4cs304_u1_q2",
@@ -3504,7 +3504,7 @@ export const rtuData = {
                         "2"
                       ],
                       "answer": "6 (B,C,D,E,H,L)",
-                      "topic": "Registers) ON CONFLICT (id"
+                      "topic": "Registers"
                     },
                     {
                       "id": "4cs304_u1_q3",
@@ -3553,7 +3553,7 @@ export const rtuData = {
                         "Register Indirect"
                       ],
                       "answer": "Immediate",
-                      "topic": "Addressing Modes) ON CONFLICT (id"
+                      "topic": "Addressing Modes"
                     },
                     {
                       "id": "4cs304_u2_q2",
@@ -3565,7 +3565,7 @@ export const rtuData = {
                         "Implicit"
                       ],
                       "answer": "Register indirect addressing",
-                      "topic": "Addressing Modes) ON CONFLICT (id"
+                      "topic": "Addressing Modes"
                     },
                     {
                       "id": "4cs304_u2_q3",
@@ -3614,7 +3614,7 @@ export const rtuData = {
                         "1 T-state"
                       ],
                       "answer": "4 T-states",
-                      "topic": "T-States) ON CONFLICT (id"
+                      "topic": "T-States"
                     },
                     {
                       "id": "4cs304_u3_q2",
@@ -3626,7 +3626,7 @@ export const rtuData = {
                         "100 kHz"
                       ],
                       "answer": "3 MHz (typical)",
-                      "topic": "Clock) ON CONFLICT (id"
+                      "topic": "Clock"
                     },
                     {
                       "id": "4cs304_u3_q3",
@@ -3675,7 +3675,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Memory locations",
-                      "topic": "Memory Mapped I/O) ON CONFLICT (id"
+                      "topic": "Memory Mapped I/O"
                     },
                     {
                       "id": "4cs304_u4_q2",
@@ -3687,7 +3687,7 @@ export const rtuData = {
                         "Flip-flop"
                       ],
                       "answer": "3-to-8 decoder",
-                      "topic": "Decoder) ON CONFLICT (id"
+                      "topic": "Decoder"
                     },
                     {
                       "id": "4cs304_u4_q3",
@@ -3736,7 +3736,7 @@ export const rtuData = {
                         "Lowest priority"
                       ],
                       "answer": "Non-maskable, edge & level triggered",
-                      "topic": "TRAP) ON CONFLICT (id"
+                      "topic": "TRAP"
                     },
                     {
                       "id": "4cs304_u5_q2",
@@ -3748,7 +3748,7 @@ export const rtuData = {
                         "1"
                       ],
                       "answer": "3 (Port A, B, C)",
-                      "topic": "8255 PPI) ON CONFLICT (id"
+                      "topic": "8255 PPI"
                     },
                     {
                       "id": "4cs304_u5_q3",
@@ -3786,7 +3786,7 @@ export const rtuData = {
           "subjects": [
             {
               "code": "5CS4-03",
-              "name": "Operating Systems) ON CONFLICT (code",
+              "name": "Operating Systems",
               "units": [
                 {
                   "number": 1,
@@ -3809,7 +3809,7 @@ export const rtuData = {
                         "Better graphics"
                       ],
                       "answer": "Protection between user and kernel",
-                      "topic": "Dual-Mode) ON CONFLICT (id"
+                      "topic": "Dual-Mode"
                     },
                     {
                       "id": "5cs403_u1_q2",
@@ -3821,7 +3821,7 @@ export const rtuData = {
                         "Neither"
                       ],
                       "answer": "Kernel space",
-                      "topic": "Microkernel) ON CONFLICT (id"
+                      "topic": "Microkernel"
                     },
                     {
                       "id": "5cs403_u1_q3",
@@ -3870,7 +3870,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Mutual exclusion, progress, bounded waiting",
-                      "topic": "Critical Section) ON CONFLICT (id"
+                      "topic": "Critical Section"
                     },
                     {
                       "id": "5cs403_u2_q2",
@@ -3882,7 +3882,7 @@ export const rtuData = {
                         "Only negative"
                       ],
                       "answer": "0 or 1",
-                      "topic": "Semaphores) ON CONFLICT (id"
+                      "topic": "Semaphores"
                     },
                     {
                       "id": "5cs403_u2_q3",
@@ -3931,7 +3931,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Mutual exclusion, hold-wait, no preemption, circular wait",
-                      "topic": "Deadlock) ON CONFLICT (id"
+                      "topic": "Deadlock"
                     },
                     {
                       "id": "5cs403_u3_q2",
@@ -3943,7 +3943,7 @@ export const rtuData = {
                         "Deadlock recovery"
                       ],
                       "answer": "Deadlock avoidance",
-                      "topic": "Banker's Algorithm) ON CONFLICT (id"
+                      "topic": "Banker's Algorithm"
                     },
                     {
                       "id": "5cs403_u3_q3",
@@ -3992,7 +3992,7 @@ export const rtuData = {
                         "Disk fails"
                       ],
                       "answer": "System spends more time paging than executing",
-                      "topic": "Thrashing) ON CONFLICT (id"
+                      "topic": "Thrashing"
                     },
                     {
                       "id": "5cs403_u4_q2",
@@ -4004,7 +4004,7 @@ export const rtuData = {
                         "Most recently used"
                       ],
                       "answer": "Not used for longest time in future",
-                      "topic": "Optimal Replacement) ON CONFLICT (id"
+                      "topic": "Optimal Replacement"
                     },
                     {
                       "id": "5cs403_u4_q3",
@@ -4053,7 +4053,7 @@ export const rtuData = {
                         "Priority"
                       ],
                       "answer": "Elevator algorithm",
-                      "topic": "SCAN) ON CONFLICT (id"
+                      "topic": "SCAN"
                     },
                     {
                       "id": "5cs403_u5_q2",
@@ -4065,7 +4065,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Index block with pointers to data blocks",
-                      "topic": "File Allocation) ON CONFLICT (id"
+                      "topic": "File Allocation"
                     },
                     {
                       "id": "5cs403_u5_q3",
@@ -4097,7 +4097,7 @@ export const rtuData = {
             },
             {
               "code": "5CS4-02",
-              "name": "Compiler Design) ON CONFLICT (code",
+              "name": "Compiler Design",
               "units": [
                 {
                   "number": 1,
@@ -4120,7 +4120,7 @@ export const rtuData = {
                         "Code Generation"
                       ],
                       "answer": "Lexical Analysis",
-                      "topic": "Compiler Phases) ON CONFLICT (id"
+                      "topic": "Compiler Phases"
                     },
                     {
                       "id": "5cs402_u1_q2",
@@ -4132,7 +4132,7 @@ export const rtuData = {
                         "Symbol table entry"
                       ],
                       "answer": "Actual character sequence matching a pattern",
-                      "topic": "Lexemes) ON CONFLICT (id"
+                      "topic": "Lexemes"
                     },
                     {
                       "id": "5cs402_u1_q3",
@@ -4181,7 +4181,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Left to right, leftmost derivation, 1 lookahead",
-                      "topic": "LL(1)) ON CONFLICT (id"
+                      "topic": "LL(1)"
                     },
                     {
                       "id": "5cs402_u2_q2",
@@ -4193,7 +4193,7 @@ export const rtuData = {
                         "Follow set"
                       ],
                       "answer": "Set of terminals that begin strings derivable from it",
-                      "topic": "FIRST Set) ON CONFLICT (id"
+                      "topic": "FIRST Set"
                     },
                     {
                       "id": "5cs402_u2_q3",
@@ -4242,7 +4242,7 @@ export const rtuData = {
                         "Right to left"
                       ],
                       "answer": "Bottom-up (from children)",
-                      "topic": "Attributes) ON CONFLICT (id"
+                      "topic": "Attributes"
                     },
                     {
                       "id": "5cs402_u3_q2",
@@ -4254,7 +4254,7 @@ export const rtuData = {
                         "Two"
                       ],
                       "answer": "Three addresses per instruction",
-                      "topic": "TAC) ON CONFLICT (id"
+                      "topic": "TAC"
                     },
                     {
                       "id": "5cs402_u3_q3",
@@ -4303,7 +4303,7 @@ export const rtuData = {
                         "Network data"
                       ],
                       "answer": "Local variables, return address, parameters",
-                      "topic": "Activation Records) ON CONFLICT (id"
+                      "topic": "Activation Records"
                     },
                     {
                       "id": "5cs402_u4_q2",
@@ -4315,7 +4315,7 @@ export const rtuData = {
                         "Only parsing"
                       ],
                       "answer": "All phases of compilation",
-                      "topic": "Symbol Table) ON CONFLICT (id"
+                      "topic": "Symbol Table"
                     },
                     {
                       "id": "5cs402_u4_q3",
@@ -4364,7 +4364,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Constant expressions at compile time",
-                      "topic": "Constant Folding) ON CONFLICT (id"
+                      "topic": "Constant Folding"
                     },
                     {
                       "id": "5cs402_u5_q2",
@@ -4376,7 +4376,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Expensive operations with cheaper ones",
-                      "topic": "Strength Reduction) ON CONFLICT (id"
+                      "topic": "Strength Reduction"
                     },
                     {
                       "id": "5cs402_u5_q3",
@@ -4408,7 +4408,7 @@ export const rtuData = {
             },
             {
               "code": "5CS4-05",
-              "name": "Analysis of Algorithms (DAA)) ON CONFLICT (code",
+              "name": "Analysis of Algorithms (DAA)",
               "units": [
                 {
                   "number": 1,
@@ -4431,7 +4431,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "T(n) = aT(n/b) + f(n)",
-                      "topic": "Master's Theorem) ON CONFLICT (id"
+                      "topic": "Master's Theorem"
                     },
                     {
                       "id": "5cs405_u1_q2",
@@ -4443,7 +4443,7 @@ export const rtuData = {
                         "O(n log n)"
                       ],
                       "answer": "O(n^2.81)",
-                      "topic": "Strassen's) ON CONFLICT (id"
+                      "topic": "Strassen's"
                     },
                     {
                       "id": "5cs405_u1_q3",
@@ -4492,7 +4492,7 @@ export const rtuData = {
                         "Brute force"
                       ],
                       "answer": "Greedy by value/weight ratio",
-                      "topic": "Knapsack) ON CONFLICT (id"
+                      "topic": "Knapsack"
                     },
                     {
                       "id": "5cs405_u2_q2",
@@ -4504,7 +4504,7 @@ export const rtuData = {
                         "Binary tree only"
                       ],
                       "answer": "Prefix-free optimal code",
-                      "topic": "Huffman) ON CONFLICT (id"
+                      "topic": "Huffman"
                     },
                     {
                       "id": "5cs405_u2_q3",
@@ -4553,7 +4553,7 @@ export const rtuData = {
                         "No value"
                       ],
                       "answer": "Items cannot be broken",
-                      "topic": "0/1 Knapsack) ON CONFLICT (id"
+                      "topic": "0/1 Knapsack"
                     },
                     {
                       "id": "5cs405_u3_q2",
@@ -4565,7 +4565,7 @@ export const rtuData = {
                         "Maximum flow"
                       ],
                       "answer": "All-pairs shortest paths",
-                      "topic": "Floyd-Warshall) ON CONFLICT (id"
+                      "topic": "Floyd-Warshall"
                     },
                     {
                       "id": "5cs405_u3_q3",
@@ -4614,7 +4614,7 @@ export const rtuData = {
                         "N├ù1 board"
                       ],
                       "answer": "N├ùN board with no attacks",
-                      "topic": "N-Queens) ON CONFLICT (id"
+                      "topic": "N-Queens"
                     },
                     {
                       "id": "5cs405_u4_q2",
@@ -4626,7 +4626,7 @@ export const rtuData = {
                         "No pruning"
                       ],
                       "answer": "Bounding function to prune search space",
-                      "topic": "B&B) ON CONFLICT (id"
+                      "topic": "B&B"
                     },
                     {
                       "id": "5cs405_u4_q3",
@@ -4675,7 +4675,7 @@ export const rtuData = {
                         "All problems are unsolvable"
                       ],
                       "answer": "Every NP problem can be solved in polynomial time",
-                      "topic": "P vs NP) ON CONFLICT (id"
+                      "topic": "P vs NP"
                     },
                     {
                       "id": "5cs405_u5_q2",
@@ -4687,7 +4687,7 @@ export const rtuData = {
                         "Regular"
                       ],
                       "answer": "NP-Complete",
-                      "topic": "Cook's Theorem) ON CONFLICT (id"
+                      "topic": "Cook's Theorem"
                     },
                     {
                       "id": "5cs405_u5_q3",
@@ -4725,7 +4725,7 @@ export const rtuData = {
           "subjects": [
             {
               "code": "6CS4-02",
-              "name": "Machine Learning) ON CONFLICT (code",
+              "name": "Machine Learning",
               "units": [
                 {
                   "number": 1,
@@ -4748,7 +4748,7 @@ export const rtuData = {
                         "Increased overfitting"
                       ],
                       "answer": "Sparse models (feature selection)",
-                      "topic": "L1 Regularization) ON CONFLICT (id"
+                      "topic": "L1 Regularization"
                     },
                     {
                       "id": "6cs402_u1_q2",
@@ -4760,7 +4760,7 @@ export const rtuData = {
                         "No training"
                       ],
                       "answer": "Underfitting",
-                      "topic": "Bias-Variance) ON CONFLICT (id"
+                      "topic": "Bias-Variance"
                     },
                     {
                       "id": "6cs402_u1_q3",
@@ -4809,7 +4809,7 @@ export const rtuData = {
                         "Mean"
                       ],
                       "answer": "Entropy reduction",
-                      "topic": "Information Gain) ON CONFLICT (id"
+                      "topic": "Information Gain"
                     },
                     {
                       "id": "6cs402_u2_q2",
@@ -4821,7 +4821,7 @@ export const rtuData = {
                         "Complex number"
                       ],
                       "answer": "Probability between 0 and 1",
-                      "topic": "Logistic Regression) ON CONFLICT (id"
+                      "topic": "Logistic Regression"
                     },
                     {
                       "id": "6cs402_u2_q3",
@@ -4870,7 +4870,7 @@ export const rtuData = {
                         "Binary space"
                       ],
                       "answer": "Higher dimensional feature space",
-                      "topic": "Kernel Trick) ON CONFLICT (id"
+                      "topic": "Kernel Trick"
                     },
                     {
                       "id": "6cs402_u3_q2",
@@ -4882,7 +4882,7 @@ export const rtuData = {
                         "Neither"
                       ],
                       "answer": "Variance through bagging",
-                      "topic": "Random Forest) ON CONFLICT (id"
+                      "topic": "Random Forest"
                     },
                     {
                       "id": "6cs402_u3_q3",
@@ -4931,7 +4931,7 @@ export const rtuData = {
                         "Using first K points"
                       ],
                       "answer": "Spreading centroids far apart",
-                      "topic": "K-Means++) ON CONFLICT (id"
+                      "topic": "K-Means++"
                     },
                     {
                       "id": "6cs402_u4_q2",
@@ -4943,7 +4943,7 @@ export const rtuData = {
                         "Random variance"
                       ],
                       "answer": "Maximum variance",
-                      "topic": "PCA) ON CONFLICT (id"
+                      "topic": "PCA"
                     },
                     {
                       "id": "6cs402_u4_q3",
@@ -4992,7 +4992,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Sigmoid activation in deep networks",
-                      "topic": "Vanishing Gradient) ON CONFLICT (id"
+                      "topic": "Vanishing Gradient"
                     },
                     {
                       "id": "6cs402_u5_q2",
@@ -5004,7 +5004,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Momentum and RMSprop",
-                      "topic": "Adam) ON CONFLICT (id"
+                      "topic": "Adam"
                     },
                     {
                       "id": "6cs402_u5_q3",
@@ -5036,7 +5036,7 @@ export const rtuData = {
             },
             {
               "code": "6CS4-05",
-              "name": "Artificial Intelligence) ON CONFLICT (code",
+              "name": "Artificial Intelligence",
               "units": [
                 {
                   "number": 1,
@@ -5059,7 +5059,7 @@ export const rtuData = {
                         "Plan, Evaluate, Act, Sense"
                       ],
                       "answer": "Performance, Environment, Actuators, Sensors",
-                      "topic": "PEAS) ON CONFLICT (id"
+                      "topic": "PEAS"
                     },
                     {
                       "id": "6cs405_u1_q2",
@@ -5071,7 +5071,7 @@ export const rtuData = {
                         "Minimize cost only"
                       ],
                       "answer": "Maximize expected utility",
-                      "topic": "Agents) ON CONFLICT (id"
+                      "topic": "Agents"
                     },
                     {
                       "id": "6cs405_u1_q3",
@@ -5120,7 +5120,7 @@ export const rtuData = {
                         "Infinite"
                       ],
                       "answer": "Admissible (never overestimates)",
-                      "topic": "A*) ON CONFLICT (id"
+                      "topic": "A*"
                     },
                     {
                       "id": "6cs405_u2_q2",
@@ -5132,7 +5132,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "BFS (completeness) and DFS (space)",
-                      "topic": "IDS) ON CONFLICT (id"
+                      "topic": "IDS"
                     },
                     {
                       "id": "6cs405_u2_q3",
@@ -5181,7 +5181,7 @@ export const rtuData = {
                         "O(2^n) to O(n)"
                       ],
                       "answer": "O(b^d) to O(b^(d/2))",
-                      "topic": "Alpha-Beta) ON CONFLICT (id"
+                      "topic": "Alpha-Beta"
                     },
                     {
                       "id": "6cs405_u3_q2",
@@ -5193,7 +5193,7 @@ export const rtuData = {
                         "Functions only"
                       ],
                       "answer": "Variables, domains, constraints",
-                      "topic": "CSP) ON CONFLICT (id"
+                      "topic": "CSP"
                     },
                     {
                       "id": "6cs405_u3_q3",
@@ -5242,7 +5242,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Assuming negation and deriving contradiction",
-                      "topic": "Resolution) ON CONFLICT (id"
+                      "topic": "Resolution"
                     },
                     {
                       "id": "6cs405_u4_q2",
@@ -5254,7 +5254,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Most general substitution making two terms identical",
-                      "topic": "MGU) ON CONFLICT (id"
+                      "topic": "MGU"
                     },
                     {
                       "id": "6cs405_u4_q3",
@@ -5303,7 +5303,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Conditional dependencies among random variables",
-                      "topic": "BBN) ON CONFLICT (id"
+                      "topic": "BBN"
                     },
                     {
                       "id": "6cs405_u5_q2",
@@ -5315,7 +5315,7 @@ export const rtuData = {
                         "Game playing"
                       ],
                       "answer": "Medical diagnosis",
-                      "topic": "MYCIN) ON CONFLICT (id"
+                      "topic": "MYCIN"
                     },
                     {
                       "id": "6cs405_u5_q3",
@@ -5347,7 +5347,7 @@ export const rtuData = {
             },
             {
               "code": "6CS4-06",
-              "name": "Cloud Computing) ON CONFLICT (code",
+              "name": "Cloud Computing",
               "units": [
                 {
                   "number": 1,
@@ -5370,7 +5370,7 @@ export const rtuData = {
                         "10"
                       ],
                       "answer": "5",
-                      "topic": "NIST) ON CONFLICT (id"
+                      "topic": "NIST"
                     },
                     {
                       "id": "6cs406_u1_q2",
@@ -5382,7 +5382,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Public and private clouds",
-                      "topic": "Deployment Models) ON CONFLICT (id"
+                      "topic": "Deployment Models"
                     },
                     {
                       "id": "6cs406_u1_q3",
@@ -5431,7 +5431,7 @@ export const rtuData = {
                         "Only network"
                       ],
                       "answer": "OS, applications, data",
-                      "topic": "IaaS) ON CONFLICT (id"
+                      "topic": "IaaS"
                     },
                     {
                       "id": "6cs406_u2_q2",
@@ -5443,7 +5443,7 @@ export const rtuData = {
                         "Physical separation"
                       ],
                       "answer": "Multiple users share same infrastructure",
-                      "topic": "Multi-tenancy) ON CONFLICT (id"
+                      "topic": "Multi-tenancy"
                     },
                     {
                       "id": "6cs406_u2_q3",
@@ -5492,7 +5492,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Bare metal (directly on hardware)",
-                      "topic": "Hypervisors) ON CONFLICT (id"
+                      "topic": "Hypervisors"
                     },
                     {
                       "id": "6cs406_u3_q2",
@@ -5504,7 +5504,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "They share host OS kernel",
-                      "topic": "Docker) ON CONFLICT (id"
+                      "topic": "Docker"
                     },
                     {
                       "id": "6cs406_u3_q3",
@@ -5553,7 +5553,7 @@ export const rtuData = {
                         "User credentials"
                       ],
                       "answer": "Metadata (file system namespace)",
-                      "topic": "HDFS) ON CONFLICT (id"
+                      "topic": "HDFS"
                     },
                     {
                       "id": "6cs406_u4_q2",
@@ -5565,7 +5565,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Aggregates intermediate key-value pairs",
-                      "topic": "MapReduce) ON CONFLICT (id"
+                      "topic": "MapReduce"
                     },
                     {
                       "id": "6cs406_u4_q3",
@@ -5614,7 +5614,7 @@ export const rtuData = {
                         "Government handles it"
                       ],
                       "answer": "Cloud provider and customer share security duties",
-                      "topic": "Shared Responsibility) ON CONFLICT (id"
+                      "topic": "Shared Responsibility"
                     },
                     {
                       "id": "6cs406_u5_q2",
@@ -5626,7 +5626,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Service availability, performance guarantees, penalties",
-                      "topic": "SLA) ON CONFLICT (id"
+                      "topic": "SLA"
                     },
                     {
                       "id": "6cs406_u5_q3",
@@ -5664,7 +5664,7 @@ export const rtuData = {
           "subjects": [
             {
               "code": "7CS4-01",
-              "name": "Internet of Things (IoT)) ON CONFLICT (code",
+              "name": "Internet of Things (IoT)",
               "units": [
                 {
                   "number": 1,
@@ -5687,7 +5687,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Message broker between publishers and subscribers",
-                      "topic": "Pub-Sub) ON CONFLICT (id"
+                      "topic": "Pub-Sub"
                     },
                     {
                       "id": "7cs401_u1_q2",
@@ -5699,7 +5699,7 @@ export const rtuData = {
                         "10"
                       ],
                       "answer": "6",
-                      "topic": "Deployment) ON CONFLICT (id"
+                      "topic": "Deployment"
                     },
                     {
                       "id": "7cs401_u1_q3",
@@ -5748,7 +5748,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "TCP",
-                      "topic": "MQTT) ON CONFLICT (id"
+                      "topic": "MQTT"
                     },
                     {
                       "id": "7cs401_u2_q2",
@@ -5760,7 +5760,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Constrained devices and networks",
-                      "topic": "CoAP) ON CONFLICT (id"
+                      "topic": "CoAP"
                     },
                     {
                       "id": "7cs401_u2_q3",
@@ -5809,7 +5809,7 @@ export const rtuData = {
                         "Windows only"
                       ],
                       "answer": "Full Linux OS",
-                      "topic": "Raspberry Pi) ON CONFLICT (id"
+                      "topic": "Raspberry Pi"
                     },
                     {
                       "id": "7cs401_u3_q2",
@@ -5821,7 +5821,7 @@ export const rtuData = {
                         "Sound"
                       ],
                       "answer": "Temperature and humidity",
-                      "topic": "Sensors) ON CONFLICT (id"
+                      "topic": "Sensors"
                     },
                     {
                       "id": "7cs401_u3_q3",
@@ -5870,7 +5870,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Near the data source",
-                      "topic": "Edge Computing) ON CONFLICT (id"
+                      "topic": "Edge Computing"
                     },
                     {
                       "id": "7cs401_u4_q2",
@@ -5882,7 +5882,7 @@ export const rtuData = {
                         "Gaming"
                       ],
                       "answer": "IoT data visualization and analytics",
-                      "topic": "ThingSpeak) ON CONFLICT (id"
+                      "topic": "ThingSpeak"
                     },
                     {
                       "id": "7cs401_u4_q3",
@@ -5931,7 +5931,7 @@ export const rtuData = {
                         "Integrated IoT"
                       ],
                       "answer": "Industrial Internet of Things",
-                      "topic": "IIoT) ON CONFLICT (id"
+                      "topic": "IIoT"
                     },
                     {
                       "id": "7cs401_u5_q2",
@@ -5943,7 +5943,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Resource-constrained devices lack encryption",
-                      "topic": "IoT Security) ON CONFLICT (id"
+                      "topic": "IoT Security"
                     },
                     {
                       "id": "7cs401_u5_q3",
@@ -5975,7 +5975,7 @@ export const rtuData = {
             },
             {
               "code": "7CS5-11",
-              "name": "Big Data Analytics) ON CONFLICT (code",
+              "name": "Big Data Analytics",
               "units": [
                 {
                   "number": 1,
@@ -5998,7 +5998,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Volume, Velocity, Variety, Veracity, Value",
-                      "topic": "5 V's) ON CONFLICT (id"
+                      "topic": "5 V's"
                     },
                     {
                       "id": "7cs511_u1_q2",
@@ -6010,7 +6010,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Distributed batch processing of large datasets",
-                      "topic": "Hadoop) ON CONFLICT (id"
+                      "topic": "Hadoop"
                     },
                     {
                       "id": "7cs511_u1_q3",
@@ -6059,7 +6059,7 @@ export const rtuData = {
                         "Young Automated Runner Node"
                       ],
                       "answer": "Yet Another Resource Negotiator",
-                      "topic": "YARN) ON CONFLICT (id"
+                      "topic": "YARN"
                     },
                     {
                       "id": "7cs511_u2_q2",
@@ -6071,7 +6071,7 @@ export const rtuData = {
                         "4 KB"
                       ],
                       "answer": "128 MB",
-                      "topic": "HDFS Blocks) ON CONFLICT (id"
+                      "topic": "HDFS Blocks"
                     },
                     {
                       "id": "7cs511_u2_q3",
@@ -6120,7 +6120,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Resilient Distributed Dataset",
-                      "topic": "RDD) ON CONFLICT (id"
+                      "topic": "RDD"
                     },
                     {
                       "id": "7cs511_u3_q2",
@@ -6132,7 +6132,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "In-memory processing",
-                      "topic": "Spark Performance) ON CONFLICT (id"
+                      "topic": "Spark Performance"
                     },
                     {
                       "id": "7cs511_u3_q3",
@@ -6181,7 +6181,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "At most 2 of 3: Consistency, Availability, Partition tolerance",
-                      "topic": "CAP) ON CONFLICT (id"
+                      "topic": "CAP"
                     },
                     {
                       "id": "7cs511_u4_q2",
@@ -6193,7 +6193,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Real-time stream processing",
-                      "topic": "Kafka) ON CONFLICT (id"
+                      "topic": "Kafka"
                     },
                     {
                       "id": "7cs511_u4_q3",
@@ -6242,7 +6242,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "MapReduce/Spark jobs",
-                      "topic": "Hive) ON CONFLICT (id"
+                      "topic": "Hive"
                     },
                     {
                       "id": "7cs511_u5_q2",
@@ -6254,7 +6254,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Similar users' preferences",
-                      "topic": "Collaborative Filtering) ON CONFLICT (id"
+                      "topic": "Collaborative Filtering"
                     },
                     {
                       "id": "7cs511_u5_q3",
@@ -6292,7 +6292,7 @@ export const rtuData = {
           "subjects": [
             {
               "code": "8CS5-11",
-              "name": "Blockchain Technology) ON CONFLICT (code",
+              "name": "Blockchain Technology",
               "units": [
                 {
                   "number": 1,
@@ -6315,7 +6315,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Integrity verification for all transactions in a block",
-                      "topic": "Merkle Trees) ON CONFLICT (id"
+                      "topic": "Merkle Trees"
                     },
                     {
                       "id": "8cs511_u1_q2",
@@ -6327,7 +6327,7 @@ export const rtuData = {
                         "64 bits"
                       ],
                       "answer": "256 bits",
-                      "topic": "SHA-256) ON CONFLICT (id"
+                      "topic": "SHA-256"
                     },
                     {
                       "id": "8cs511_u1_q3",
@@ -6376,7 +6376,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Find a nonce producing hash below target",
-                      "topic": "PoW) ON CONFLICT (id"
+                      "topic": "PoW"
                     },
                     {
                       "id": "8cs511_u2_q2",
@@ -6388,7 +6388,7 @@ export const rtuData = {
                         "Age only"
                       ],
                       "answer": "Amount of staked cryptocurrency",
-                      "topic": "PoS) ON CONFLICT (id"
+                      "topic": "PoS"
                     },
                     {
                       "id": "8cs511_u2_q3",
@@ -6437,7 +6437,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Infinite loops and DoS attacks",
-                      "topic": "Gas) ON CONFLICT (id"
+                      "topic": "Gas"
                     },
                     {
                       "id": "8cs511_u3_q2",
@@ -6449,7 +6449,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "External calls before state updates",
-                      "topic": "Reentrancy) ON CONFLICT (id"
+                      "topic": "Reentrancy"
                     },
                     {
                       "id": "8cs511_u3_q3",
@@ -6498,7 +6498,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Permissioned blockchain framework",
-                      "topic": "Hyperledger) ON CONFLICT (id"
+                      "topic": "Hyperledger"
                     },
                     {
                       "id": "8cs511_u4_q2",
@@ -6510,7 +6510,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Smart contracts",
-                      "topic": "Chaincode) ON CONFLICT (id"
+                      "topic": "Chaincode"
                     },
                     {
                       "id": "8cs511_u4_q3",
@@ -6559,7 +6559,7 @@ export const rtuData = {
                         "Only speed and cost"
                       ],
                       "answer": "Decentralization, security, scalability",
-                      "topic": "Trilemma) ON CONFLICT (id"
+                      "topic": "Trilemma"
                     },
                     {
                       "id": "8cs511_u5_q2",
@@ -6571,7 +6571,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Rollups and Lightning Network",
-                      "topic": "Layer-2) ON CONFLICT (id"
+                      "topic": "Layer-2"
                     },
                     {
                       "id": "8cs511_u5_q3",
@@ -6621,7 +6621,7 @@ export const rtuData = {
           "subjects": [
             {
               "code": "3CAI2-01",
-              "name": "Advanced Engg Math (Linear Algebra for AI)) ON CONFLICT (code",
+              "name": "Advanced Engg Math (Linear Algebra for AI)",
               "units": [
                 {
                   "number": 1,
@@ -6644,7 +6644,7 @@ export const rtuData = {
                         "A┬▓"
                       ],
                       "answer": "U╬úV^T",
-                      "topic": "SVD) ON CONFLICT (id"
+                      "topic": "SVD"
                     },
                     {
                       "id": "3cai201_u1_q2",
@@ -6656,7 +6656,7 @@ export const rtuData = {
                         "Random"
                       ],
                       "answer": "Maximum variance",
-                      "topic": "PCA) ON CONFLICT (id"
+                      "topic": "PCA"
                     },
                     {
                       "id": "3cai201_u1_q3",
@@ -6705,7 +6705,7 @@ export const rtuData = {
                         "Constants"
                       ],
                       "answer": "Second-order partial derivatives",
-                      "topic": "Hessian) ON CONFLICT (id"
+                      "topic": "Hessian"
                     },
                     {
                       "id": "3cai201_u2_q2",
@@ -6717,7 +6717,7 @@ export const rtuData = {
                         "Along contour"
                       ],
                       "answer": "Negative gradient",
-                      "topic": "Gradient Descent) ON CONFLICT (id"
+                      "topic": "Gradient Descent"
                     },
                     {
                       "id": "3cai201_u2_q3",
@@ -6766,7 +6766,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Inequality constraints",
-                      "topic": "KKT) ON CONFLICT (id"
+                      "topic": "KKT"
                     },
                     {
                       "id": "3cai201_u3_q2",
@@ -6778,7 +6778,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Primal and dual optimal values are equal",
-                      "topic": "Duality) ON CONFLICT (id"
+                      "topic": "Duality"
                     },
                     {
                       "id": "3cai201_u3_q3",
@@ -6827,7 +6827,7 @@ export const rtuData = {
                         "O(N┬│)"
                       ],
                       "answer": "O(N log N)",
-                      "topic": "FFT) ON CONFLICT (id"
+                      "topic": "FFT"
                     },
                     {
                       "id": "3cai201_u4_q2",
@@ -6839,7 +6839,7 @@ export const rtuData = {
                         "Subtraction"
                       ],
                       "answer": "Multiplication in frequency domain",
-                      "topic": "Convolution) ON CONFLICT (id"
+                      "topic": "Convolution"
                     },
                     {
                       "id": "3cai201_u4_q3",
@@ -6888,7 +6888,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Quadratic (p=2)",
-                      "topic": "Newton-Raphson) ON CONFLICT (id"
+                      "topic": "Newton-Raphson"
                     },
                     {
                       "id": "3cai201_u5_q2",
@@ -6900,7 +6900,7 @@ export const rtuData = {
                         "6th order"
                       ],
                       "answer": "4th order",
-                      "topic": "RK4) ON CONFLICT (id"
+                      "topic": "RK4"
                     },
                     {
                       "id": "3cai201_u5_q3",
@@ -6932,7 +6932,7 @@ export const rtuData = {
             },
             {
               "code": "3CAI4-05",
-              "name": "Data Structures & Algorithms) ON CONFLICT (code",
+              "name": "Data Structures & Algorithms",
               "units": [
                 {
                   "number": 1,
@@ -6955,7 +6955,7 @@ export const rtuData = {
                         "O(1)"
                       ],
                       "answer": "O(N)",
-                      "topic": "Infix to Postfix) ON CONFLICT (id"
+                      "topic": "Infix to Postfix"
                     },
                     {
                       "id": "3cai405_u1_q2",
@@ -6967,7 +6967,7 @@ export const rtuData = {
                         "B+ Tree"
                       ],
                       "answer": "Stack",
-                      "topic": "Recursion Stack) ON CONFLICT (id"
+                      "topic": "Recursion Stack"
                     },
                     {
                       "id": "3cai405_u1_q3",
@@ -7016,7 +7016,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Reuses freed space",
-                      "topic": "Circular Queue) ON CONFLICT (id"
+                      "topic": "Circular Queue"
                     },
                     {
                       "id": "3cai405_u2_q2",
@@ -7028,7 +7028,7 @@ export const rtuData = {
                         "Simpler code"
                       ],
                       "answer": "Traversal in both directions",
-                      "topic": "Doubly LL) ON CONFLICT (id"
+                      "topic": "Doubly LL"
                     },
                     {
                       "id": "3cai405_u2_q3",
@@ -7077,7 +7077,7 @@ export const rtuData = {
                         "Never"
                       ],
                       "answer": "Already sorted array with bad pivot",
-                      "topic": "Quick Sort) ON CONFLICT (id"
+                      "topic": "Quick Sort"
                     },
                     {
                       "id": "3cai405_u3_q2",
@@ -7089,7 +7089,7 @@ export const rtuData = {
                         "Linked List"
                       ],
                       "answer": "Max/Min heap data structure",
-                      "topic": "Heap Sort) ON CONFLICT (id"
+                      "topic": "Heap Sort"
                     },
                     {
                       "id": "3cai405_u3_q3",
@@ -7138,7 +7138,7 @@ export const rtuData = {
                         "O(1)"
                       ],
                       "answer": "O(log n)",
-                      "topic": "AVL Trees) ON CONFLICT (id"
+                      "topic": "AVL Trees"
                     },
                     {
                       "id": "3cai405_u4_q2",
@@ -7150,7 +7150,7 @@ export const rtuData = {
                         "Only right"
                       ],
                       "answer": "Left rotation on child, then right on node",
-                      "topic": "AVL Rotations) ON CONFLICT (id"
+                      "topic": "AVL Rotations"
                     },
                     {
                       "id": "3cai405_u4_q3",
@@ -7199,7 +7199,7 @@ export const rtuData = {
                         "Hash table"
                       ],
                       "answer": "Disjoint Set Union (Union-Find)",
-                      "topic": "Kruskal's) ON CONFLICT (id"
+                      "topic": "Kruskal's"
                     },
                     {
                       "id": "3cai405_u5_q2",
@@ -7211,7 +7211,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Linked lists at each bucket",
-                      "topic": "Chaining) ON CONFLICT (id"
+                      "topic": "Chaining"
                     },
                     {
                       "id": "3cai405_u5_q3",
@@ -7243,7 +7243,7 @@ export const rtuData = {
             },
             {
               "code": "3CAI4-07",
-              "name": "Python Programming for AI & Data Science) ON CONFLICT (code",
+              "name": "Python Programming for AI & Data Science",
               "units": [
                 {
                   "number": 1,
@@ -7266,7 +7266,7 @@ export const rtuData = {
                         "import"
                       ],
                       "answer": "yield keyword",
-                      "topic": "Generators) ON CONFLICT (id"
+                      "topic": "Generators"
                     },
                     {
                       "id": "3cai407_u1_q2",
@@ -7278,7 +7278,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "{k:v for k,v in iterable}",
-                      "topic": "Comprehensions) ON CONFLICT (id"
+                      "topic": "Comprehensions"
                     },
                     {
                       "id": "3cai407_u1_q3",
@@ -7327,7 +7327,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Different but compatible shapes",
-                      "topic": "Broadcasting) ON CONFLICT (id"
+                      "topic": "Broadcasting"
                     },
                     {
                       "id": "3cai407_u2_q2",
@@ -7339,7 +7339,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Avoids Python loops, uses optimized C",
-                      "topic": "Vectorization) ON CONFLICT (id"
+                      "topic": "Vectorization"
                     },
                     {
                       "id": "3cai407_u2_q3",
@@ -7388,7 +7388,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Label-based indexing",
-                      "topic": "loc/iloc) ON CONFLICT (id"
+                      "topic": "loc/iloc"
                     },
                     {
                       "id": "3cai407_u3_q2",
@@ -7400,7 +7400,7 @@ export const rtuData = {
                         "Merging"
                       ],
                       "answer": "Split-apply-combine operations",
-                      "topic": "groupby) ON CONFLICT (id"
+                      "topic": "groupby"
                     },
                     {
                       "id": "3cai407_u3_q3",
@@ -7449,7 +7449,7 @@ export const rtuData = {
                         "Standard deviation"
                       ],
                       "answer": "Five-number summary (min, Q1, median, Q3, max)",
-                      "topic": "Box Plot) ON CONFLICT (id"
+                      "topic": "Box Plot"
                     },
                     {
                       "id": "3cai407_u4_q2",
@@ -7461,7 +7461,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Pairwise correlation between features",
-                      "topic": "Heatmap) ON CONFLICT (id"
+                      "topic": "Heatmap"
                     },
                     {
                       "id": "3cai407_u4_q3",
@@ -7510,7 +7510,7 @@ export const rtuData = {
                         "Neither"
                       ],
                       "answer": "Fit on data then transform it",
-                      "topic": "fit_transform) ON CONFLICT (id"
+                      "topic": "fit_transform"
                     },
                     {
                       "id": "3cai407_u5_q2",
@@ -7522,7 +7522,7 @@ export const rtuData = {
                         "Range [-1,1]"
                       ],
                       "answer": "Mean 0 and std 1",
-                      "topic": "Scaling) ON CONFLICT (id"
+                      "topic": "Scaling"
                     },
                     {
                       "id": "3cai407_u5_q3",
@@ -7560,7 +7560,7 @@ export const rtuData = {
           "subjects": [
             {
               "code": "4CAI4-07",
-              "name": "Probability & Statistics for AI) ON CONFLICT (code",
+              "name": "Probability & Statistics for AI",
               "units": [
                 {
                   "number": 1,
@@ -7583,7 +7583,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Posterior probability from prior and likelihood",
-                      "topic": "Bayes) ON CONFLICT (id"
+                      "topic": "Bayes"
                     },
                     {
                       "id": "4cai407_u1_q2",
@@ -7595,7 +7595,7 @@ export const rtuData = {
                         "Oscillating"
                       ],
                       "answer": "Non-decreasing",
-                      "topic": "CDF) ON CONFLICT (id"
+                      "topic": "CDF"
                     },
                     {
                       "id": "4cai407_u1_q3",
@@ -7644,7 +7644,7 @@ export const rtuData = {
                         "Exponential"
                       ],
                       "answer": "Normal distribution as n increases",
-                      "topic": "CLT) ON CONFLICT (id"
+                      "topic": "CLT"
                     },
                     {
                       "id": "4cai407_u2_q2",
@@ -7656,7 +7656,7 @@ export const rtuData = {
                         "Uniform"
                       ],
                       "answer": "Normal distribution",
-                      "topic": "Empirical Rule) ON CONFLICT (id"
+                      "topic": "Empirical Rule"
                     },
                     {
                       "id": "4cai407_u2_q3",
@@ -7705,7 +7705,7 @@ export const rtuData = {
                         "No tail"
                       ],
                       "answer": "Right tail is longer",
-                      "topic": "Skewness) ON CONFLICT (id"
+                      "topic": "Skewness"
                     },
                     {
                       "id": "4cai407_u3_q2",
@@ -7717,7 +7717,7 @@ export const rtuData = {
                         "Nothing"
                       ],
                       "answer": "The probability distribution",
-                      "topic": "MGF) ON CONFLICT (id"
+                      "topic": "MGF"
                     },
                     {
                       "id": "4cai407_u3_q3",
@@ -7766,7 +7766,7 @@ export const rtuData = {
                         "Both"
                       ],
                       "answer": "Rejecting true null hypothesis",
-                      "topic": "Type-I Error) ON CONFLICT (id"
+                      "topic": "Type-I Error"
                     },
                     {
                       "id": "4cai407_u4_q2",
@@ -7778,7 +7778,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Maximize likelihood of observed data",
-                      "topic": "MLE) ON CONFLICT (id"
+                      "topic": "MLE"
                     },
                     {
                       "id": "4cai407_u4_q3",
@@ -7827,7 +7827,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "95% variance is explained by the model",
-                      "topic": "R┬▓) ON CONFLICT (id"
+                      "topic": "R┬▓"
                     },
                     {
                       "id": "4cai407_u5_q2",
@@ -7839,7 +7839,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Ranks instead of actual values",
-                      "topic": "Spearman) ON CONFLICT (id"
+                      "topic": "Spearman"
                     },
                     {
                       "id": "4cai407_u5_q3",
@@ -7877,7 +7877,7 @@ export const rtuData = {
           "subjects": [
             {
               "code": "5CAI4-04",
-              "name": "Principles of AI & Knowledge Representation) ON CONFLICT (code",
+              "name": "Principles of AI & Knowledge Representation",
               "units": [
                 {
                   "number": 1,
@@ -7900,7 +7900,7 @@ export const rtuData = {
                         "Only goals"
                       ],
                       "answer": "Internal state about the world",
-                      "topic": "Agents) ON CONFLICT (id"
+                      "topic": "Agents"
                     },
                     {
                       "id": "5cai404_u1_q2",
@@ -7912,7 +7912,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Agent cannot see full state",
-                      "topic": "Environments) ON CONFLICT (id"
+                      "topic": "Environments"
                     },
                     {
                       "id": "5cai404_u1_q3",
@@ -7961,7 +7961,7 @@ export const rtuData = {
                         "Infinite"
                       ],
                       "answer": "Admissible and consistent",
-                      "topic": "A* Optimality) ON CONFLICT (id"
+                      "topic": "A* Optimality"
                     },
                     {
                       "id": "5cai404_u2_q2",
@@ -7973,7 +7973,7 @@ export const rtuData = {
                         "Deepest first"
                       ],
                       "answer": "Lowest path cost g(n)",
-                      "topic": "UCS) ON CONFLICT (id"
+                      "topic": "UCS"
                     },
                     {
                       "id": "5cai404_u2_q3",
@@ -8022,7 +8022,7 @@ export const rtuData = {
                         "1"
                       ],
                       "answer": "ΓêÜb (square root of b)",
-                      "topic": "Alpha-Beta) ON CONFLICT (id"
+                      "topic": "Alpha-Beta"
                     },
                     {
                       "id": "5cai404_u3_q2",
@@ -8034,7 +8034,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Arc consistency in CSPs",
-                      "topic": "AC-3) ON CONFLICT (id"
+                      "topic": "AC-3"
                     },
                     {
                       "id": "5cai404_u3_q3",
@@ -8083,7 +8083,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Existential quantifiers",
-                      "topic": "Skolemization) ON CONFLICT (id"
+                      "topic": "Skolemization"
                     },
                     {
                       "id": "5cai404_u4_q2",
@@ -8095,7 +8095,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Clause Form (CNF)",
-                      "topic": "Resolution) ON CONFLICT (id"
+                      "topic": "Resolution"
                     },
                     {
                       "id": "5cai404_u4_q3",
@@ -8144,7 +8144,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Conditional independence",
-                      "topic": "D-separation) ON CONFLICT (id"
+                      "topic": "D-separation"
                     },
                     {
                       "id": "5cai404_u5_q2",
@@ -8156,7 +8156,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Exact inference in Bayesian Networks",
-                      "topic": "Inference) ON CONFLICT (id"
+                      "topic": "Inference"
                     },
                     {
                       "id": "5cai404_u5_q3",
@@ -8188,7 +8188,7 @@ export const rtuData = {
             },
             {
               "code": "5CAI4-05",
-              "name": "Analysis of Algorithms (DAA)) ON CONFLICT (code",
+              "name": "Analysis of Algorithms (DAA)",
               "units": [
                 {
                   "number": 1,
@@ -8211,7 +8211,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "╬ÿ(n^(log_b(a)))",
-                      "topic": "Master's Theorem) ON CONFLICT (id"
+                      "topic": "Master's Theorem"
                     },
                     {
                       "id": "5cai405_u1_q2",
@@ -8223,7 +8223,7 @@ export const rtuData = {
                         "9"
                       ],
                       "answer": "7",
-                      "topic": "Strassen's) ON CONFLICT (id"
+                      "topic": "Strassen's"
                     },
                     {
                       "id": "5cai405_u1_q3",
@@ -8272,7 +8272,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Variable-length prefix-free encoding",
-                      "topic": "Huffman) ON CONFLICT (id"
+                      "topic": "Huffman"
                     },
                     {
                       "id": "5cai405_u2_q2",
@@ -8284,7 +8284,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Locally optimal choice leads to global optimum",
-                      "topic": "Greedy) ON CONFLICT (id"
+                      "topic": "Greedy"
                     },
                     {
                       "id": "5cai405_u2_q3",
@@ -8333,7 +8333,7 @@ export const rtuData = {
                         "Greedy choices"
                       ],
                       "answer": "Overlapping subproblems and optimal substructure",
-                      "topic": "DP Principles) ON CONFLICT (id"
+                      "topic": "DP Principles"
                     },
                     {
                       "id": "5cai405_u3_q2",
@@ -8345,7 +8345,7 @@ export const rtuData = {
                         "Inverse"
                       ],
                       "answer": "Optimal parenthesization to minimize scalar multiplications",
-                      "topic": "MCM) ON CONFLICT (id"
+                      "topic": "MCM"
                     },
                     {
                       "id": "5cai405_u3_q3",
@@ -8394,7 +8394,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Explores and abandons partial solutions",
-                      "topic": "Backtracking) ON CONFLICT (id"
+                      "topic": "Backtracking"
                     },
                     {
                       "id": "5cai405_u4_q2",
@@ -8406,7 +8406,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Prune non-promising branches",
-                      "topic": "B&B) ON CONFLICT (id"
+                      "topic": "B&B"
                     },
                     {
                       "id": "5cai405_u4_q3",
@@ -8455,7 +8455,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "In NP and at least as hard as every NP problem",
-                      "topic": "NP-Complete) ON CONFLICT (id"
+                      "topic": "NP-Complete"
                     },
                     {
                       "id": "5cai405_u5_q2",
@@ -8467,7 +8467,7 @@ export const rtuData = {
                         "Regular"
                       ],
                       "answer": "NP-Complete by Cook",
-                      "topic": "SAT) ON CONFLICT (id"
+                      "topic": "SAT"
                     },
                     {
                       "id": "5cai405_u5_q3",
@@ -8505,7 +8505,7 @@ export const rtuData = {
           "subjects": [
             {
               "code": "6CAI4-02",
-              "name": "Machine Learning) ON CONFLICT (code",
+              "name": "Machine Learning",
               "units": [
                 {
                   "number": 1,
@@ -8528,7 +8528,7 @@ export const rtuData = {
                         "Random"
                       ],
                       "answer": "K equal folds, trains on K-1, tests on 1",
-                      "topic": "Cross-Validation) ON CONFLICT (id"
+                      "topic": "Cross-Validation"
                     },
                     {
                       "id": "6cai402_u1_q2",
@@ -8540,7 +8540,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Same as random guessing",
-                      "topic": "AUC) ON CONFLICT (id"
+                      "topic": "AUC"
                     },
                     {
                       "id": "6cai402_u1_q3",
@@ -8589,7 +8589,7 @@ export const rtuData = {
                         "0.5"
                       ],
                       "answer": "0",
-                      "topic": "Entropy) ON CONFLICT (id"
+                      "topic": "Entropy"
                     },
                     {
                       "id": "6cai402_u2_q2",
@@ -8601,7 +8601,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Conditionally independent given class",
-                      "topic": "Naive Bayes) ON CONFLICT (id"
+                      "topic": "Naive Bayes"
                     },
                     {
                       "id": "6cai402_u2_q3",
@@ -8650,7 +8650,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Maximizes margin between classes",
-                      "topic": "SVM) ON CONFLICT (id"
+                      "topic": "SVM"
                     },
                     {
                       "id": "6cai402_u3_q2",
@@ -8662,7 +8662,7 @@ export const rtuData = {
                         "Neither"
                       ],
                       "answer": "Variance",
-                      "topic": "Bagging) ON CONFLICT (id"
+                      "topic": "Bagging"
                     },
                     {
                       "id": "6cai402_u3_q3",
@@ -8711,7 +8711,7 @@ export const rtuData = {
                         "Points"
                       ],
                       "answer": "Pre-specifying number of clusters",
-                      "topic": "DBSCAN) ON CONFLICT (id"
+                      "topic": "DBSCAN"
                     },
                     {
                       "id": "6cai402_u4_q2",
@@ -8723,7 +8723,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Optimal K in K-Means",
-                      "topic": "Elbow Method) ON CONFLICT (id"
+                      "topic": "Elbow Method"
                     },
                     {
                       "id": "6cai402_u4_q3",
@@ -8772,7 +8772,7 @@ export const rtuData = {
                         "x┬▓"
                       ],
                       "answer": "max(0, x)",
-                      "topic": "ReLU) ON CONFLICT (id"
+                      "topic": "ReLU"
                     },
                     {
                       "id": "6cai402_u5_q2",
@@ -8784,7 +8784,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Chain rule of calculus",
-                      "topic": "Backpropagation) ON CONFLICT (id"
+                      "topic": "Backpropagation"
                     },
                     {
                       "id": "6cai402_u5_q3",
@@ -8816,7 +8816,7 @@ export const rtuData = {
             },
             {
               "code": "6CAI4-05",
-              "name": "Deep Learning & Neural Networks) ON CONFLICT (code",
+              "name": "Deep Learning & Neural Networks",
               "units": [
                 {
                   "number": 1,
@@ -8839,7 +8839,7 @@ export const rtuData = {
                         "Neither"
                       ],
                       "answer": "Training only",
-                      "topic": "Dropout) ON CONFLICT (id"
+                      "topic": "Dropout"
                     },
                     {
                       "id": "6cai405_u1_q2",
@@ -8851,7 +8851,7 @@ export const rtuData = {
                         "Loss"
                       ],
                       "answer": "Activations within a mini-batch",
-                      "topic": "Batch Norm) ON CONFLICT (id"
+                      "topic": "Batch Norm"
                     },
                     {
                       "id": "6cai405_u1_q3",
@@ -8900,7 +8900,7 @@ export const rtuData = {
                         "W-F"
                       ],
                       "answer": "(W-F+2P)/S + 1",
-                      "topic": "Convolution) ON CONFLICT (id"
+                      "topic": "Convolution"
                     },
                     {
                       "id": "6cai405_u2_q2",
@@ -8912,7 +8912,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Vanishing gradient in very deep networks",
-                      "topic": "ResNet) ON CONFLICT (id"
+                      "topic": "ResNet"
                     },
                     {
                       "id": "6cai405_u2_q3",
@@ -8961,7 +8961,7 @@ export const rtuData = {
                         "Batch Processing Temporal Training"
                       ],
                       "answer": "Backpropagation Through Time",
-                      "topic": "BPTT) ON CONFLICT (id"
+                      "topic": "BPTT"
                     },
                     {
                       "id": "6cai405_u3_q2",
@@ -8973,7 +8973,7 @@ export const rtuData = {
                         "Neither"
                       ],
                       "answer": "Exploding gradients",
-                      "topic": "Gradient Clipping) ON CONFLICT (id"
+                      "topic": "Gradient Clipping"
                     },
                     {
                       "id": "6cai405_u3_q3",
@@ -9022,7 +9022,7 @@ export const rtuData = {
                         "Batch size"
                       ],
                       "answer": "What information to discard from cell state",
-                      "topic": "Forget Gate) ON CONFLICT (id"
+                      "topic": "Forget Gate"
                     },
                     {
                       "id": "6cai405_u4_q2",
@@ -9034,7 +9034,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "It combines forget and input gates into update gate",
-                      "topic": "GRU) ON CONFLICT (id"
+                      "topic": "GRU"
                     },
                     {
                       "id": "6cai405_u4_q3",
@@ -9083,7 +9083,7 @@ export const rtuData = {
                         "Neither"
                       ],
                       "answer": "Generator and Discriminator adversarially",
-                      "topic": "GAN) ON CONFLICT (id"
+                      "topic": "GAN"
                     },
                     {
                       "id": "6cai405_u5_q2",
@@ -9095,7 +9095,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Backpropagation through stochastic sampling",
-                      "topic": "VAE) ON CONFLICT (id"
+                      "topic": "VAE"
                     },
                     {
                       "id": "6cai405_u5_q3",
@@ -9133,7 +9133,7 @@ export const rtuData = {
           "subjects": [
             {
               "code": "7CAI4-01",
-              "name": "Natural Language Processing) ON CONFLICT (code",
+              "name": "Natural Language Processing",
               "units": [
                 {
                   "number": 1,
@@ -9156,7 +9156,7 @@ export const rtuData = {
                         "Random splitting"
                       ],
                       "answer": "Iteratively merges most frequent byte pairs",
-                      "topic": "BPE) ON CONFLICT (id"
+                      "topic": "BPE"
                     },
                     {
                       "id": "7cai401_u1_q2",
@@ -9168,7 +9168,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Producing valid dictionary words",
-                      "topic": "Lemmatization) ON CONFLICT (id"
+                      "topic": "Lemmatization"
                     },
                     {
                       "id": "7cai401_u1_q3",
@@ -9217,7 +9217,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Context words from center word",
-                      "topic": "Skip-Gram) ON CONFLICT (id"
+                      "topic": "Skip-Gram"
                     },
                     {
                       "id": "7cai401_u2_q2",
@@ -9229,7 +9229,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Frequent in document but rare across corpus",
-                      "topic": "TF-IDF) ON CONFLICT (id"
+                      "topic": "TF-IDF"
                     },
                     {
                       "id": "7cai401_u2_q3",
@@ -9278,7 +9278,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Softmax saturation from large dot products",
-                      "topic": "Attention) ON CONFLICT (id"
+                      "topic": "Attention"
                     },
                     {
                       "id": "7cai401_u3_q2",
@@ -9290,7 +9290,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Order information to embeddings",
-                      "topic": "Positional Encoding) ON CONFLICT (id"
+                      "topic": "Positional Encoding"
                     },
                     {
                       "id": "7cai401_u3_q3",
@@ -9339,7 +9339,7 @@ export const rtuData = {
                         "Random"
                       ],
                       "answer": "Bidirectional (sees all tokens)",
-                      "topic": "BERT) ON CONFLICT (id"
+                      "topic": "BERT"
                     },
                     {
                       "id": "7cai401_u4_q2",
@@ -9351,7 +9351,7 @@ export const rtuData = {
                         "Random attention"
                       ],
                       "answer": "Each token only attends to previous tokens",
-                      "topic": "GPT) ON CONFLICT (id"
+                      "topic": "GPT"
                     },
                     {
                       "id": "7cai401_u4_q3",
@@ -9400,7 +9400,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Translation quality via n-gram overlap",
-                      "topic": "BLEU) ON CONFLICT (id"
+                      "topic": "BLEU"
                     },
                     {
                       "id": "7cai401_u5_q2",
@@ -9412,7 +9412,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Examples in the prompt to guide LLM output",
-                      "topic": "Few-Shot) ON CONFLICT (id"
+                      "topic": "Few-Shot"
                     },
                     {
                       "id": "7cai401_u5_q3",
@@ -9444,7 +9444,7 @@ export const rtuData = {
             },
             {
               "code": "7CAI5-12",
-              "name": "Reinforcement Learning) ON CONFLICT (code",
+              "name": "Reinforcement Learning",
               "units": [
                 {
                   "number": 1,
@@ -9467,7 +9467,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Value of optimal policy",
-                      "topic": "Bellman) ON CONFLICT (id"
+                      "topic": "Bellman"
                     },
                     {
                       "id": "7cai512_u1_q2",
@@ -9479,7 +9479,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Myopic (short-sighted)",
-                      "topic": "Discount Factor) ON CONFLICT (id"
+                      "topic": "Discount Factor"
                     },
                     {
                       "id": "7cai512_u1_q3",
@@ -9528,7 +9528,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Bellman optimality backup",
-                      "topic": "Value Iteration) ON CONFLICT (id"
+                      "topic": "Value Iteration"
                     },
                     {
                       "id": "7cai512_u2_q2",
@@ -9540,7 +9540,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Policy evaluation and policy improvement",
-                      "topic": "Policy Iteration) ON CONFLICT (id"
+                      "topic": "Policy Iteration"
                     },
                     {
                       "id": "7cai512_u2_q3",
@@ -9589,7 +9589,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "It learns optimal policy regardless of behavior policy",
-                      "topic": "Q-Learning) ON CONFLICT (id"
+                      "topic": "Q-Learning"
                     },
                     {
                       "id": "7cai512_u3_q2",
@@ -9601,7 +9601,7 @@ export const rtuData = {
                         "Neither"
                       ],
                       "answer": "Exploration and exploitation",
-                      "topic": "╬╡-greedy) ON CONFLICT (id"
+                      "topic": "╬╡-greedy"
                     },
                     {
                       "id": "7cai512_u3_q3",
@@ -9650,7 +9650,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Stores and samples past transitions to break correlation",
-                      "topic": "Experience Replay) ON CONFLICT (id"
+                      "topic": "Experience Replay"
                     },
                     {
                       "id": "7cai512_u4_q2",
@@ -9662,7 +9662,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Policy gradient (actor) and value estimation (critic)",
-                      "topic": "Actor-Critic) ON CONFLICT (id"
+                      "topic": "Actor-Critic"
                     },
                     {
                       "id": "7cai512_u4_q3",
@@ -9711,7 +9711,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Too large policy updates",
-                      "topic": "PPO) ON CONFLICT (id"
+                      "topic": "PPO"
                     },
                     {
                       "id": "7cai512_u5_q2",
@@ -9723,7 +9723,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Continuous action spaces",
-                      "topic": "DDPG) ON CONFLICT (id"
+                      "topic": "DDPG"
                     },
                     {
                       "id": "7cai512_u5_q3",
@@ -9761,7 +9761,7 @@ export const rtuData = {
           "subjects": [
             {
               "code": "8CAI5-11",
-              "name": "Generative AI & Large Language Models) ON CONFLICT (code",
+              "name": "Generative AI & Large Language Models",
               "units": [
                 {
                   "number": 1,
@@ -9784,7 +9784,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Sharing KV heads across query heads",
-                      "topic": "GQA) ON CONFLICT (id"
+                      "topic": "GQA"
                     },
                     {
                       "id": "8cai511_u1_q2",
@@ -9796,7 +9796,7 @@ export const rtuData = {
                         "Random layers"
                       ],
                       "answer": "Only subset of expert networks per token",
-                      "topic": "MoE) ON CONFLICT (id"
+                      "topic": "MoE"
                     },
                     {
                       "id": "8cai511_u1_q3",
@@ -9845,7 +9845,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Compressed latent space (faster)",
-                      "topic": "Latent Diffusion) ON CONFLICT (id"
+                      "topic": "Latent Diffusion"
                     },
                     {
                       "id": "8cai511_u2_q2",
@@ -9857,7 +9857,7 @@ export const rtuData = {
                         "Audio and video"
                       ],
                       "answer": "Text and image embeddings in shared space",
-                      "topic": "CLIP) ON CONFLICT (id"
+                      "topic": "CLIP"
                     },
                     {
                       "id": "8cai511_u2_q3",
@@ -9906,7 +9906,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "~20 tokens per parameter for compute-optimal training",
-                      "topic": "Chinchilla) ON CONFLICT (id"
+                      "topic": "Chinchilla"
                     },
                     {
                       "id": "8cai511_u3_q2",
@@ -9918,7 +9918,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Optimizer states, gradients, AND parameters",
-                      "topic": "ZeRO) ON CONFLICT (id"
+                      "topic": "ZeRO"
                     },
                     {
                       "id": "8cai511_u3_q3",
@@ -9967,7 +9967,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Low-rank decomposition matrices to frozen weights",
-                      "topic": "LoRA) ON CONFLICT (id"
+                      "topic": "LoRA"
                     },
                     {
                       "id": "8cai511_u4_q2",
@@ -9979,7 +9979,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Explicit reward model in RLHF",
-                      "topic": "DPO) ON CONFLICT (id"
+                      "topic": "DPO"
                     },
                     {
                       "id": "8cai511_u4_q3",
@@ -10028,7 +10028,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Relevant documents to augment LLM generation",
-                      "topic": "RAG) ON CONFLICT (id"
+                      "topic": "RAG"
                     },
                     {
                       "id": "8cai511_u5_q2",
@@ -10040,7 +10040,7 @@ export const rtuData = {
                         "None"
                       ],
                       "answer": "Reasoning and acting steps",
-                      "topic": "ReAct) ON CONFLICT (id"
+                      "topic": "ReAct"
                     },
                     {
                       "id": "8cai511_u5_q3",

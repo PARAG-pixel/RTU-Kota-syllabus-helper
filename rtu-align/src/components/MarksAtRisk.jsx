@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+
 import { AlertTriangle, ShieldCheck, ShieldAlert } from 'lucide-react';
 
 export default function MarksAtRisk({ results }) {
@@ -16,12 +16,7 @@ export default function MarksAtRisk({ results }) {
   const estimatedScore = Math.max(0, 100 - marksAtRisk);
 
   return (
-    <motion.div 
-      initial={{ opacity: 0, scale: 0.95 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.4, delay: 0.1 }}
-      className="bento-card"
-    >
+    <div className="slide-up bento-card">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2.5">
           <div className={`p-2 rounded-xl border ${config.bg} ${config.border} ${config.color}`}>
@@ -42,27 +37,23 @@ export default function MarksAtRisk({ results }) {
       <div className="grid grid-cols-2 gap-3 my-4">
         <div className="bg-slate-950/60 border border-white/[0.06] rounded-2xl p-4 text-center">
           <div className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Marks at Risk</div>
-          <motion.div 
-            initial={{ scale: 0.8 }}
-            animate={{ scale: 1 }}
+          <div
             className={`text-4xl md:text-5xl font-black font-heading mt-1 ${config.color}`}
           >
             {marksAtRisk}
-          </motion.div>
+          </div>
           <span className="text-[10px] text-gray-500">out of 100 total marks</span>
         </div>
 
         <div className="bg-slate-950/60 border border-white/[0.06] rounded-2xl p-4 text-center">
           <div className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Projected Score</div>
-          <motion.div 
-            initial={{ scale: 0.8 }}
-            animate={{ scale: 1 }}
+          <div
             className={`text-4xl md:text-5xl font-black font-heading mt-1 ${
               estimatedScore >= 70 ? 'text-emerald-400' : estimatedScore >= 50 ? 'text-amber-400' : 'text-rose-400'
             }`}
           >
             {estimatedScore}
-          </motion.div>
+          </div>
           <span className="text-[10px] text-cyan-400 font-semibold">
             {estimatedScore >= 53 ? '✓ Passes 3-Unit Rule' : '⚠ Below 53M Target'}
           </span>
@@ -82,7 +73,7 @@ export default function MarksAtRisk({ results }) {
         <StatBox value={results.moderateUnits} label="Moderate" color="text-amber-400" bg="bg-amber-500/10" border="border-amber-500/20" />
         <StatBox value={results.weakUnits} label="Critical Gaps" color="text-rose-400" bg="bg-rose-500/10" border="border-rose-500/20" />
       </div>
-    </motion.div>
+    </div>
   );
 }
 
@@ -97,10 +88,7 @@ function PartBar({ label, lost, total, color }) {
         </span>
       </div>
       <div className="h-2 rounded-full bg-slate-800 border border-white/[0.04] overflow-hidden">
-        <motion.div
-          initial={{ width: 0 }}
-          animate={{ width: `${safePercent}%` }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+        <div style={{ width: `${safePercent}%` }}
           className={`h-full rounded-full bg-gradient-to-r ${color}`}
         />
       </div>

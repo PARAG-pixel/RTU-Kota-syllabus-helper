@@ -1,22 +1,18 @@
 import { Brain, Monitor, ChevronRight, Sparkles, BookOpen, Layers, Award } from 'lucide-react';
-import { motion } from 'framer-motion';
+
 
 export default function BranchSelector({ rtuData, onSelect, currentStep, selections }) {
   const { selectedBranch, selectedSemester } = selections;
 
   if (currentStep === 'branch') {
     return (
-      <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-10">
+      <div className="slide-up space-y-10">
         {/* Hero Section */}
         <div className="text-center space-y-4 max-w-2xl mx-auto pt-2">
-          <motion.div 
-            initial={{ scale: 0.8, opacity: 0 }} 
-            animate={{ scale: 1, opacity: 1 }} 
-            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-gradient-to-r from-blue-500/10 via-violet-500/10 to-cyan-500/10 text-cyan-300 border border-cyan-500/20 shadow-lg shadow-cyan-500/10"
-          >
+          <div className="slide-up inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-gradient-to-r from-blue-500/10 via-violet-500/10 to-cyan-500/10 text-cyan-300 border border-cyan-500/20 shadow-lg shadow-cyan-500/10">
             <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
             <span>RTU Kota 5-Unit Examination Sprint Engine</span>
-          </motion.div>
+          </div>
           
           <h2 className="text-4xl md:text-5xl font-black gradient-text tracking-tight font-heading leading-tight">
             Targeted Exam Preparation for RTU B.Tech
@@ -46,14 +42,8 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
             const activeSemesters = branch.semesters?.filter(s => s.subjects?.length > 0).length || 0;
 
             return (
-              <motion.button
-                key={branch.branch_id}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.15 + idx * 0.1 }}
-                whileHover={{ y: -4 }}
-                whileTap={{ scale: 0.98 }}
-                onClick={() => onSelect('branch', branch)}
+              <button
+                key={branch.branch_id}onClick={() => onSelect('branch', branch)}
                 className="glass-card-hover p-8 text-left group relative overflow-hidden flex flex-col justify-between h-full"
               >
                 {/* Ambient glow accent */}
@@ -92,11 +82,11 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
                     <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                   </div>
                 </div>
-              </motion.button>
+              </button>
             );
           })}
         </div>
-      </motion.div>
+      </div>
     );
   }
 
@@ -112,7 +102,7 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
     ].filter(y => y.sems.length > 0);
 
     return (
-      <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-8 max-w-3xl mx-auto">
+      <div className="slide-up space-y-8 max-w-3xl mx-auto">
         <div className="text-center space-y-2">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-500/10 text-blue-400 border border-blue-500/20">
             {selectedBranch?.branch_id === 'ai' ? 'Artificial Intelligence' : 'Computer Science & Engineering'}
@@ -130,14 +120,8 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
               </div>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {yr.sems.map((sem, idx) => (
-                  <motion.button
-                    key={sem.semester}
-                    whileHover={{ scale: 1.03, y: -2 }}
-                    whileTap={{ scale: 0.97 }}
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ delay: idx * 0.05 }}
-                    onClick={() => onSelect('semester', sem)}
+                  <button
+                    key={sem.semester}onClick={() => onSelect('semester', sem)}
                     className="p-4 rounded-xl bg-white/[0.04] hover:bg-gradient-to-br hover:from-blue-600/20 hover:to-violet-600/20 border border-white/[0.08] hover:border-blue-500/40 text-left transition-all group"
                   >
                     <div className="flex items-center justify-between">
@@ -151,19 +135,19 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
                       <span className="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
                       <span>{sem.subjects?.length || 0} Core Subjects</span>
                     </div>
-                  </motion.button>
+                  </button>
                 ))}
               </div>
             </div>
           ))}
         </div>
-      </motion.div>
+      </div>
     );
   }
 
   if (currentStep === 'subject') {
     return (
-      <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-8 max-w-4xl mx-auto">
+      <div className="slide-up space-y-8 max-w-4xl mx-auto">
         <div className="text-center space-y-2">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-violet-500/10 text-violet-400 border border-violet-500/20">
             Semester {selectedSemester?.semester} • Year {selectedSemester?.year}
@@ -174,14 +158,8 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {selectedSemester?.subjects?.map((subj, idx) => (
-            <motion.button
-              key={subj.code}
-              initial={{ opacity: 0, y: 15 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: idx * 0.05 }}
-              whileHover={{ y: -3 }}
-              whileTap={{ scale: 0.99 }}
-              onClick={() => onSelect('subject', subj)}
+            <button
+              key={subj.code}onClick={() => onSelect('subject', subj)}
               className="glass-card-hover p-6 text-left group flex flex-col justify-between"
             >
               <div>
@@ -208,10 +186,10 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
                   Begin Diagnostic →
                 </span>
               </div>
-            </motion.button>
+            </button>
           ))}
         </div>
-      </motion.div>
+      </div>
     );
   }
 

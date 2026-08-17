@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+
 import { Clock, Target, ChevronDown, ChevronUp, Zap, BookOpen, AlertCircle, Printer, CheckSquare, Square, Loader2, Calendar, CheckCircle2, Sparkles } from 'lucide-react';
 
 export default function SprintRoadmap({ roadmap, onRegenerate, isRegenerating = false, onOpenTutor }) {
@@ -32,7 +32,7 @@ export default function SprintRoadmap({ roadmap, onRegenerate, isRegenerating = 
   const overallProgress = allMilestonesCount > 0 ? Math.round((completedCount / allMilestonesCount) * 100) : 0;
 
   return (
-    <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
+    <div className="slide-up space-y-6">
       {/* Top Banner: Sprint Overview & Duration Switcher */}
       <div className="glass-card p-6 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
         <div className="space-y-1 max-w-xl">
@@ -149,13 +149,7 @@ export default function SprintRoadmap({ roadmap, onRegenerate, isRegenerating = 
             const dayCompletedCount = dayMilestones.filter((_, mIdx) => !!completedMilestones[`${idx}-${mIdx}`]).length;
 
             return (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, x: -15 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: idx * 0.05 }}
-                className="relative"
-              >
+              <div className="slide-up relative">
                 {/* Timeline node icon */}
                 <div className={`absolute -left-6 md:-left-8 top-5 w-4 h-4 rounded-full border-2 border-[#060913] ${
                   dayCompletedCount === dayMilestones.length && dayMilestones.length > 0
@@ -223,15 +217,9 @@ export default function SprintRoadmap({ roadmap, onRegenerate, isRegenerating = 
                   </button>
 
                   {/* Expanded Milestone & Topics Checklist */}
-                  <AnimatePresence>
+                  
                     {isExpanded && (
-                      <motion.div
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: 'auto', opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.25 }}
-                        className="overflow-hidden border-t border-white/[0.06] bg-slate-950/40 p-5 md:p-6 space-y-5"
-                      >
+                      <div className="slide-up overflow-hidden border-t border-white/[0.06] bg-slate-950/40 p-5 md:p-6 space-y-5">
                         {/* Interactive Milestone Checkboxes */}
                         {dayMilestones.length > 0 && (
                           <div className="space-y-3">
@@ -302,11 +290,8 @@ export default function SprintRoadmap({ roadmap, onRegenerate, isRegenerating = 
                               {/* Large Prominent Topic Cards Grid */}
                               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-1">
                                 {day.topics.map((t, tIdx) => (
-                                  <motion.button
-                                    key={tIdx}
-                                    whileHover={{ scale: 1.02, y: -2 }}
-                                    whileTap={{ scale: 0.98 }}
-                                    onClick={() => onOpenTutor && onOpenTutor(t, day.focusUnit)}
+                                  <button
+                                    key={tIdx}onClick={() => onOpenTutor && onOpenTutor(t, day.focusUnit)}
                                     className="p-3.5 sm:p-4 rounded-xl bg-[#080d1e]/90 hover:bg-violet-950/40 border border-violet-500/25 hover:border-violet-400/60 shadow-lg shadow-black/40 text-left transition-all flex items-center justify-between gap-3 group cursor-pointer"
                                     title={`Click to open AI Topic Tutor for "${t}"`}
                                   >
@@ -331,7 +316,7 @@ export default function SprintRoadmap({ roadmap, onRegenerate, isRegenerating = 
                                       <span className="hidden sm:inline">Learn</span>
                                       <span>→</span>
                                     </div>
-                                  </motion.button>
+                                  </button>
                                 ))}
                               </div>
                             </div>
@@ -345,15 +330,15 @@ export default function SprintRoadmap({ roadmap, onRegenerate, isRegenerating = 
                             <span className="font-bold text-violet-300">RTU Exam Blueprint Note:</span> Unit {day.focusUnit} accounts for up to <span className="font-bold text-white">17 marks</span> (2 Marks in Part A compulsory + 5 Marks in Part B + 10 Marks in Part C). Mastering this unit secures your 3-Unit Minimum Baseline.
                           </div>
                         </div>
-                      </motion.div>
+                      </div>
                     )}
-                  </AnimatePresence>
+                  
                 </div>
-              </motion.div>
+              </div>
             );
           })}
         </div>
       )}
-    </motion.div>
+    </div>
   );
 }
