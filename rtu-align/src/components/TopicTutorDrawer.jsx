@@ -110,11 +110,11 @@ export default function TopicTutorDrawer({ isOpen, onClose, topic, unitNumber, s
           animate={{ x: 0 }}
           exit={{ x: '100%' }}
           transition={{ type: 'spring', damping: 28, stiffness: 280 }}
-          className="relative z-10 w-full max-w-2xl bg-[#0a0f1e] border-l border-white/[0.12] h-full shadow-2xl flex flex-col overflow-hidden"
+          className="relative z-10 w-full sm:max-w-2xl bg-[#0a0f1e] border-l border-white/[0.12] h-full shadow-2xl flex flex-col overflow-hidden"
         >
           {/* Header */}
-          <div className="p-5 md:p-6 border-b border-white/[0.08] bg-slate-900/80 backdrop-blur-xl flex items-start justify-between gap-4">
-            <div className="space-y-1 min-w-0">
+          <div className="p-4 sm:p-6 border-b border-white/[0.08] bg-slate-900/80 backdrop-blur-xl flex items-start justify-between gap-3">
+            <div className="space-y-1 min-w-0 flex-1">
               <div className="flex items-center gap-2 flex-wrap">
                 <span className="text-[10px] font-mono font-bold text-cyan-300 bg-cyan-500/10 px-2 py-0.5 rounded border border-cyan-500/20">
                   {subject?.code} • Unit {unitNumber}
@@ -123,10 +123,10 @@ export default function TopicTutorDrawer({ isOpen, onClose, topic, unitNumber, s
                   <Sparkles className="w-2.5 h-2.5" /> AI Topic Tutor
                 </span>
               </div>
-              <h3 id="tutor-dialog-title" className="text-lg md:text-xl font-bold text-white truncate font-heading">
+              <h3 className="text-base sm:text-xl font-bold text-white leading-snug font-heading break-words">
                 {topic}
               </h3>
-              <p className="text-xs text-slate-400 truncate">{subject?.name}</p>
+              <p className="text-[11px] sm:text-xs text-gray-400 truncate">{subject?.name}</p>
             </div>
 
             <button
@@ -140,12 +140,12 @@ export default function TopicTutorDrawer({ isOpen, onClose, topic, unitNumber, s
           </div>
 
           {/* Navigation Tabs */}
-          <div className="flex border-b border-white/[0.06] bg-slate-950/60 px-6 pt-2" role="tablist">
+          <div className="flex border-b border-white/[0.06] bg-slate-950/40 px-4 sm:px-6 pt-2 gap-1 overflow-x-auto">
             <button
               role="tab"
               aria-selected={activeTab === 'guide'}
               onClick={() => setActiveTab('guide')}
-              className={`pb-3 px-4 text-xs font-bold transition-all border-b-2 flex items-center gap-2 focus-ring ${
+              className={`pb-2.5 px-3 sm:px-4 text-[11px] sm:text-xs font-bold transition-all border-b-2 flex items-center gap-1.5 whitespace-nowrap ${
                 activeTab === 'guide'
                   ? 'border-blue-500 text-blue-400'
                   : 'border-transparent text-slate-400 hover:text-slate-200'
@@ -159,7 +159,7 @@ export default function TopicTutorDrawer({ isOpen, onClose, topic, unitNumber, s
               role="tab"
               aria-selected={activeTab === 'chat'}
               onClick={() => setActiveTab('chat')}
-              className={`pb-3 px-4 text-xs font-bold transition-all border-b-2 flex items-center gap-2 focus-ring ${
+              className={`pb-2.5 px-3 sm:px-4 text-[11px] sm:text-xs font-bold transition-all border-b-2 flex items-center gap-1.5 whitespace-nowrap ${
                 activeTab === 'chat'
                   ? 'border-violet-500 text-violet-400'
                   : 'border-transparent text-slate-400 hover:text-slate-200'
@@ -171,7 +171,7 @@ export default function TopicTutorDrawer({ isOpen, onClose, topic, unitNumber, s
           </div>
 
           {/* Body Content */}
-          <div className="flex-1 overflow-y-auto p-5 md:p-6 space-y-6">
+          <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-5">
             {loadingLesson ? (
               <div className="flex flex-col items-center justify-center h-64 space-y-3">
                 <Loader2 className="w-8 h-8 text-blue-400 animate-spin" />
