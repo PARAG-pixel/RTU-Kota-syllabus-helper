@@ -21,7 +21,7 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
           <h2 className="text-4xl md:text-5xl font-black gradient-text tracking-tight font-heading leading-tight">
             Targeted Exam Preparation for RTU B.Tech
           </h2>
-          <p className="text-gray-400 text-sm md:text-base leading-relaxed">
+          <p className="text-slate-300 text-sm md:text-base leading-relaxed">
             Diagnose unit-wise knowledge gaps across Part A (2M), Part B (5M), and Part C (10M), calculate Marks at Risk, and synthesize an AI study roadmap.
           </p>
 
@@ -54,7 +54,8 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
                 whileHover={{ y: -4 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => onSelect('branch', branch)}
-                className="glass-card-hover p-8 text-left group relative overflow-hidden flex flex-col justify-between h-full"
+                className="glass-card-hover p-8 text-left group relative overflow-hidden flex flex-col justify-between h-full focus-ring"
+                aria-label={`Select ${isAI ? 'Artificial Intelligence' : 'Computer Science'} branch`}
               >
                 {/* Ambient glow accent */}
                 <div className={`absolute -right-12 -top-12 w-36 h-36 rounded-full blur-3xl opacity-20 pointer-events-none ${
@@ -71,24 +72,24 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
                       {isAI ? <Brain className="w-7 h-7" /> : <Monitor className="w-7 h-7" />}
                     </div>
 
-                    <span className="px-3 py-1 rounded-full text-xs font-semibold bg-white/[0.06] border border-white/[0.1] text-gray-300">
+                    <span className="px-3 py-1 rounded-full text-xs font-semibold bg-white/[0.06] border border-white/[0.1] text-slate-300">
                       B.Tech 2026
                     </span>
                   </div>
 
-                  <h3 className="text-2xl font-bold text-white group-hover:text-cyan-400 transition-colors font-heading">
+                  <h3 className="text-2xl font-bold text-white group-hover:text-cyan-300 transition-colors font-heading">
                     {isAI ? 'Artificial Intelligence (AI)' : 'Computer Science (CSE)'}
                   </h3>
-                  <p className="text-xs text-gray-400 mt-2 leading-relaxed">
+                  <p className="text-xs text-slate-300 mt-2 leading-relaxed font-normal">
                     {branch.branch_name}
                   </p>
                 </div>
 
                 <div className="pt-8 flex items-center justify-between border-t border-white/[0.06] mt-6">
-                  <div className="flex items-center gap-1.5 text-xs text-cyan-400 font-semibold">
+                  <div className="flex items-center gap-1.5 text-xs text-cyan-300 font-semibold">
                     <span>{activeSemesters} Semesters Available</span>
                   </div>
-                  <div className="w-8 h-8 rounded-full bg-white/[0.06] group-hover:bg-cyan-500/20 group-hover:text-cyan-400 text-gray-400 flex items-center justify-center transition-all">
+                  <div className="w-8 h-8 rounded-full bg-white/[0.06] group-hover:bg-cyan-500/20 group-hover:text-cyan-300 text-slate-400 flex items-center justify-center transition-all">
                     <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                   </div>
                 </div>
@@ -114,19 +115,19 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
     return (
       <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-8 max-w-3xl mx-auto">
         <div className="text-center space-y-2">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-500/10 text-blue-400 border border-blue-500/20">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-500/10 text-blue-300 border border-blue-500/20">
             {selectedBranch?.branch_id === 'ai' ? 'Artificial Intelligence' : 'Computer Science & Engineering'}
           </div>
           <h2 className="text-3xl font-bold gradient-text font-heading">Select Academic Semester</h2>
-          <p className="text-gray-400 text-xs md:text-sm">Choose your current semester to access syllabus-aligned diagnostic tests</p>
+          <p className="text-slate-300 text-xs md:text-sm">Choose your current semester to access syllabus-aligned diagnostic tests</p>
         </div>
 
         <div className="space-y-6">
           {years.map(yr => (
             <div key={yr.year} className="glass-card p-5 space-y-3">
-              <div className="flex items-center justify-between text-xs text-gray-400 font-semibold uppercase tracking-wider">
+              <div className="flex items-center justify-between text-xs text-slate-300 font-semibold uppercase tracking-wider">
                 <span>{yr.label} (Year {yr.year})</span>
-                <span className="text-[11px] text-cyan-400">{yr.sems.length} Semesters Active</span>
+                <span className="text-[11px] text-cyan-300">{yr.sems.length} Semesters Active</span>
               </div>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {yr.sems.map((sem, idx) => (
@@ -138,16 +139,17 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ delay: idx * 0.05 }}
                     onClick={() => onSelect('semester', sem)}
-                    className="p-4 rounded-xl bg-white/[0.04] hover:bg-gradient-to-br hover:from-blue-600/20 hover:to-violet-600/20 border border-white/[0.08] hover:border-blue-500/40 text-left transition-all group"
+                    className="p-4 rounded-xl bg-white/[0.04] hover:bg-gradient-to-br hover:from-blue-600/20 hover:to-violet-600/20 border border-white/[0.08] hover:border-blue-500/40 text-left transition-all group focus-ring"
+                    aria-label={`Select Semester ${sem.semester}`}
                   >
                     <div className="flex items-center justify-between">
-                      <span className="text-xs text-gray-400 font-medium">Semester</span>
-                      <ChevronRight className="w-3.5 h-3.5 text-gray-500 group-hover:text-cyan-400 transition-colors" />
+                      <span className="text-xs text-slate-400 font-medium">Semester</span>
+                      <ChevronRight className="w-3.5 h-3.5 text-slate-500 group-hover:text-cyan-300 transition-colors" />
                     </div>
                     <div className="text-2xl font-black text-white mt-1 group-hover:text-cyan-300 font-heading">
                       0{sem.semester}
                     </div>
-                    <div className="text-[10px] text-gray-400 mt-2 flex items-center gap-1">
+                    <div className="text-[10px] text-slate-300 mt-2 flex items-center gap-1">
                       <span className="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
                       <span>{sem.subjects?.length || 0} Core Subjects</span>
                     </div>
@@ -165,11 +167,11 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
     return (
       <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-8 max-w-4xl mx-auto">
         <div className="text-center space-y-2">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-violet-500/10 text-violet-400 border border-violet-500/20">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-violet-500/10 text-violet-300 border border-violet-500/20">
             Semester {selectedSemester?.semester} • Year {selectedSemester?.year}
           </div>
           <h2 className="text-3xl font-bold gradient-text font-heading">Select Subject Assessment</h2>
-          <p className="text-gray-400 text-xs md:text-sm">Each subject diagnostic contains 10 questions mapped directly across all 5 RTU units</p>
+          <p className="text-slate-300 text-xs md:text-sm">Each subject diagnostic contains questions mapped directly across all 5 RTU units</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -182,14 +184,15 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.99 }}
               onClick={() => onSelect('subject', subj)}
-              className="glass-card-hover p-6 text-left group flex flex-col justify-between"
+              className="glass-card-hover p-6 text-left group flex flex-col justify-between focus-ring"
+              aria-label={`Select subject ${subj.name} (${subj.code})`}
             >
               <div>
                 <div className="flex items-center justify-between mb-3">
-                  <span className="text-xs font-mono font-bold text-cyan-400 bg-cyan-500/10 px-2.5 py-1 rounded-lg border border-cyan-500/20">
+                  <span className="text-xs font-mono font-bold text-cyan-300 bg-cyan-500/10 px-2.5 py-1 rounded-lg border border-cyan-500/20">
                     {subj.code}
                   </span>
-                  <span className="text-[11px] font-semibold text-gray-400 bg-white/[0.05] px-2 py-0.5 rounded">
+                  <span className="text-[11px] font-semibold text-slate-300 bg-white/[0.05] px-2 py-0.5 rounded">
                     3 Credits
                   </span>
                 </div>
@@ -198,13 +201,13 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
                 </h3>
               </div>
 
-              <div className="pt-5 mt-4 border-t border-white/[0.06] flex items-center justify-between text-xs text-gray-400">
+              <div className="pt-5 mt-4 border-t border-white/[0.06] flex items-center justify-between text-xs text-slate-400">
                 <div className="flex items-center gap-3">
                   <span>{subj.units?.length || 5} Units</span>
                   <span>•</span>
                   <span>10 Curated MCQs</span>
                 </div>
-                <span className="text-cyan-400 font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                <span className="text-cyan-300 font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
                   Begin Diagnostic →
                 </span>
               </div>
@@ -217,3 +220,4 @@ export default function BranchSelector({ rtuData, onSelect, currentStep, selecti
 
   return null;
 }
+

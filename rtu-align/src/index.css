@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,13 +7,15 @@
 @layer base {
   :root {
     --bg-base: #060913;
-    --bg-surface: rgba(15, 23, 42, 0.65);
+    --bg-surface-1: rgba(15, 23, 42, 0.65);
+    --bg-surface-2: rgba(30, 41, 59, 0.75);
     --border-subtle: rgba(255, 255, 255, 0.08);
     --border-highlight: rgba(255, 255, 255, 0.18);
+    --ring-focus: rgba(59, 130, 246, 0.6);
   }
 
   body {
-    @apply bg-[#060913] text-gray-100 font-sans antialiased selection:bg-accent-blue/30 selection:text-white;
+    @apply bg-[#060913] text-slate-100 font-sans antialiased selection:bg-accent-blue/30 selection:text-white;
     background-image: 
       radial-gradient(ellipse at 15% 0%, rgba(59, 130, 246, 0.15) 0%, transparent 45%),
       radial-gradient(ellipse at 85% 15%, rgba(139, 92, 246, 0.12) 0%, transparent 50%),
@@ -29,7 +31,7 @@
   }
 
   h1, h2, h3, h4, .font-heading {
-    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+    font-family: 'Plus Jakarta Sans', 'Space Grotesk', sans-serif;
   }
 
   code, kbd, pre, .font-mono {
@@ -38,6 +40,11 @@
 }
 
 @layer components {
+  /* High-Visibility Keyboard Focus Ring */
+  .focus-ring {
+    @apply outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#060913] transition-all;
+  }
+
   /* Ambient Grid Background Overlay */
   .bg-grid-pattern {
     background-size: 32px 32px;
@@ -56,7 +63,7 @@
   }
 
   .glass-card-hover {
-    @apply glass-card transition-all duration-300;
+    @apply glass-card transition-all duration-300 focus-ring;
   }
 
   .glass-card-hover:hover {
@@ -84,7 +91,7 @@
   /* Primary Button with Gradient Aura */
   .btn-primary {
     @apply relative px-6 py-3 bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 
-           text-white font-semibold rounded-xl
+           text-white font-semibold rounded-xl focus-ring
            hover:from-blue-500 hover:to-violet-500 active:scale-[0.98]
            transition-all duration-200 
            shadow-lg shadow-blue-500/25 border border-white/20;
@@ -96,31 +103,31 @@
 
   .btn-secondary {
     @apply px-6 py-3 bg-white/[0.05] border border-white/[0.1]
-           text-gray-200 font-medium rounded-xl
+           text-slate-200 font-medium rounded-xl focus-ring
            hover:bg-white/[0.1] hover:border-white/[0.2] hover:text-white
            active:scale-[0.98]
            transition-all duration-200;
   }
 
-  /* Glowing Badges */
+  /* Glowing Badges with WCAG AAA Contrast */
   .badge-critical {
     @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold
-           bg-rose-500/15 text-rose-400 border border-rose-500/30;
+           bg-rose-500/15 text-rose-300 border border-rose-500/30;
   }
 
   .badge-warning {
     @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold
-           bg-amber-500/15 text-amber-400 border border-amber-500/30;
+           bg-amber-500/15 text-amber-300 border border-amber-500/30;
   }
 
   .badge-success {
     @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold
-           bg-emerald-500/15 text-emerald-400 border border-emerald-500/30;
+           bg-emerald-500/15 text-emerald-300 border border-emerald-500/30;
   }
 
   .badge-neutral {
     @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold
-           bg-blue-500/15 text-blue-400 border border-blue-500/30;
+           bg-blue-500/15 text-blue-300 border border-blue-500/30;
   }
 
   /* Smooth Progress Bar */
@@ -135,12 +142,12 @@
 
   /* Quiz Option Cards */
   .option-card {
-    @apply glass-card p-4 cursor-pointer transition-all duration-200
+    @apply glass-card p-4 cursor-pointer transition-all duration-200 focus-ring
            hover:bg-slate-800/70 hover:border-white/[0.15];
   }
 
   .option-card.selected {
-    @apply bg-blue-600/15 border-blue-500/50;
+    @apply bg-blue-600/15 border-blue-500/50 text-white;
     box-shadow: 0 0 24px rgba(59, 130, 246, 0.2);
   }
 
@@ -156,11 +163,11 @@
 
   /* High-Contrast Gradient Texts */
   .gradient-text {
-    @apply bg-gradient-to-r from-blue-400 via-violet-400 to-cyan-400 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-blue-400 via-violet-300 to-cyan-300 bg-clip-text text-transparent;
   }
 
   .gradient-text-amber {
-    @apply bg-gradient-to-r from-amber-300 via-orange-400 to-rose-400 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-amber-300 via-orange-300 to-rose-400 bg-clip-text text-transparent;
   }
 
   .section-divider {
@@ -170,5 +177,60 @@
   /* Glowing ambient nodes */
   .glow-node {
     box-shadow: 0 0 12px currentColor;
+  }
+
+  /* DJ Disco Ball Mirror Facets */
+  .disco-ball {
+    background: radial-gradient(circle at 30% 30%, #ffffff 0%, #cbd5e1 30%, #64748b 70%, #1e293b 100%);
+    box-shadow: 
+      0 0 35px rgba(255, 255, 255, 0.5),
+      0 0 70px rgba(59, 130, 246, 0.4),
+      inset -4px -4px 10px rgba(0, 0, 0, 0.6),
+      inset 4px 4px 10px rgba(255, 255, 255, 0.8);
+  }
+
+  .disco-facet {
+    background-image: 
+      linear-gradient(45deg, rgba(255,255,255,0.4) 25%, transparent 25%),
+      linear-gradient(-45deg, rgba(255,255,255,0.4) 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, rgba(255,255,255,0.4) 75%),
+      linear-gradient(-45deg, transparent 75%, rgba(255,255,255,0.4) 75%);
+    background-size: 8px 8px;
+    background-position: 0 0, 0 4px, 4px -4px, -4px 0px;
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Print Optimization for Revision Sheets */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  nav, footer, .no-print, button:not(.print-keep) {
+    display: none !important;
+  }
+  .glass-card, .bento-card {
+    background: #ffffff !important;
+    border: 1px solid #cccccc !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+  }
+  .text-white, .text-gray-300, .text-gray-400 {
+    color: #111111 !important;
+  }
+  .gradient-text {
+    background: none !important;
+    -webkit-text-fill-color: #000000 !important;
+    color: #000000 !important;
   }
 }

@@ -211,28 +211,28 @@ function App() {
                   <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
                     <div className="space-y-2">
                       <div className="flex items-center gap-2 flex-wrap">
-                        <span className="text-xs font-mono font-bold text-cyan-400 bg-cyan-500/10 px-2.5 py-0.5 rounded-lg border border-cyan-500/20">
+                        <span className="text-xs font-mono font-bold text-cyan-300 bg-cyan-500/10 px-2.5 py-0.5 rounded-lg border border-cyan-500/20">
                           {selectedSubject.code}
                         </span>
-                        <span className="text-xs text-gray-400">
+                        <span className="text-xs text-slate-400">
                           Completed in <span className="text-white font-bold">{quizTime}s</span>
                         </span>
                       </div>
                       <h2 className="text-2xl md:text-3xl font-black text-white font-heading">
                         {selectedSubject.name}
                       </h2>
-                      <p className="text-xs md:text-sm text-gray-400">
+                      <p className="text-xs md:text-sm text-slate-300 leading-relaxed font-normal">
                         Diagnostic assessment evaluated against the official RTU Kota 70/30 Examination Scheme.
                       </p>
                     </div>
 
                     <div className="flex items-center gap-4 bg-slate-950/80 border border-white/[0.08] p-4 rounded-2xl flex-shrink-0">
                       <div className="text-right">
-                        <div className="text-[10px] uppercase tracking-wider text-gray-400 font-semibold">Exam Readiness</div>
+                        <div className="text-[10px] uppercase tracking-wider text-slate-400 font-semibold">Exam Readiness</div>
                         <div className={`text-3xl font-black font-heading ${
-                          quizResults.overallReadiness >= 70 ? 'text-emerald-400' :
-                          quizResults.overallReadiness >= 40 ? 'text-amber-400' :
-                          'text-rose-400'
+                          quizResults.overallReadiness >= 70 ? 'text-emerald-300' :
+                          quizResults.overallReadiness >= 40 ? 'text-amber-300' :
+                          'text-rose-300'
                         }`}>
                           {quizResults.overallReadiness}%
                         </div>
@@ -260,18 +260,27 @@ function App() {
                 <div className="bento-card">
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-base font-bold text-white font-heading">Unit-by-Unit Deep Dive</h3>
-                    <span className="text-xs text-gray-400">5 Syllabus Units</span>
+                    <span className="text-xs text-slate-400">5 Syllabus Units</span>
                   </div>
 
-                  <div className="space-y-3">
+                  <div className="space-y-3" role="list">
                     {quizResults.unitDetails.map(u => (
                       <div 
                         key={u.unit} 
                         onClick={() => handleOpenTutor(u.title, u.unit)}
-                        className="p-4 rounded-xl bg-slate-950/50 border border-white/[0.05] flex items-center gap-4 hover:border-violet-500/40 hover:bg-slate-900/80 transition-all cursor-pointer group"
+                        tabIndex={0}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault();
+                            handleOpenTutor(u.title, u.unit);
+                          }
+                        }}
+                        role="button"
+                        aria-label={`Open AI Topic Tutor for Unit ${u.unit}: ${u.title}`}
+                        className="p-4 rounded-xl bg-slate-950/50 border border-white/[0.05] flex items-center gap-4 hover:border-violet-500/40 hover:bg-slate-900/80 transition-all cursor-pointer group focus-ring"
                         title={`Click to learn "${u.title}" with AI Topic Tutor`}
                       >
-                        <div className="w-9 h-9 rounded-xl bg-white/[0.04] border border-white/[0.08] group-hover:border-violet-500/30 flex items-center justify-center text-xs font-bold text-gray-300 group-hover:text-cyan-300 font-mono flex-shrink-0">
+                        <div className="w-9 h-9 rounded-xl bg-white/[0.04] border border-white/[0.08] group-hover:border-violet-500/30 flex items-center justify-center text-xs font-bold text-slate-300 group-hover:text-cyan-300 font-mono flex-shrink-0">
                           U{u.unit}
                         </div>
 
@@ -286,16 +295,16 @@ function App() {
                                   <Flame className="w-2.5 h-2.5 mr-0.5" /> High Yield
                                 </span>
                               )}
-                              <span className="text-[10px] text-violet-400 font-medium hidden sm:inline-flex opacity-0 group-hover:opacity-100 transition-opacity">
+                              <span className="text-[10px] text-violet-300 font-medium hidden sm:inline-flex opacity-0 group-hover:opacity-100 transition-opacity">
                                 • Ask AI Tutor →
                               </span>
                             </div>
 
                             <div className="flex items-center gap-2 flex-shrink-0">
                               <span className={`text-xs font-bold font-mono ${
-                                u.status === 'strong' ? 'text-emerald-400' :
-                                u.status === 'moderate' ? 'text-amber-400' :
-                                'text-rose-400'
+                                u.status === 'strong' ? 'text-emerald-300' :
+                                u.status === 'moderate' ? 'text-amber-300' :
+                                'text-rose-300'
                               }`}>
                                 {u.score}%
                               </span>
@@ -309,7 +318,14 @@ function App() {
                             </div>
                           </div>
 
-                          <div className="h-1.5 rounded-full bg-slate-800 overflow-hidden">
+                          <div 
+                            className="h-1.5 rounded-full bg-slate-800 overflow-hidden"
+                            role="progressbar"
+                            aria-valuenow={u.score}
+                            aria-valuemin={0}
+                            aria-valuemax={100}
+                            aria-label={`Unit ${u.unit} score`}
+                          >
                             <motion.div
                               initial={{ width: 0 }}
                               animate={{ width: `${u.score}%` }}
