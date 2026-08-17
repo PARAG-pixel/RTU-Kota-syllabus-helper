@@ -13,255 +13,94 @@
   ],
   "semesters": [
     {
-      "id": "587427ce-9a55-49b9-ae07-6b1d1a31162c",
+      "id": "f9043a3c-9d78-4065-8980-a68cb8bce88f",
       "branch_id": "cse",
       "semester": 1,
       "year": 1
     },
     {
-      "id": "c4809176-a737-42ef-be4b-0d7629615fd0",
+      "id": "664c5d9b-61f5-4a29-b775-31ef24c609d4",
       "branch_id": "cse",
       "semester": 3,
       "year": 2
     },
     {
-      "id": "0e122810-7598-4bc7-ae4c-a31d97838adc",
+      "id": "b20fbd33-892f-4525-ac55-ef6926d69edc",
       "branch_id": "cse",
       "semester": 4,
       "year": 2
     },
     {
-      "id": "bdeec32d-e5ab-4033-aaf8-454890a49f46",
+      "id": "3cc3d5d0-6650-4c40-b54d-e730520cea51",
       "branch_id": "cse",
       "semester": 5,
       "year": 3
     },
     {
-      "id": "566f7aaf-dde2-4859-a512-b3dd0cf37757",
+      "id": "9e7d74a3-f2e2-41b0-a92c-b012f5a9404f",
       "branch_id": "cse",
       "semester": 6,
       "year": 3
     },
     {
-      "id": "6cc30f0d-a0cb-4df3-b9fe-5afbfdd96a64",
+      "id": "35a3a6a7-7ab2-4eaa-8e90-dd260aa5f467",
       "branch_id": "cse",
       "semester": 7,
       "year": 4
     },
     {
-      "id": "2a86ca40-369b-44f1-96e6-08e3d0f7b49a",
+      "id": "77c914ad-788c-4c49-95cb-95b3c57641f0",
       "branch_id": "cse",
       "semester": 8,
       "year": 4
     },
     {
-      "id": "0ab00bb6-0190-4630-9228-6c39433043b8",
+      "id": "8948d87f-4ea1-4e9b-be09-db3dc57a145a",
       "branch_id": "ai",
       "semester": 1,
       "year": 1
     },
     {
-      "id": "ac0bf884-cea2-4fa6-8050-da9b3dfb3b37",
+      "id": "c642f519-fb06-4314-87b3-85f87f58965f",
       "branch_id": "ai",
       "semester": 3,
       "year": 2
     },
     {
-      "id": "d7a194e4-01b6-441f-892b-d475a202cdcb",
+      "id": "f29d2bf5-1545-42a0-b004-a7b43ba407a4",
       "branch_id": "ai",
       "semester": 4,
       "year": 2
     },
     {
-      "id": "45022f57-583a-4423-947f-c602d6f8a167",
+      "id": "76c29da6-5917-4677-9e61-30381e872155",
       "branch_id": "ai",
       "semester": 5,
       "year": 3
     },
     {
-      "id": "babefa5d-3f92-4774-845d-879f456e1f57",
+      "id": "868c8847-b6be-40c2-af50-11d4c161bf0b",
       "branch_id": "ai",
       "semester": 6,
       "year": 3
     },
     {
-      "id": "07d177ae-abb9-4cd5-9aeb-5edb9e3e5ef4",
+      "id": "f125cedf-bfbf-4a70-a53c-778e12f18b9c",
       "branch_id": "ai",
       "semester": 7,
       "year": 4
     },
     {
-      "id": "e314c40c-e9aa-4bf5-bbf7-4adb5af9225c",
+      "id": "6e3aed87-1bbe-4c36-be96-3da1d9e3f88b",
       "branch_id": "ai",
       "semester": 8,
       "year": 4
     }
   ],
-  "subjects": [
-    {
-      "code": "1FY2-01",
-      "semester_id": "587427ce-9a55-49b9-ae07-6b1d1a31162c",
-      "name": "Engineering Mathematics-I) ON CONFLICT (code"
-    },
-    {
-      "code": "1FY2-02",
-      "semester_id": "587427ce-9a55-49b9-ae07-6b1d1a31162c",
-      "name": "Engineering Physics) ON CONFLICT (code"
-    },
-    {
-      "code": "1FY3-06",
-      "semester_id": "587427ce-9a55-49b9-ae07-6b1d1a31162c",
-      "name": "Programming for Problem Solving (C)) ON CONFLICT (code"
-    },
-    {
-      "code": "1FY3-08",
-      "semester_id": "587427ce-9a55-49b9-ae07-6b1d1a31162c",
-      "name": "Basic Electrical Engineering) ON CONFLICT (code"
-    },
-    {
-      "code": "3CS3-04",
-      "semester_id": "c4809176-a737-42ef-be4b-0d7629615fd0",
-      "name": "Digital Electronics) ON CONFLICT (code"
-    },
-    {
-      "code": "3CS4-05",
-      "semester_id": "c4809176-a737-42ef-be4b-0d7629615fd0",
-      "name": "Data Structures & Algorithms) ON CONFLICT (code"
-    },
-    {
-      "code": "3CS4-06",
-      "semester_id": "c4809176-a737-42ef-be4b-0d7629615fd0",
-      "name": "Object Oriented Programming (C++)) ON CONFLICT (code"
-    },
-    {
-      "code": "3CS4-07",
-      "semester_id": "c4809176-a737-42ef-be4b-0d7629615fd0",
-      "name": "Software Engineering) ON CONFLICT (code"
-    },
-    {
-      "code": "4CS4-05",
-      "semester_id": "0e122810-7598-4bc7-ae4c-a31d97838adc",
-      "name": "Database Management Systems) ON CONFLICT (code"
-    },
-    {
-      "code": "4CS4-06",
-      "semester_id": "0e122810-7598-4bc7-ae4c-a31d97838adc",
-      "name": "Theory of Computation) ON CONFLICT (code"
-    },
-    {
-      "code": "4CS4-07",
-      "semester_id": "0e122810-7598-4bc7-ae4c-a31d97838adc",
-      "name": "Computer Networks) ON CONFLICT (code"
-    },
-    {
-      "code": "4CS3-04",
-      "semester_id": "0e122810-7598-4bc7-ae4c-a31d97838adc",
-      "name": "Microprocessor & Interfaces (8085)) ON CONFLICT (code"
-    },
-    {
-      "code": "5CS4-03",
-      "semester_id": "bdeec32d-e5ab-4033-aaf8-454890a49f46",
-      "name": "Operating Systems) ON CONFLICT (code"
-    },
-    {
-      "code": "5CS4-02",
-      "semester_id": "bdeec32d-e5ab-4033-aaf8-454890a49f46",
-      "name": "Compiler Design) ON CONFLICT (code"
-    },
-    {
-      "code": "5CS4-05",
-      "semester_id": "bdeec32d-e5ab-4033-aaf8-454890a49f46",
-      "name": "Analysis of Algorithms (DAA)) ON CONFLICT (code"
-    },
-    {
-      "code": "6CS4-02",
-      "semester_id": "566f7aaf-dde2-4859-a512-b3dd0cf37757",
-      "name": "Machine Learning) ON CONFLICT (code"
-    },
-    {
-      "code": "6CS4-05",
-      "semester_id": "566f7aaf-dde2-4859-a512-b3dd0cf37757",
-      "name": "Artificial Intelligence) ON CONFLICT (code"
-    },
-    {
-      "code": "6CS4-06",
-      "semester_id": "566f7aaf-dde2-4859-a512-b3dd0cf37757",
-      "name": "Cloud Computing) ON CONFLICT (code"
-    },
-    {
-      "code": "7CS4-01",
-      "semester_id": "6cc30f0d-a0cb-4df3-b9fe-5afbfdd96a64",
-      "name": "Internet of Things (IoT)) ON CONFLICT (code"
-    },
-    {
-      "code": "7CS5-11",
-      "semester_id": "6cc30f0d-a0cb-4df3-b9fe-5afbfdd96a64",
-      "name": "Big Data Analytics) ON CONFLICT (code"
-    },
-    {
-      "code": "8CS5-11",
-      "semester_id": "2a86ca40-369b-44f1-96e6-08e3d0f7b49a",
-      "name": "Blockchain Technology) ON CONFLICT (code"
-    },
-    {
-      "code": "3CAI2-01",
-      "semester_id": "ac0bf884-cea2-4fa6-8050-da9b3dfb3b37",
-      "name": "Advanced Engg Math (Linear Algebra for AI)) ON CONFLICT (code"
-    },
-    {
-      "code": "3CAI4-05",
-      "semester_id": "ac0bf884-cea2-4fa6-8050-da9b3dfb3b37",
-      "name": "Data Structures & Algorithms) ON CONFLICT (code"
-    },
-    {
-      "code": "3CAI4-07",
-      "semester_id": "ac0bf884-cea2-4fa6-8050-da9b3dfb3b37",
-      "name": "Python Programming for AI & Data Science) ON CONFLICT (code"
-    },
-    {
-      "code": "4CAI4-07",
-      "semester_id": "d7a194e4-01b6-441f-892b-d475a202cdcb",
-      "name": "Probability & Statistics for AI) ON CONFLICT (code"
-    },
-    {
-      "code": "5CAI4-04",
-      "semester_id": "45022f57-583a-4423-947f-c602d6f8a167",
-      "name": "Principles of AI & Knowledge Representation) ON CONFLICT (code"
-    },
-    {
-      "code": "5CAI4-05",
-      "semester_id": "45022f57-583a-4423-947f-c602d6f8a167",
-      "name": "Analysis of Algorithms (DAA)) ON CONFLICT (code"
-    },
-    {
-      "code": "6CAI4-02",
-      "semester_id": "babefa5d-3f92-4774-845d-879f456e1f57",
-      "name": "Machine Learning) ON CONFLICT (code"
-    },
-    {
-      "code": "6CAI4-05",
-      "semester_id": "babefa5d-3f92-4774-845d-879f456e1f57",
-      "name": "Deep Learning & Neural Networks) ON CONFLICT (code"
-    },
-    {
-      "code": "7CAI4-01",
-      "semester_id": "07d177ae-abb9-4cd5-9aeb-5edb9e3e5ef4",
-      "name": "Natural Language Processing) ON CONFLICT (code"
-    },
-    {
-      "code": "7CAI5-12",
-      "semester_id": "07d177ae-abb9-4cd5-9aeb-5edb9e3e5ef4",
-      "name": "Reinforcement Learning) ON CONFLICT (code"
-    },
-    {
-      "code": "8CAI5-11",
-      "semester_id": "e314c40c-e9aa-4bf5-bbf7-4adb5af9225c",
-      "name": "Generative AI & Large Language Models) ON CONFLICT (code"
-    }
-  ],
+  "subjects": [],
   "units": [
     {
-      "id": "b6b135db-5e69-4481-8ddb-415f60194cd6",
+      "id": "d1f24ae1-2644-4aef-946f-12ecc828a31d",
       "subject_code": "1FY2-01",
       "number": 1,
       "title": "Differential Calculus-I",
@@ -274,7 +113,7 @@
       "high_yield": 3
     },
     {
-      "id": "0af67c59-d7dc-4130-a235-d926e760c184",
+      "id": "a7d127ba-e8d5-43eb-8f7d-67f766d70433",
       "subject_code": "1FY2-01",
       "number": 2,
       "title": "Differential Calculus-II",
@@ -287,7 +126,7 @@
       "high_yield": 1
     },
     {
-      "id": "f4931d17-2e46-47db-9f0f-7a96afea1082",
+      "id": "91398e6d-de63-4016-8afd-8a9d47c1d5ee",
       "subject_code": "1FY2-01",
       "number": 3,
       "title": "Integral Calculus-I",
@@ -300,7 +139,7 @@
       "high_yield": 3
     },
     {
-      "id": "f51a655f-d288-48c9-8683-958f993cd771",
+      "id": "454b544c-c4d4-4b6e-a688-c3224cad200b",
       "subject_code": "1FY2-01",
       "number": 4,
       "title": "Integral Calculus-II",
@@ -313,7 +152,7 @@
       "high_yield": 2
     },
     {
-      "id": "b82cea58-5155-4d08-9a8a-078721452cab",
+      "id": "f164d3d6-a559-4dc7-8957-894b62c5804b",
       "subject_code": "1FY2-01",
       "number": 5,
       "title": "Vector Calculus",
@@ -326,7 +165,7 @@
       "high_yield": 1
     },
     {
-      "id": "99ba36e4-55b1-42da-9cdc-0be1559d7126",
+      "id": "b0415249-9a1e-40dc-9091-c1e1000f9fc0",
       "subject_code": "1FY2-02",
       "number": 1,
       "title": "Wave Optics",
@@ -339,7 +178,7 @@
       "high_yield": 2
     },
     {
-      "id": "054732ed-6f10-4b82-b375-0a058faa37a3",
+      "id": "2b6c0ebd-3756-4793-8cc0-1c8379096cf8",
       "subject_code": "1FY2-02",
       "number": 2,
       "title": "Quantum Mechanics",
@@ -352,7 +191,7 @@
       "high_yield": 1
     },
     {
-      "id": "8c3fff09-559e-41d0-ba16-b36189977b79",
+      "id": "40c566c0-24c1-4976-8fb0-15a229f85277",
       "subject_code": "1FY2-02",
       "number": 3,
       "title": "Coherence & Lasers",
@@ -365,7 +204,7 @@
       "high_yield": 2
     },
     {
-      "id": "2183989b-af88-4a9a-b8b1-dc8ea74829d9",
+      "id": "62fdd5cd-26e7-441f-b679-233b5f0504f6",
       "subject_code": "1FY2-02",
       "number": 4,
       "title": "Optical Fibers",
@@ -378,7 +217,7 @@
       "high_yield": 2
     },
     {
-      "id": "e0d86487-3544-4088-94d0-04e878178187",
+      "id": "2e85c793-4962-4616-bf4b-fabea90f87ee",
       "subject_code": "1FY2-02",
       "number": 5,
       "title": "Material Science & Electromagnetism",
@@ -391,7 +230,7 @@
       "high_yield": 3
     },
     {
-      "id": "d29099c8-4459-47c6-ad62-2354770f6d7b",
+      "id": "01088c1c-5229-40f4-bd64-f0449890ed65",
       "subject_code": "1FY3-06",
       "number": 1,
       "title": "Fundamentals & Flow of Control",
@@ -404,7 +243,7 @@
       "high_yield": 3
     },
     {
-      "id": "e3cba3db-87b6-4f74-a3d3-6bc198ebb1b8",
+      "id": "91678a08-ae82-4176-8f95-e568feeefc8e",
       "subject_code": "1FY3-06",
       "number": 2,
       "title": "Arrays & Strings",
@@ -417,7 +256,7 @@
       "high_yield": 2
     },
     {
-      "id": "e014fb79-e8e0-44fc-af02-7750c0ef8a7f",
+      "id": "211356f3-bd7b-4bc9-8581-979ae4d03b43",
       "subject_code": "1FY3-06",
       "number": 3,
       "title": "Functions & Recursion",
@@ -430,7 +269,7 @@
       "high_yield": 1
     },
     {
-      "id": "fc2c7c14-60d2-47ac-8ed3-8f29db07de44",
+      "id": "80ac904e-041c-4179-9fac-26c15bcb0f46",
       "subject_code": "1FY3-06",
       "number": 4,
       "title": "Pointers & Dynamic Memory",
@@ -443,7 +282,7 @@
       "high_yield": 1
     },
     {
-      "id": "b1a44a8d-2f30-4bce-b5ca-6f446ecb2cbf",
+      "id": "f0be1b6f-7839-434a-8f9b-dcdb8d01867c",
       "subject_code": "1FY3-06",
       "number": 5,
       "title": "Structures, Unions & File Handling",
@@ -456,7 +295,7 @@
       "high_yield": 2
     },
     {
-      "id": "5fde28d0-3324-44be-a93a-eee90de9eb5a",
+      "id": "add84f0c-06e5-4244-a19b-6b94e359805d",
       "subject_code": "1FY3-08",
       "number": 1,
       "title": "DC Circuits",
@@ -469,7 +308,7 @@
       "high_yield": 1
     },
     {
-      "id": "c596bdd4-1c4c-447c-acc3-c8c15a5f37c0",
+      "id": "acd556f6-4968-4e59-9271-9ce9d3bdad3a",
       "subject_code": "1FY3-08",
       "number": 2,
       "title": "AC Circuits",
@@ -482,7 +321,7 @@
       "high_yield": 2
     },
     {
-      "id": "68178df3-09a3-4b26-96ac-709325b2dedd",
+      "id": "a696019b-af74-48de-96f4-cae0a28e8025",
       "subject_code": "1FY3-08",
       "number": 3,
       "title": "Transformers",
@@ -495,7 +334,7 @@
       "high_yield": 1
     },
     {
-      "id": "9ca5bf3c-f89b-4ab6-bbc6-28762e499f05",
+      "id": "755323d9-34cc-4b38-be34-f22a549b61cd",
       "subject_code": "1FY3-08",
       "number": 4,
       "title": "Electrical Machines",
@@ -508,7 +347,7 @@
       "high_yield": 2
     },
     {
-      "id": "557f1938-5112-42f2-851d-303d0b5526be",
+      "id": "849d664e-321d-487c-8da7-537ed61a52d3",
       "subject_code": "1FY3-08",
       "number": 5,
       "title": "Power Converters & Safety",
@@ -521,7 +360,7 @@
       "high_yield": 3
     },
     {
-      "id": "dfe3c3a1-d7ee-43b3-871a-9d99b0145074",
+      "id": "dd5eb354-70bd-467f-b23d-f8e8f82f4e96",
       "subject_code": "3CS3-04",
       "number": 1,
       "title": "Number Systems & Boolean Algebra",
@@ -534,7 +373,7 @@
       "high_yield": 2
     },
     {
-      "id": "38ff70c5-697a-44bf-944d-21c25d56a657",
+      "id": "fde38884-55de-4ebf-8120-f938199dcad9",
       "subject_code": "3CS3-04",
       "number": 2,
       "title": "Logic Families & Characteristics",
@@ -547,7 +386,7 @@
       "high_yield": 3
     },
     {
-      "id": "ee369fa3-257a-4f39-a45f-935222358f7d",
+      "id": "d1684d92-27ab-4436-806e-05dbe376719a",
       "subject_code": "3CS3-04",
       "number": 3,
       "title": "Minimization Techniques",
@@ -560,7 +399,7 @@
       "high_yield": 1
     },
     {
-      "id": "1fc43194-c1d8-4aee-b8d7-0f0ed54b2536",
+      "id": "1dbec949-ced8-4364-8c9a-5403674b5f81",
       "subject_code": "3CS3-04",
       "number": 4,
       "title": "Combinational Logic Circuits",
@@ -573,7 +412,7 @@
       "high_yield": 1
     },
     {
-      "id": "20fd7974-3053-44d6-8787-df1c9d31e53f",
+      "id": "639c166b-ae7f-49db-9b8d-bc024db6fca3",
       "subject_code": "3CS3-04",
       "number": 5,
       "title": "Sequential Circuits & Flip-Flops",
@@ -586,7 +425,7 @@
       "high_yield": 2
     },
     {
-      "id": "5b1e7e07-0093-4149-baba-cea519fb5f35",
+      "id": "e0f09081-20a7-4f30-898e-973eadbb1aab",
       "subject_code": "3CS4-05",
       "number": 1,
       "title": "Stacks & Applications",
@@ -599,7 +438,7 @@
       "high_yield": 2
     },
     {
-      "id": "d6eb1fd2-3abf-4001-a988-4b099934eafa",
+      "id": "6cd2313d-5c5d-43f8-9fb8-8283c8bd9408",
       "subject_code": "3CS4-05",
       "number": 2,
       "title": "Queues & Linked Lists",
@@ -612,7 +451,7 @@
       "high_yield": 2
     },
     {
-      "id": "434c253c-f896-4400-adf9-824fe0ec516a",
+      "id": "24be5a67-bf6a-411f-8782-1f835831c027",
       "subject_code": "3CS4-05",
       "number": 3,
       "title": "Searching & Sorting",
@@ -625,7 +464,7 @@
       "high_yield": 2
     },
     {
-      "id": "d377e429-0cf1-4f43-b5c0-d666dda73e6f",
+      "id": "f735e596-526c-4bb0-bff5-a3c5c270e0e4",
       "subject_code": "3CS4-05",
       "number": 4,
       "title": "Trees & AVL Trees",
@@ -638,7 +477,7 @@
       "high_yield": 1
     },
     {
-      "id": "eb8c237e-4d63-498f-af15-ace67d95cffb",
+      "id": "d2a4d992-8011-429a-baf4-a7fef2868601",
       "subject_code": "3CS4-05",
       "number": 5,
       "title": "Graphs & Hashing",
@@ -651,7 +490,7 @@
       "high_yield": 1
     },
     {
-      "id": "0785954c-8638-4335-ae4c-da4f978c282a",
+      "id": "aa322d0e-312f-46f7-b968-e600e47181c6",
       "subject_code": "3CS4-06",
       "number": 1,
       "title": "OOP Principles & C++ Foundations",
@@ -664,7 +503,7 @@
       "high_yield": 2
     },
     {
-      "id": "e1031b79-e3ca-4351-89a6-7e8e6678cf24",
+      "id": "4fd86dba-33af-4bfc-8fba-6228247105c6",
       "subject_code": "3CS4-06",
       "number": 2,
       "title": "Inheritance & Operator Overloading",
@@ -677,7 +516,7 @@
       "high_yield": 1
     },
     {
-      "id": "393816ef-d42c-4598-9a20-a29dba3660db",
+      "id": "1071bb5b-7ec6-4df3-b163-b61d00faf5d6",
       "subject_code": "3CS4-06",
       "number": 3,
       "title": "Polymorphism & Virtual Functions",
@@ -690,7 +529,7 @@
       "high_yield": 1
     },
     {
-      "id": "1b055d71-6b6e-4382-87ee-f0ef17c9b441",
+      "id": "1ffb1782-00c5-46a7-a3c8-4ab006e1de39",
       "subject_code": "3CS4-06",
       "number": 4,
       "title": "Templates & Exception Handling",
@@ -703,7 +542,7 @@
       "high_yield": 2
     },
     {
-      "id": "7744e3f8-22ce-4cd3-bb95-ebdc361d0dcf",
+      "id": "5c3c18a9-0c61-487d-aaa6-f9f7291523d0",
       "subject_code": "3CS4-06",
       "number": 5,
       "title": "Streams & STL",
@@ -716,7 +555,7 @@
       "high_yield": 3
     },
     {
-      "id": "b7bce67e-5d40-47ac-90db-fa69b1550dd2",
+      "id": "4fb009be-4550-45e3-897c-7042b8e84f0e",
       "subject_code": "3CS4-07",
       "number": 1,
       "title": "Software Process Models",
@@ -729,7 +568,7 @@
       "high_yield": 1
     },
     {
-      "id": "eb7217a9-4e7d-4502-9956-e944947dcbed",
+      "id": "921341bf-360d-4ffd-a0f4-3573174d54c9",
       "subject_code": "3CS4-07",
       "number": 2,
       "title": "Requirements Engineering",
@@ -742,7 +581,7 @@
       "high_yield": 2
     },
     {
-      "id": "08ae41a0-bccb-4230-9e5f-e6fe81525f92",
+      "id": "e2d0278c-6fe3-4b67-976c-c4e4b14693d5",
       "subject_code": "3CS4-07",
       "number": 3,
       "title": "Project Management & Metrics",
@@ -755,7 +594,7 @@
       "high_yield": 1
     },
     {
-      "id": "b564b455-41db-4e9a-b7b3-6f6d482598fc",
+      "id": "55089837-d4c5-4639-9f99-300eec6ff62e",
       "subject_code": "3CS4-07",
       "number": 4,
       "title": "Software Design & Architecture",
@@ -768,7 +607,7 @@
       "high_yield": 2
     },
     {
-      "id": "63d03324-b14e-4776-851f-7d183a4224c7",
+      "id": "f5638911-fe42-4bde-a19c-ece34d88ebe3",
       "subject_code": "3CS4-07",
       "number": 5,
       "title": "Testing & Maintenance",
@@ -781,7 +620,7 @@
       "high_yield": 2
     },
     {
-      "id": "a2ca0388-2c4a-4a79-a5c6-a346e05bd5f0",
+      "id": "018005c3-2189-4a1a-8fb1-cb60a7141c69",
       "subject_code": "4CS4-05",
       "number": 1,
       "title": "Conceptual Data Modeling",
@@ -794,7 +633,7 @@
       "high_yield": 2
     },
     {
-      "id": "0f0a77a8-72b4-4bce-9b15-7c4a288e1e6a",
+      "id": "02d411b7-46e9-4587-b766-8d39053261a4",
       "subject_code": "4CS4-05",
       "number": 2,
       "title": "Relational Model & SQL",
@@ -807,7 +646,7 @@
       "high_yield": 2
     },
     {
-      "id": "2ae00d25-55c4-4283-b00f-f2501e5ab69c",
+      "id": "82bbbe2b-e747-4c7a-8246-96dc17180711",
       "subject_code": "4CS4-05",
       "number": 3,
       "title": "Normalization",
@@ -820,7 +659,7 @@
       "high_yield": 1
     },
     {
-      "id": "39b6688f-cfa2-40fa-8e5c-4785c25718d2",
+      "id": "89cec325-221d-4522-9254-c8805cbd2a6d",
       "subject_code": "4CS4-05",
       "number": 4,
       "title": "Transactions & Concurrency",
@@ -833,7 +672,7 @@
       "high_yield": 1
     },
     {
-      "id": "72fe13cd-241a-4614-9069-80052ec389a8",
+      "id": "936e6d98-2cb2-43b5-a669-f5cfbfcd4a8b",
       "subject_code": "4CS4-05",
       "number": 5,
       "title": "Indexing & Recovery",
@@ -846,7 +685,7 @@
       "high_yield": 2
     },
     {
-      "id": "264b33e4-6cd3-4af5-a58c-17aaf7059ee6",
+      "id": "641347bf-8e77-4ae1-b765-896efdf360ae",
       "subject_code": "4CS4-06",
       "number": 1,
       "title": "Finite Automata",
@@ -859,7 +698,7 @@
       "high_yield": 1
     },
     {
-      "id": "8a79c0f0-6fcc-4a4a-a9ac-6213f2827000",
+      "id": "1415810f-e0e9-4957-a348-b623bfd7c5aa",
       "subject_code": "4CS4-06",
       "number": 2,
       "title": "Regular Expressions",
@@ -872,7 +711,7 @@
       "high_yield": 2
     },
     {
-      "id": "6d7c13ba-24ff-4cf3-9b11-40a95d7359bd",
+      "id": "4367575f-9b1b-4f37-95e8-af8cd5cadce3",
       "subject_code": "4CS4-06",
       "number": 3,
       "title": "Context-Free Grammars",
@@ -885,7 +724,7 @@
       "high_yield": 2
     },
     {
-      "id": "7fd154df-94fa-4096-b19f-1e9cb2a498eb",
+      "id": "0b4b5d8b-d9c2-4704-b22b-c1a351f6ff02",
       "subject_code": "4CS4-06",
       "number": 4,
       "title": "Pushdown Automata",
@@ -898,7 +737,7 @@
       "high_yield": 1
     },
     {
-      "id": "d22cb9a5-a4ec-421e-bb48-4b079933f025",
+      "id": "9b28965a-727d-4889-824a-bdbbf46bdbbb",
       "subject_code": "4CS4-06",
       "number": 5,
       "title": "Turing Machines",
@@ -911,7 +750,7 @@
       "high_yield": 2
     },
     {
-      "id": "df94cc3d-d6bc-472c-ab70-9f418bf6e404",
+      "id": "a1451bdb-3f7e-4bb8-9e60-b3fc41f4d9fd",
       "subject_code": "4CS4-07",
       "number": 1,
       "title": "Physical Layer & Network Models",
@@ -924,7 +763,7 @@
       "high_yield": 2
     },
     {
-      "id": "4bc85f06-a944-450e-827e-a9b2d9146bab",
+      "id": "32abecfd-a5be-42a9-9311-b3ba04b926a8",
       "subject_code": "4CS4-07",
       "number": 2,
       "title": "Data Link Layer & MAC",
@@ -937,7 +776,7 @@
       "high_yield": 1
     },
     {
-      "id": "0cc8f931-96a5-46fb-80df-5ed52de1f16a",
+      "id": "bb810b6f-ccf6-4e3c-8336-aa774727c329",
       "subject_code": "4CS4-07",
       "number": 3,
       "title": "Network Layer & IP",
@@ -950,7 +789,7 @@
       "high_yield": 1
     },
     {
-      "id": "9ad1b0e8-25cb-439f-ac33-273960aa8ca2",
+      "id": "24b45897-1700-40ad-8aa6-8505f26ab208",
       "subject_code": "4CS4-07",
       "number": 4,
       "title": "Transport Layer",
@@ -963,7 +802,7 @@
       "high_yield": 2
     },
     {
-      "id": "9e49bf0d-abc3-4138-8db4-4dc77c1d2aa0",
+      "id": "87c0fc72-f95f-4b48-826b-957a2d649bc2",
       "subject_code": "4CS4-07",
       "number": 5,
       "title": "Application Layer & Security",
@@ -976,7 +815,7 @@
       "high_yield": 2
     },
     {
-      "id": "770fc329-ee06-4890-8982-a1e02501448a",
+      "id": "57bd414a-4ffb-4786-8101-b1f6b1eb2a95",
       "subject_code": "4CS3-04",
       "number": 1,
       "title": "8085 Architecture",
@@ -989,7 +828,7 @@
       "high_yield": 1
     },
     {
-      "id": "27abc4d8-1321-48a2-9041-a4ed826d7c62",
+      "id": "07331432-7ed6-41b5-89f9-85c27790967d",
       "subject_code": "4CS3-04",
       "number": 2,
       "title": "Instruction Set & Addressing",
@@ -1002,7 +841,7 @@
       "high_yield": 2
     },
     {
-      "id": "61c30e2a-b522-46b0-814a-fdf0026b6e3c",
+      "id": "be560dd6-c202-4d08-b2c2-9d975990fbe2",
       "subject_code": "4CS3-04",
       "number": 3,
       "title": "Bus Timing & Instruction Cycles",
@@ -1015,7 +854,7 @@
       "high_yield": 2
     },
     {
-      "id": "3f596b18-dee4-4206-b117-9eb6f834e1c8",
+      "id": "b9f2c06c-b919-4e30-b9d6-87f43ea07f12",
       "subject_code": "4CS3-04",
       "number": 4,
       "title": "Memory & I/O Interfacing",
@@ -1028,7 +867,7 @@
       "high_yield": 1
     },
     {
-      "id": "9a40c8cf-e69a-4578-baab-37cf8d9cc08d",
+      "id": "ece77d61-e746-4688-a6e6-e1bd282205d0",
       "subject_code": "4CS3-04",
       "number": 5,
       "title": "Interrupts & Peripherals",
@@ -1041,7 +880,7 @@
       "high_yield": 2
     },
     {
-      "id": "f75b91a3-1e05-435b-ab56-e6c58383a0f7",
+      "id": "32ff7f49-ab35-47a4-82ce-d9e79fdc9ee9",
       "subject_code": "5CS4-03",
       "number": 1,
       "title": "OS Introduction & System Structures",
@@ -1054,7 +893,7 @@
       "high_yield": 2
     },
     {
-      "id": "1102d296-b30a-4ec7-8697-c08f179fe812",
+      "id": "17e9c411-3765-4235-8291-014d5de23544",
       "subject_code": "5CS4-03",
       "number": 2,
       "title": "Process Management & Synchronization",
@@ -1067,7 +906,7 @@
       "high_yield": 2
     },
     {
-      "id": "e86e6ad9-ca16-4625-8f3c-7be97c776e9a",
+      "id": "5d866720-f06e-415a-b8de-9081fb464544",
       "subject_code": "5CS4-03",
       "number": 3,
       "title": "CPU Scheduling & Deadlocks",
@@ -1080,7 +919,7 @@
       "high_yield": 1
     },
     {
-      "id": "c8167189-3c67-44dd-8d5a-c333cc104d47",
+      "id": "52606349-e3a3-4e72-99bf-98c2e40bb805",
       "subject_code": "5CS4-03",
       "number": 4,
       "title": "Memory Management & Virtual Memory",
@@ -1093,7 +932,7 @@
       "high_yield": 1
     },
     {
-      "id": "f41233a6-d323-46fa-865b-63c8676263fa",
+      "id": "45e9b7fe-e990-4903-9f41-65273d0866f9",
       "subject_code": "5CS4-03",
       "number": 5,
       "title": "Storage & Disk Scheduling",
@@ -1106,7 +945,7 @@
       "high_yield": 2
     },
     {
-      "id": "40942455-045e-4588-9356-697e073b272d",
+      "id": "42641bde-3870-446d-bc3e-abdd77e5482f",
       "subject_code": "5CS4-02",
       "number": 1,
       "title": "Compilers & Lexical Analysis",
@@ -1119,7 +958,7 @@
       "high_yield": 2
     },
     {
-      "id": "276fa093-c4ec-47b8-a6c0-d2e89abcfac1",
+      "id": "235148f4-8b50-47ab-8c75-2eab89e373d3",
       "subject_code": "5CS4-02",
       "number": 2,
       "title": "Syntax Analysis (Parsing)",
@@ -1132,7 +971,7 @@
       "high_yield": 1
     },
     {
-      "id": "d729f545-aced-475f-af4a-e456f7f8d326",
+      "id": "202548ae-dbbb-4f26-942f-09239c971ac5",
       "subject_code": "5CS4-02",
       "number": 3,
       "title": "SDT & Intermediate Code",
@@ -1145,7 +984,7 @@
       "high_yield": 2
     },
     {
-      "id": "974d545b-871d-41ff-b6ec-744889ba4aca",
+      "id": "fd8f0988-80b3-41d7-a252-fc6ac49d9dfe",
       "subject_code": "5CS4-02",
       "number": 4,
       "title": "Symbol Table & Runtime",
@@ -1158,7 +997,7 @@
       "high_yield": 3
     },
     {
-      "id": "004946c3-a490-46cb-bb6a-8e807d36b031",
+      "id": "9f7dadfd-18b3-49ee-9dd5-a6081cb98273",
       "subject_code": "5CS4-02",
       "number": 5,
       "title": "Code Optimization & Generation",
@@ -1171,7 +1010,7 @@
       "high_yield": 2
     },
     {
-      "id": "1061a866-4321-4c5c-b51a-5968a82add17",
+      "id": "4e53eb8b-ff31-44b5-8560-15b8fb7d02e1",
       "subject_code": "5CS4-05",
       "number": 1,
       "title": "Analysis & Divide-and-Conquer",
@@ -1184,7 +1023,7 @@
       "high_yield": 2
     },
     {
-      "id": "1feb0f46-ebbc-4810-9f53-b3328e30d6cf",
+      "id": "798b7f72-1c4a-4dc1-b8b3-6b70bd0664db",
       "subject_code": "5CS4-05",
       "number": 2,
       "title": "Greedy Method",
@@ -1197,7 +1036,7 @@
       "high_yield": 2
     },
     {
-      "id": "237f604f-03bb-4675-bfe2-1b049121ec4c",
+      "id": "c15b5615-c76a-4651-bba5-b7e8a67ffec7",
       "subject_code": "5CS4-05",
       "number": 3,
       "title": "Dynamic Programming",
@@ -1210,7 +1049,7 @@
       "high_yield": 1
     },
     {
-      "id": "1f73d030-56c0-4f5d-a6e3-a1d4761d5f65",
+      "id": "74739c01-4f0c-40c1-81fe-0961a7541fea",
       "subject_code": "5CS4-05",
       "number": 4,
       "title": "Backtracking & Branch-and-Bound",
@@ -1223,7 +1062,7 @@
       "high_yield": 2
     },
     {
-      "id": "529c50d4-3806-47de-a5c5-4f407f69ff81",
+      "id": "bd4213c9-021f-4a4e-bd54-e5e589367066",
       "subject_code": "5CS4-05",
       "number": 5,
       "title": "NP-Completeness",
@@ -1236,7 +1075,7 @@
       "high_yield": 3
     },
     {
-      "id": "ef027dca-1468-474e-ad53-221a13210dbf",
+      "id": "72598090-9975-42d9-8e52-e988d536c69c",
       "subject_code": "6CS4-02",
       "number": 1,
       "title": "Foundations & Supervised Pipeline",
@@ -1249,7 +1088,7 @@
       "high_yield": 2
     },
     {
-      "id": "94c7a874-918f-4f8f-8a12-97002078455a",
+      "id": "810e95dd-22bd-45c9-b2d5-d069016c9247",
       "subject_code": "6CS4-02",
       "number": 2,
       "title": "Linear Models & Decision Trees",
@@ -1262,7 +1101,7 @@
       "high_yield": 1
     },
     {
-      "id": "fbfcbb1c-35f7-4d9f-a497-95ff97164332",
+      "id": "b0e6151e-2bd6-4fc2-ba6c-9d6267f38029",
       "subject_code": "6CS4-02",
       "number": 3,
       "title": "SVM & Ensemble Learning",
@@ -1275,7 +1114,7 @@
       "high_yield": 1
     },
     {
-      "id": "a48e81ae-b9c5-41a5-94da-24f57244ccde",
+      "id": "fb11071a-3076-4978-9e72-6b511ef9c712",
       "subject_code": "6CS4-02",
       "number": 4,
       "title": "Unsupervised & Dimensionality Reduction",
@@ -1288,7 +1127,7 @@
       "high_yield": 2
     },
     {
-      "id": "fccb5502-2235-4cf9-a54b-905ee99a3b1b",
+      "id": "91a0537e-0392-40bd-abfa-343f351f65d6",
       "subject_code": "6CS4-02",
       "number": 5,
       "title": "Neural Networks & Optimization",
@@ -1301,7 +1140,7 @@
       "high_yield": 2
     },
     {
-      "id": "27919393-5de1-405d-b3a7-586b6415953e",
+      "id": "386f0b1e-de62-46c2-bb97-c328d6bd254e",
       "subject_code": "6CS4-05",
       "number": 1,
       "title": "AI Intro & Intelligent Agents",
@@ -1314,7 +1153,7 @@
       "high_yield": 2
     },
     {
-      "id": "d52e2775-1f3e-445a-af5d-98cfa353334b",
+      "id": "ad039e70-d481-4180-8624-f76581e8a19d",
       "subject_code": "6CS4-05",
       "number": 2,
       "title": "Search Algorithms",
@@ -1327,7 +1166,7 @@
       "high_yield": 1
     },
     {
-      "id": "ae13d0f9-a597-4990-b169-7c368f3a8337",
+      "id": "a1f2e968-cfb3-485a-9e67-ac89aa4697a9",
       "subject_code": "6CS4-05",
       "number": 3,
       "title": "Adversarial Search & CSP",
@@ -1340,7 +1179,7 @@
       "high_yield": 2
     },
     {
-      "id": "25bf8bdd-6430-4be1-a808-49682e8d00ff",
+      "id": "63953ee6-e668-42e4-ba4b-a644524c8d61",
       "subject_code": "6CS4-05",
       "number": 4,
       "title": "Knowledge Representation & FOPL",
@@ -1353,7 +1192,7 @@
       "high_yield": 1
     },
     {
-      "id": "8cbfcc4f-4a76-4bbd-b725-5596cdae95e9",
+      "id": "4ab30833-529c-4ff5-a5e9-de5b4b4448c9",
       "subject_code": "6CS4-05",
       "number": 5,
       "title": "Probabilistic Reasoning",
@@ -1366,7 +1205,7 @@
       "high_yield": 2
     },
     {
-      "id": "c97d9113-af7d-498c-b3d3-03a62fc2e55c",
+      "id": "2485b0fe-cec9-400e-aec1-86800d2f2b13",
       "subject_code": "6CS4-06",
       "number": 1,
       "title": "Cloud Fundamentals",
@@ -1379,7 +1218,7 @@
       "high_yield": 2
     },
     {
-      "id": "ed616710-fad7-4f47-85ed-ec17039873f2",
+      "id": "497fb45c-cc2a-4dd2-a0d3-04f6cb8fbf08",
       "subject_code": "6CS4-06",
       "number": 2,
       "title": "Service Models",
@@ -1392,7 +1231,7 @@
       "high_yield": 2
     },
     {
-      "id": "bc589ce1-f419-4ccc-a501-b98ec627d2c0",
+      "id": "adb27536-8267-404a-b7b6-3624e3a134ab",
       "subject_code": "6CS4-06",
       "number": 3,
       "title": "Virtualization",
@@ -1405,7 +1244,7 @@
       "high_yield": 1
     },
     {
-      "id": "9533efff-1941-4c3b-80ef-9c505b6814d3",
+      "id": "0608ab42-6de3-4739-8431-6f0d922f0dda",
       "subject_code": "6CS4-06",
       "number": 4,
       "title": "Cloud Storage & MapReduce",
@@ -1418,7 +1257,7 @@
       "high_yield": 1
     },
     {
-      "id": "db303e3f-8f53-4bec-ae8d-3438dfe4e17d",
+      "id": "7508d084-1ca2-4931-a43e-754a3408c24f",
       "subject_code": "6CS4-06",
       "number": 5,
       "title": "Cloud Security & SLAs",
@@ -1431,7 +1270,7 @@
       "high_yield": 2
     },
     {
-      "id": "4346670d-b720-42af-be20-bf141980ccde",
+      "id": "5a5ff1a1-cf6d-4e38-bc32-54e4fac36dcd",
       "subject_code": "7CS4-01",
       "number": 1,
       "title": "IoT Fundamentals",
@@ -1444,7 +1283,7 @@
       "high_yield": 2
     },
     {
-      "id": "866406eb-2f7c-474e-bf78-67ceac78b079",
+      "id": "09f8da7a-c5d2-4142-9853-5414973a0386",
       "subject_code": "7CS4-01",
       "number": 2,
       "title": "IoT Protocols",
@@ -1457,7 +1296,7 @@
       "high_yield": 1
     },
     {
-      "id": "aef11f6f-1331-4e0c-881b-46f86261a5f4",
+      "id": "6e5d34cf-0255-47d3-82a5-3939dd8681ce",
       "subject_code": "7CS4-01",
       "number": 3,
       "title": "IoT Hardware",
@@ -1470,7 +1309,7 @@
       "high_yield": 2
     },
     {
-      "id": "dd620f83-e278-4edd-bf93-b5155b0b4b9e",
+      "id": "2e123f08-80a8-4810-8b14-875d5bbb47b1",
       "subject_code": "7CS4-01",
       "number": 4,
       "title": "IoT Cloud Integration",
@@ -1483,7 +1322,7 @@
       "high_yield": 2
     },
     {
-      "id": "21ff41c0-9743-49a0-9e75-626e5d3c8ce1",
+      "id": "252f0fdc-749a-4c33-b7d3-1bd46510e917",
       "subject_code": "7CS4-01",
       "number": 5,
       "title": "IoT Applications & Security",
@@ -1496,7 +1335,7 @@
       "high_yield": 3
     },
     {
-      "id": "966304eb-9c08-4b50-9f35-5b1309d82721",
+      "id": "95473249-f10b-4e42-9dac-8b2a18a66431",
       "subject_code": "7CS5-11",
       "number": 1,
       "title": "Big Data Fundamentals",
@@ -1509,7 +1348,7 @@
       "high_yield": 2
     },
     {
-      "id": "066df610-1fc0-46d3-9d38-63ca39c44122",
+      "id": "82289a83-44ab-4648-addb-0f0d47f1b404",
       "subject_code": "7CS5-11",
       "number": 2,
       "title": "HDFS & MapReduce",
@@ -1522,7 +1361,7 @@
       "high_yield": 1
     },
     {
-      "id": "0202960b-d48d-4868-8d6e-63e9e3ac5012",
+      "id": "56dbbc8b-a351-416a-810c-4505da60aa24",
       "subject_code": "7CS5-11",
       "number": 3,
       "title": "Apache Spark",
@@ -1535,7 +1374,7 @@
       "high_yield": 1
     },
     {
-      "id": "43c243ad-9d56-40f9-836f-78f5fd228ff0",
+      "id": "c587bd56-bc1d-4034-9598-50488a6b5960",
       "subject_code": "7CS5-11",
       "number": 4,
       "title": "NoSQL & Streaming",
@@ -1548,7 +1387,7 @@
       "high_yield": 2
     },
     {
-      "id": "3d0c13b9-01b4-4a7a-89ca-dd37362b6354",
+      "id": "1c1baa0a-69f1-4c47-bedf-79360833802e",
       "subject_code": "7CS5-11",
       "number": 5,
       "title": "Big Data ML & Hive",
@@ -1561,7 +1400,7 @@
       "high_yield": 2
     },
     {
-      "id": "261b0d06-f918-4ed4-aa60-4c24f49e9665",
+      "id": "48a2cac9-81d1-4abf-a804-2d9bae81290b",
       "subject_code": "8CS5-11",
       "number": 1,
       "title": "Cryptographic Primitives & Architecture",
@@ -1574,7 +1413,7 @@
       "high_yield": 2
     },
     {
-      "id": "8407f34b-6465-4eea-a52f-d97a595aaf21",
+      "id": "66ec6cf1-4f2f-4b07-b3e0-f817fb59ed5d",
       "subject_code": "8CS5-11",
       "number": 2,
       "title": "Consensus Mechanisms",
@@ -1587,7 +1426,7 @@
       "high_yield": 1
     },
     {
-      "id": "30698a45-a821-42d7-9fea-1909a6dcfc38",
+      "id": "81c05c5a-a706-41b9-963c-f7896e0cf812",
       "subject_code": "8CS5-11",
       "number": 3,
       "title": "Ethereum & Smart Contracts",
@@ -1600,7 +1439,7 @@
       "high_yield": 1
     },
     {
-      "id": "2f31a8ed-e049-48d6-b334-19f6ca83383d",
+      "id": "876f64e0-d5fe-444c-b6eb-208e4e8dbafc",
       "subject_code": "8CS5-11",
       "number": 4,
       "title": "Hyperledger Fabric",
@@ -1613,7 +1452,7 @@
       "high_yield": 2
     },
     {
-      "id": "3d702339-e8d4-41d5-bb4f-418442685e48",
+      "id": "10bc4bd4-78df-4e7f-a655-a7b26969bb44",
       "subject_code": "8CS5-11",
       "number": 5,
       "title": "Applications & Scaling",
@@ -1626,7 +1465,7 @@
       "high_yield": 2
     },
     {
-      "id": "77af78fa-fd4b-473b-a973-8ee39d3ae7ff",
+      "id": "f5be0085-4201-4536-9dfd-1b33cbedc1f1",
       "subject_code": "3CAI2-01",
       "number": 1,
       "title": "Linear Algebra & Matrix Decompositions",
@@ -1639,7 +1478,7 @@
       "high_yield": 1
     },
     {
-      "id": "f188003a-fb8a-497b-ab77-995572c9bfdc",
+      "id": "adfbefd5-4f87-4d9f-a6de-30375e67e5d1",
       "subject_code": "3CAI2-01",
       "number": 2,
       "title": "Gradient Optimization",
@@ -1652,7 +1491,7 @@
       "high_yield": 1
     },
     {
-      "id": "3d9d1a16-d8b4-4fb4-b8cb-37901c8e8912",
+      "id": "08655071-a253-430c-a3f5-9292370fbdfe",
       "subject_code": "3CAI2-01",
       "number": 3,
       "title": "Constrained Optimization",
@@ -1665,7 +1504,7 @@
       "high_yield": 2
     },
     {
-      "id": "51518798-d02d-475c-86be-bdfc5257fa29",
+      "id": "a84ebc99-dc24-4725-8932-2c4a3fa373c7",
       "subject_code": "3CAI2-01",
       "number": 4,
       "title": "Transform Calculus",
@@ -1678,7 +1517,7 @@
       "high_yield": 2
     },
     {
-      "id": "86ba9dcb-e87d-452c-8f0f-8dad2c5f5391",
+      "id": "85a8b6a7-84f2-405c-b37a-65bbc198c22c",
       "subject_code": "3CAI2-01",
       "number": 5,
       "title": "Numerical Methods",
@@ -1691,7 +1530,7 @@
       "high_yield": 3
     },
     {
-      "id": "f802fe4f-6c8c-4a61-829a-8ffb5c28bf0a",
+      "id": "eddca762-a453-4f23-b62e-ffeee1189f19",
       "subject_code": "3CAI4-05",
       "number": 1,
       "title": "Stacks & Applications",
@@ -1704,7 +1543,7 @@
       "high_yield": 2
     },
     {
-      "id": "4ee3ac1c-6e7e-4b7c-845a-209b1d7f249a",
+      "id": "0444db0b-5952-4502-8843-88697d458513",
       "subject_code": "3CAI4-05",
       "number": 2,
       "title": "Queues & Linked Lists",
@@ -1717,7 +1556,7 @@
       "high_yield": 2
     },
     {
-      "id": "6a133b1d-61cd-431f-b3c9-bd4487dae3a9",
+      "id": "4aab7783-8c1b-4e36-b0be-61dc56ab827f",
       "subject_code": "3CAI4-05",
       "number": 3,
       "title": "Searching & Sorting",
@@ -1730,7 +1569,7 @@
       "high_yield": 2
     },
     {
-      "id": "0a33f8ca-1b17-451d-94f9-b85c9b4efcb6",
+      "id": "b8b15d86-f313-4066-9c53-6ad7ddbd0427",
       "subject_code": "3CAI4-05",
       "number": 4,
       "title": "Trees & AVL Trees",
@@ -1743,7 +1582,7 @@
       "high_yield": 1
     },
     {
-      "id": "c346b9d6-b365-4c12-85af-e1268cbcc891",
+      "id": "db20af23-1ae4-4fa5-8f37-8858658f4252",
       "subject_code": "3CAI4-05",
       "number": 5,
       "title": "Graphs & Hashing",
@@ -1756,7 +1595,7 @@
       "high_yield": 1
     },
     {
-      "id": "9542eb2f-ecee-4a20-b55a-e1632b0a9738",
+      "id": "d86440f1-61ed-42b0-88a2-77b8835d1b73",
       "subject_code": "3CAI4-07",
       "number": 1,
       "title": "Python Fundamentals",
@@ -1769,7 +1608,7 @@
       "high_yield": 2
     },
     {
-      "id": "5a225556-fec6-4070-bdce-884fe4fd32fa",
+      "id": "f5e23f82-cc13-4227-9dda-315693ed1b20",
       "subject_code": "3CAI4-07",
       "number": 2,
       "title": "NumPy & Scientific Computing",
@@ -1782,7 +1621,7 @@
       "high_yield": 1
     },
     {
-      "id": "24d784d6-c336-4aad-9d11-1f5526c4d7eb",
+      "id": "0acc4634-3128-46cb-8f60-63783f34c4dc",
       "subject_code": "3CAI4-07",
       "number": 3,
       "title": "Pandas Data Manipulation",
@@ -1795,7 +1634,7 @@
       "high_yield": 1
     },
     {
-      "id": "fb338322-3d06-4c11-ad2e-83540b4dc371",
+      "id": "1918274b-394f-4019-b61a-1339fd4de65c",
       "subject_code": "3CAI4-07",
       "number": 4,
       "title": "Visualization & EDA",
@@ -1808,7 +1647,7 @@
       "high_yield": 2
     },
     {
-      "id": "80169e70-ced9-4ab5-acc2-cc8e2dce1a1e",
+      "id": "72ff21b2-ffdd-458e-8e6e-6200d32dc1a0",
       "subject_code": "3CAI4-07",
       "number": 5,
       "title": "Scikit-Learn Pipeline",
@@ -1821,7 +1660,7 @@
       "high_yield": 2
     },
     {
-      "id": "9c450d83-67fd-4a7f-8f54-006e4b7c0fc0",
+      "id": "c5bce29e-1194-4c5e-9371-aad394e1f8bd",
       "subject_code": "4CAI4-07",
       "number": 1,
       "title": "Probability & Random Variables",
@@ -1834,7 +1673,7 @@
       "high_yield": 1
     },
     {
-      "id": "b7bab33e-ba11-4564-9e31-d82aedb53c9b",
+      "id": "28005d13-9bb7-44ee-bd8b-f2eadae3edde",
       "subject_code": "4CAI4-07",
       "number": 2,
       "title": "Standard Distributions",
@@ -1847,7 +1686,7 @@
       "high_yield": 2
     },
     {
-      "id": "df570315-18bb-423e-b12f-02a67ff0e0b5",
+      "id": "94ff98c6-0d48-4c58-93b7-b72334c77956",
       "subject_code": "4CAI4-07",
       "number": 3,
       "title": "Descriptive Statistics & Moments",
@@ -1860,7 +1699,7 @@
       "high_yield": 2
     },
     {
-      "id": "0a8b3cf2-070b-4f20-abcc-a69b6e1562a3",
+      "id": "e4b7e98a-0509-4909-9ecc-f07c020f1e8b",
       "subject_code": "4CAI4-07",
       "number": 4,
       "title": "Estimation & Hypothesis Testing",
@@ -1873,7 +1712,7 @@
       "high_yield": 1
     },
     {
-      "id": "d073a318-9124-4663-898c-4477f1ddddb6",
+      "id": "ac943134-36cc-4d4a-a913-032e71a0ae2e",
       "subject_code": "4CAI4-07",
       "number": 5,
       "title": "Correlation & Regression",
@@ -1886,7 +1725,7 @@
       "high_yield": 2
     },
     {
-      "id": "899335b4-6546-4c1f-b21a-484a4f0547c5",
+      "id": "8b981c48-b772-45af-b4b2-0d769823e803",
       "subject_code": "5CAI4-04",
       "number": 1,
       "title": "AI Intro & Intelligent Agents",
@@ -1899,7 +1738,7 @@
       "high_yield": 2
     },
     {
-      "id": "5368219c-b09a-4d42-8781-3f5df68e9e3a",
+      "id": "cd012abb-ee71-477d-9c13-69e9d62d3774",
       "subject_code": "5CAI4-04",
       "number": 2,
       "title": "Search Algorithms",
@@ -1912,7 +1751,7 @@
       "high_yield": 1
     },
     {
-      "id": "071a3756-42f8-41bb-a6ef-490faa94070d",
+      "id": "cad54922-9b72-48a1-93d0-15355b69dca2",
       "subject_code": "5CAI4-04",
       "number": 3,
       "title": "Adversarial Search & CSP",
@@ -1925,7 +1764,7 @@
       "high_yield": 2
     },
     {
-      "id": "d680b6c2-4037-454f-aab9-6ca7654a1259",
+      "id": "4cc0e01e-6a07-4c6f-ac4f-985523f0b3ea",
       "subject_code": "5CAI4-04",
       "number": 4,
       "title": "FOPL & Resolution",
@@ -1938,7 +1777,7 @@
       "high_yield": 1
     },
     {
-      "id": "f5d25145-7d93-4a3d-b802-1fe1f6cd0b47",
+      "id": "89e5dbd6-2e89-457f-9d7c-a688a35c522c",
       "subject_code": "5CAI4-04",
       "number": 5,
       "title": "Probabilistic Reasoning",
@@ -1951,7 +1790,7 @@
       "high_yield": 2
     },
     {
-      "id": "a21194e5-d8b4-46df-b1a0-5ac99dbc336e",
+      "id": "57375635-3b98-413c-9086-0d46c1945650",
       "subject_code": "5CAI4-05",
       "number": 1,
       "title": "Analysis & Divide-and-Conquer",
@@ -1964,7 +1803,7 @@
       "high_yield": 2
     },
     {
-      "id": "88c5c853-c373-419d-84f6-1a9927f6309b",
+      "id": "37069389-e62c-4a75-92ff-bcd1d5c664bb",
       "subject_code": "5CAI4-05",
       "number": 2,
       "title": "Greedy Method",
@@ -1977,7 +1816,7 @@
       "high_yield": 2
     },
     {
-      "id": "409466ae-6817-4c19-bb5a-9b9ebcdf80ce",
+      "id": "b654d5a6-05fa-4c92-8061-6adc3f7ea43e",
       "subject_code": "5CAI4-05",
       "number": 3,
       "title": "Dynamic Programming",
@@ -1990,7 +1829,7 @@
       "high_yield": 1
     },
     {
-      "id": "f08ff778-da3e-427e-a960-f12ca4bcddf2",
+      "id": "7db3576b-6db6-4199-b484-2a433e40c142",
       "subject_code": "5CAI4-05",
       "number": 4,
       "title": "Backtracking & Branch-and-Bound",
@@ -2003,7 +1842,7 @@
       "high_yield": 2
     },
     {
-      "id": "afbed511-5ed2-4b0a-be2d-3bcb497f6f20",
+      "id": "d9105d24-96ab-4151-b957-77195a6308c9",
       "subject_code": "5CAI4-05",
       "number": 5,
       "title": "NP-Completeness",
@@ -2016,7 +1855,7 @@
       "high_yield": 3
     },
     {
-      "id": "7b63613a-90e2-432b-be07-02499e71475b",
+      "id": "3f671d2e-30dc-4647-996e-da61b8c4d13b",
       "subject_code": "6CAI4-02",
       "number": 1,
       "title": "Foundations & Supervised Pipeline",
@@ -2029,7 +1868,7 @@
       "high_yield": 2
     },
     {
-      "id": "3c6abed8-4d93-4e4d-a3f1-61d21a2c71fe",
+      "id": "e5e6069a-ae19-4c09-bad2-5a1fa9d07de7",
       "subject_code": "6CAI4-02",
       "number": 2,
       "title": "Linear Models & Decision Trees",
@@ -2042,7 +1881,7 @@
       "high_yield": 1
     },
     {
-      "id": "efd87cc4-1513-4e5c-85cf-aeb760ece2d1",
+      "id": "86acfb93-566d-47e6-bb9b-c877450ee378",
       "subject_code": "6CAI4-02",
       "number": 3,
       "title": "SVM & Ensemble Learning",
@@ -2055,7 +1894,7 @@
       "high_yield": 1
     },
     {
-      "id": "8985659a-a3be-430f-98fe-075ddbc99a74",
+      "id": "11fb16a4-22ed-4587-9eac-60c71a814dd2",
       "subject_code": "6CAI4-02",
       "number": 4,
       "title": "Unsupervised & Dimensionality Reduction",
@@ -2068,7 +1907,7 @@
       "high_yield": 2
     },
     {
-      "id": "6804ff22-1813-48af-8938-32b13da6804d",
+      "id": "d1345f36-917e-445e-9d3f-cbea4cf26242",
       "subject_code": "6CAI4-02",
       "number": 5,
       "title": "Neural Networks & Optimization",
@@ -2081,7 +1920,7 @@
       "high_yield": 2
     },
     {
-      "id": "0131038d-6e19-4e33-a6e9-5d647f09cdb5",
+      "id": "0b0686f5-63df-443f-b661-883ae00db690",
       "subject_code": "6CAI4-05",
       "number": 1,
       "title": "Feedforward Networks & Regularization",
@@ -2094,7 +1933,7 @@
       "high_yield": 2
     },
     {
-      "id": "63905568-2035-46e6-bfa5-83db48e27825",
+      "id": "396edd6c-e2f6-41b2-a262-8dd80943d558",
       "subject_code": "6CAI4-05",
       "number": 2,
       "title": "CNNs & ResNet",
@@ -2107,7 +1946,7 @@
       "high_yield": 1
     },
     {
-      "id": "3fc98cae-08ce-4f2a-99e8-ad326a7b743f",
+      "id": "69fd096e-ff5b-4f8c-855b-f10125e0126d",
       "subject_code": "6CAI4-05",
       "number": 3,
       "title": "RNNs & BPTT",
@@ -2120,7 +1959,7 @@
       "high_yield": 2
     },
     {
-      "id": "76d88ee1-f2bc-4156-a934-e605c970a266",
+      "id": "e486a124-2756-498f-84ab-227b93ee2444",
       "subject_code": "6CAI4-05",
       "number": 4,
       "title": "LSTM & GRU",
@@ -2133,7 +1972,7 @@
       "high_yield": 1
     },
     {
-      "id": "24d1643f-be38-4bc0-8ec1-075b2194e40b",
+      "id": "d35a60fb-2536-40cc-8bed-a1df35492285",
       "subject_code": "6CAI4-05",
       "number": 5,
       "title": "Autoencoders & GANs",
@@ -2146,7 +1985,7 @@
       "high_yield": 2
     },
     {
-      "id": "e1cd716c-ca3a-405f-9ee8-5ce38229fc57",
+      "id": "f96ad137-5c0b-404c-b558-38d47cf767c1",
       "subject_code": "7CAI4-01",
       "number": 1,
       "title": "NLP Foundations & Preprocessing",
@@ -2159,7 +1998,7 @@
       "high_yield": 2
     },
     {
-      "id": "b0311dc2-d1c7-4db2-a382-2f634bc50d09",
+      "id": "05f3112c-ccb8-4e38-8e73-f947fb909cba",
       "subject_code": "7CAI4-01",
       "number": 2,
       "title": "Word Embeddings",
@@ -2172,7 +2011,7 @@
       "high_yield": 2
     },
     {
-      "id": "dc359856-3530-411a-96f4-342f7904e011",
+      "id": "77cb44d6-a15c-45ac-b1a4-aa7ed3fde472",
       "subject_code": "7CAI4-01",
       "number": 3,
       "title": "Transformers & Attention",
@@ -2185,7 +2024,7 @@
       "high_yield": 1
     },
     {
-      "id": "32fb1f0a-ac65-4daf-af02-120139c24c71",
+      "id": "c2a388ae-d4bd-4c86-a96f-8c6456057b7d",
       "subject_code": "7CAI4-01",
       "number": 4,
       "title": "Pre-trained LMs (BERT, GPT)",
@@ -2198,7 +2037,7 @@
       "high_yield": 2
     },
     {
-      "id": "5f40a1e4-9519-4fb9-b811-7ca0f874bc2c",
+      "id": "4dad8e4d-ad08-4972-837b-eb90cadb2668",
       "subject_code": "7CAI4-01",
       "number": 5,
       "title": "NLP Applications",
@@ -2211,7 +2050,7 @@
       "high_yield": 2
     },
     {
-      "id": "87406bb8-7de6-400a-a89c-bbd1bc8ed176",
+      "id": "6f78445d-8e56-4247-bcfa-867d39116e4e",
       "subject_code": "7CAI5-12",
       "number": 1,
       "title": "RL Foundations & MDPs",
@@ -2224,7 +2063,7 @@
       "high_yield": 1
     },
     {
-      "id": "cebfd5ad-4b3e-4e08-988e-2e8ad4ea6784",
+      "id": "55e8a35f-4274-4e7d-bb88-922708c6218f",
       "subject_code": "7CAI5-12",
       "number": 2,
       "title": "Dynamic Programming Methods",
@@ -2237,7 +2076,7 @@
       "high_yield": 2
     },
     {
-      "id": "056aa8c4-8f75-41c9-804c-7a6c82358821",
+      "id": "6bd08cdf-6fa3-4c17-b641-c20ef1a16cb9",
       "subject_code": "7CAI5-12",
       "number": 3,
       "title": "Model-Free Learning",
@@ -2250,7 +2089,7 @@
       "high_yield": 1
     },
     {
-      "id": "12ce2e22-c9d7-4218-b77c-c13556160aca",
+      "id": "3fede62f-3cf7-4ef7-b3fd-a49a9bbb1f69",
       "subject_code": "7CAI5-12",
       "number": 4,
       "title": "Deep RL (DQN & Policy Gradients)",
@@ -2263,7 +2102,7 @@
       "high_yield": 2
     },
     {
-      "id": "e354e4f4-165d-438e-a7b8-787b3032eaa1",
+      "id": "c0966f6c-c381-4343-bf39-c9806625096f",
       "subject_code": "7CAI5-12",
       "number": 5,
       "title": "Advanced RL & Autonomous Systems",
@@ -2276,7 +2115,7 @@
       "high_yield": 2
     },
     {
-      "id": "5d0d7ca8-31dc-4d7e-a1c9-80dea269d6bb",
+      "id": "eda3e8b0-f565-4c09-bf00-1a8248023c81",
       "subject_code": "8CAI5-11",
       "number": 1,
       "title": "Advanced Transformers",
@@ -2289,7 +2128,7 @@
       "high_yield": 2
     },
     {
-      "id": "615a8069-f5a1-4ba3-9627-873a1ecf01a1",
+      "id": "5df7c26a-ce77-42ef-b2e9-045e59b66eef",
       "subject_code": "8CAI5-11",
       "number": 2,
       "title": "Diffusion Models",
@@ -2302,7 +2141,7 @@
       "high_yield": 2
     },
     {
-      "id": "330d9d56-43ff-40b4-8410-794d12e06e7a",
+      "id": "1a24c2da-c4c1-4351-b0fd-0272e90feda5",
       "subject_code": "8CAI5-11",
       "number": 3,
       "title": "LLM Pre-training & Scaling",
@@ -2315,7 +2154,7 @@
       "high_yield": 2
     },
     {
-      "id": "0c5fa949-ab64-405e-829d-903fbea51010",
+      "id": "a44f237c-b2f0-4ad6-9d4e-2e75f7ed11e2",
       "subject_code": "8CAI5-11",
       "number": 4,
       "title": "Fine-Tuning & Alignment",
@@ -2328,7 +2167,7 @@
       "high_yield": 1
     },
     {
-      "id": "816ceee7-e04f-4069-afd8-c4dfab26b01b",
+      "id": "d9cbb313-051f-493e-a9a1-0fdab2b0dcdc",
       "subject_code": "8CAI5-11",
       "number": 5,
       "title": "RAG & Agentic AI",
@@ -2341,4166 +2180,5 @@
       "high_yield": 1
     }
   ],
-  "questions": [
-    {
-      "id": "1fy201_u1_q1",
-      "unit_id": "b6b135db-5e69-4481-8ddb-415f60194cd6",
-      "q": "Which curve has the equation y┬▓(a-x) = x┬│?",
-      "options": [
-        "Cissoid of Diocles",
-        "Folium of Descartes",
-        "Cardioid",
-        "Lemniscate"
-      ],
-      "answer": "Cissoid of Diocles",
-      "topic": "Curve Tracing) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy201_u1_q2",
-      "unit_id": "b6b135db-5e69-4481-8ddb-415f60194cd6",
-      "q": "The envelope of a family of curves is tangent to:",
-      "options": [
-        "Every member of the family",
-        "Only the first curve",
-        "No curve",
-        "Alternate curves"
-      ],
-      "answer": "Every member of the family",
-      "topic": "Envelopes) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy201_u2_q1",
-      "unit_id": "0af67c59-d7dc-4130-a235-d926e760c184",
-      "q": "Euler's theorem applies to functions that are:",
-      "options": [
-        "Homogeneous",
-        "Discontinuous",
-        "Non-differentiable",
-        "Linear only"
-      ],
-      "answer": "Homogeneous",
-      "topic": "Euler's Theorem) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy201_u2_q2",
-      "unit_id": "0af67c59-d7dc-4130-a235-d926e760c184",
-      "q": "Lagrange multipliers are used for:",
-      "options": [
-        "Constrained optimization",
-        "Unconstrained optimization",
-        "Integration",
-        "Differentiation only"
-      ],
-      "answer": "Constrained optimization",
-      "topic": "Lagrange Multipliers) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy201_u3_q1",
-      "unit_id": "f4931d17-2e46-47db-9f0f-7a96afea1082",
-      "q": "The value of ╬ô(1/2) is:",
-      "options": [
-        "ΓêÜ╧Ç",
-        "╧Ç",
-        "1",
-        "ΓêÜ2"
-      ],
-      "answer": "ΓêÜ╧Ç",
-      "topic": "Gamma Functions) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy201_u3_q2",
-      "unit_id": "f4931d17-2e46-47db-9f0f-7a96afea1082",
-      "q": "Beta function B(m,n) is symmetric, meaning B(m,n) equals:",
-      "options": [
-        "B(n,m)",
-        "B(m+n,1)",
-        "B(m-n,0)",
-        "B(1,mn)"
-      ],
-      "answer": "B(n,m)",
-      "topic": "Beta Functions) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy201_u4_q1",
-      "unit_id": "f51a655f-d288-48c9-8683-958f993cd771",
-      "q": "The Jacobian for Cartesian to Polar transformation is:",
-      "options": [
-        "r",
-        "r┬▓",
-        "1/r",
-        "1"
-      ],
-      "answer": "r",
-      "topic": "Jacobian) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy201_u4_q2",
-      "unit_id": "f51a655f-d288-48c9-8683-958f993cd771",
-      "q": "Changing the order of integration may require:",
-      "options": [
-        "Redrawing the region of integration",
-        "Changing the function",
-        "Both integrals become single",
-        "None of these"
-      ],
-      "answer": "Redrawing the region of integration",
-      "topic": "Change of Order) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy201_u5_q1",
-      "unit_id": "b82cea58-5155-4d08-9a8a-078721452cab",
-      "q": "A vector field F is solenoidal if:",
-      "options": [
-        "div F = 0",
-        "curl F = 0",
-        "grad F = 0",
-        "F = 0"
-      ],
-      "answer": "div F = 0",
-      "topic": "Divergence) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy201_u5_q2",
-      "unit_id": "b82cea58-5155-4d08-9a8a-078721452cab",
-      "q": "Green's theorem relates:",
-      "options": [
-        "Line integral to double integral",
-        "Volume to surface integral",
-        "Gradient to curl",
-        "None"
-      ],
-      "answer": "Line integral to double integral",
-      "topic": "Green's Theorem) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy202_u1_q1",
-      "unit_id": "99ba36e4-55b1-42da-9cdc-0be1559d7126",
-      "q": "Central spot in Newton's rings in reflected light is:",
-      "options": [
-        "Dark",
-        "Bright",
-        "Absent",
-        "Variable"
-      ],
-      "answer": "Dark",
-      "topic": "Newton's Rings) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy202_u1_q2",
-      "unit_id": "99ba36e4-55b1-42da-9cdc-0be1559d7126",
-      "q": "Resolving power of a diffraction grating increases with:",
-      "options": [
-        "Number of slits",
-        "Slit width only",
-        "Wavelength",
-        "Distance to screen"
-      ],
-      "answer": "Number of slits",
-      "topic": "Diffraction Grating) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy202_u2_q1",
-      "unit_id": "054732ed-6f10-4b82-b375-0a058faa37a3",
-      "q": "de-Broglie wavelength ╬╗ = h/p relates to:",
-      "options": [
-        "Wave-particle duality",
-        "Only waves",
-        "Only particles",
-        "Electromagnetic radiation only"
-      ],
-      "answer": "Wave-particle duality",
-      "topic": "de-Broglie) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy202_u2_q2",
-      "unit_id": "054732ed-6f10-4b82-b375-0a058faa37a3",
-      "q": "Energy levels of a particle in 1D infinite potential well are:",
-      "options": [
-        "Quantized",
-        "Continuous",
-        "Zero",
-        "Infinite"
-      ],
-      "answer": "Quantized",
-      "topic": "Particle in 1D Box) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy202_u3_q1",
-      "unit_id": "8c3fff09-559e-41d0-ba16-b36189977b79",
-      "q": "Population inversion is a necessary condition for:",
-      "options": [
-        "Laser action",
-        "LED emission",
-        "Photoelectric effect",
-        "Compton scattering"
-      ],
-      "answer": "Laser action",
-      "topic": "Population Inversion) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy202_u3_q2",
-      "unit_id": "8c3fff09-559e-41d0-ba16-b36189977b79",
-      "q": "He-Ne laser produces light of wavelength:",
-      "options": [
-        "632.8 nm",
-        "694.3 nm",
-        "1064 nm",
-        "532 nm"
-      ],
-      "answer": "632.8 nm",
-      "topic": "He-Ne Laser) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy202_u4_q1",
-      "unit_id": "2183989b-af88-4a9a-b8b1-dc8ea74829d9",
-      "q": "Numerical Aperture of an optical fiber depends on:",
-      "options": [
-        "Refractive indices of core and cladding",
-        "Length of fiber",
-        "Diameter only",
-        "Wavelength only"
-      ],
-      "answer": "Refractive indices of core and cladding",
-      "topic": "Numerical Aperture) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy202_u4_q2",
-      "unit_id": "2183989b-af88-4a9a-b8b1-dc8ea74829d9",
-      "q": "Graded-index fiber reduces:",
-      "options": [
-        "Modal dispersion",
-        "Absorption loss",
-        "Material dispersion",
-        "Scattering only"
-      ],
-      "answer": "Modal dispersion",
-      "topic": "Graded-index) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy202_u5_q1",
-      "unit_id": "e0d86487-3544-4088-94d0-04e878178187",
-      "q": "Meissner effect is the expulsion of:",
-      "options": [
-        "Magnetic flux from superconductor",
-        "Electric current",
-        "Heat",
-        "Light"
-      ],
-      "answer": "Magnetic flux from superconductor",
-      "topic": "Meissner Effect) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy202_u5_q2",
-      "unit_id": "e0d86487-3544-4088-94d0-04e878178187",
-      "q": "Maxwell's equations unify:",
-      "options": [
-        "Electricity and magnetism",
-        "Gravity and EM",
-        "Strong and weak force",
-        "None"
-      ],
-      "answer": "Electricity and magnetism",
-      "topic": "Maxwell's Equations) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy306_u1_q1",
-      "unit_id": "d29099c8-4459-47c6-ad62-2354770f6d7b",
-      "q": "The ternary operator in C is:",
-      "options": [
-        "? :",
-        ":: ",
-        "=> ",
-        "<>"
-      ],
-      "answer": "? :",
-      "topic": "Operators) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy306_u1_q2",
-      "unit_id": "d29099c8-4459-47c6-ad62-2354770f6d7b",
-      "q": "Which loop executes at least once?",
-      "options": [
-        "do-while",
-        "for",
-        "while",
-        "None"
-      ],
-      "answer": "do-while",
-      "topic": "Loops) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy306_u2_q1",
-      "unit_id": "e3cba3db-87b6-4f74-a3d3-6bc198ebb1b8",
-      "q": "2D arrays in C are stored in memory as:",
-      "options": [
-        "Row-major order",
-        "Column-major order",
-        "Random",
-        "Linked"
-      ],
-      "answer": "Row-major order",
-      "topic": "2D Arrays) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy306_u2_q2",
-      "unit_id": "e3cba3db-87b6-4f74-a3d3-6bc198ebb1b8",
-      "q": "strlen() returns:",
-      "options": [
-        "Length excluding null terminator",
-        "Length including null",
-        "Size in bytes",
-        "Number of words"
-      ],
-      "answer": "Length excluding null terminator",
-      "topic": "String Functions) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy306_u3_q1",
-      "unit_id": "e014fb79-e8e0-44fc-af02-7750c0ef8a7f",
-      "q": "A static variable retains its value between:",
-      "options": [
-        "Function calls",
-        "Programs",
-        "Compilations",
-        "Files"
-      ],
-      "answer": "Function calls",
-      "topic": "Storage Classes) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy306_u3_q2",
-      "unit_id": "e014fb79-e8e0-44fc-af02-7750c0ef8a7f",
-      "q": "Tower of Hanoi for N disks requires minimum moves:",
-      "options": [
-        "2^N - 1",
-        "2^N",
-        "N┬▓",
-        "N!"
-      ],
-      "answer": "2^N - 1",
-      "topic": "Tower of Hanoi) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy306_u4_q1",
-      "unit_id": "fc2c7c14-60d2-47ac-8ed3-8f29db07de44",
-      "q": "malloc() initializes allocated memory to:",
-      "options": [
-        "Garbage values",
-        "Zero",
-        "NULL",
-        "-1"
-      ],
-      "answer": "Garbage values",
-      "topic": "malloc) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy306_u4_q2",
-      "unit_id": "fc2c7c14-60d2-47ac-8ed3-8f29db07de44",
-      "q": "A dangling pointer points to:",
-      "options": [
-        "Deallocated memory",
-        "NULL",
-        "Valid memory",
-        "Stack"
-      ],
-      "answer": "Deallocated memory",
-      "topic": "Dangling Pointers) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy306_u5_q1",
-      "unit_id": "b1a44a8d-2f30-4bce-b5ca-6f446ecb2cbf",
-      "q": "In a union, all members share:",
-      "options": [
-        "Same memory location",
-        "Different memory",
-        "Same type",
-        "Same name"
-      ],
-      "answer": "Same memory location",
-      "topic": "Unions) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy306_u5_q2",
-      "unit_id": "b1a44a8d-2f30-4bce-b5ca-6f446ecb2cbf",
-      "q": "File mode 'a' opens file for:",
-      "options": [
-        "Appending",
-        "Reading",
-        "Writing from start",
-        "Binary read"
-      ],
-      "answer": "Appending",
-      "topic": "File Modes) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy308_u1_q1",
-      "unit_id": "5fde28d0-3324-44be-a93a-eee90de9eb5a",
-      "q": "Maximum power is transferred when load resistance equals:",
-      "options": [
-        "Source resistance",
-        "Zero",
-        "Infinity",
-        "Twice source resistance"
-      ],
-      "answer": "Source resistance",
-      "topic": "Max Power Transfer) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy308_u1_q2",
-      "unit_id": "5fde28d0-3324-44be-a93a-eee90de9eb5a",
-      "q": "KVL is based on conservation of:",
-      "options": [
-        "Energy",
-        "Charge",
-        "Mass",
-        "Momentum"
-      ],
-      "answer": "Energy",
-      "topic": "KVL) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy308_u2_q1",
-      "unit_id": "c596bdd4-1c4c-447c-acc3-c8c15a5f37c0",
-      "q": "At resonance in series RLC, impedance is:",
-      "options": [
-        "Minimum (purely resistive)",
-        "Maximum",
-        "Zero",
-        "Infinite"
-      ],
-      "answer": "Minimum (purely resistive)",
-      "topic": "Resonance) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy308_u2_q2",
-      "unit_id": "c596bdd4-1c4c-447c-acc3-c8c15a5f37c0",
-      "q": "Power factor of a purely resistive circuit is:",
-      "options": [
-        "1 (unity)",
-        "0",
-        "0.5",
-        "Infinity"
-      ],
-      "answer": "1 (unity)",
-      "topic": "Power Factor) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy308_u3_q1",
-      "unit_id": "68178df3-09a3-4b26-96ac-709325b2dedd",
-      "q": "Transformer core is laminated to reduce:",
-      "options": [
-        "Eddy current losses",
-        "Hysteresis losses",
-        "Copper losses",
-        "Friction losses"
-      ],
-      "answer": "Eddy current losses",
-      "topic": "Transformers) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy308_u3_q2",
-      "unit_id": "68178df3-09a3-4b26-96ac-709325b2dedd",
-      "q": "EMF equation of transformer: E = 4.44fN╬ªm relates EMF to:",
-      "options": [
-        "Frequency & flux",
-        "Current only",
-        "Resistance",
-        "Capacitance"
-      ],
-      "answer": "Frequency & flux",
-      "topic": "EMF Equation) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy308_u4_q1",
-      "unit_id": "9ca5bf3c-f89b-4ab6-bbc6-28762e499f05",
-      "q": "Back EMF in DC motor acts as:",
-      "options": [
-        "Self-regulating mechanism",
-        "Amplifier",
-        "Oscillator",
-        "Filter"
-      ],
-      "answer": "Self-regulating mechanism",
-      "topic": "Back EMF) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy308_u4_q2",
-      "unit_id": "9ca5bf3c-f89b-4ab6-bbc6-28762e499f05",
-      "q": "Slip of induction motor at synchronous speed is:",
-      "options": [
-        "0",
-        "1",
-        "0.5",
-        "Infinity"
-      ],
-      "answer": "0",
-      "topic": "Induction Motor) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy308_u5_q1",
-      "unit_id": "557f1938-5112-42f2-851d-303d0b5526be",
-      "q": "MCB stands for:",
-      "options": [
-        "Miniature Circuit Breaker",
-        "Maximum Current Breaker",
-        "Micro Circuit Board",
-        "Main Control Box"
-      ],
-      "answer": "Miniature Circuit Breaker",
-      "topic": "MCB) ON CONFLICT (id"
-    },
-    {
-      "id": "1fy308_u5_q2",
-      "unit_id": "557f1938-5112-42f2-851d-303d0b5526be",
-      "q": "Full-wave bridge rectifier uses how many diodes?",
-      "options": [
-        "4",
-        "2",
-        "1",
-        "6"
-      ],
-      "answer": "4",
-      "topic": "Rectifiers) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs304_u1_q1",
-      "unit_id": "dfe3c3a1-d7ee-43b3-871a-9d99b0145074",
-      "q": "NAND and NOR gates are called:",
-      "options": [
-        "Universal gates",
-        "Basic gates",
-        "Derived gates",
-        "Sequential gates"
-      ],
-      "answer": "Universal gates",
-      "topic": "Logic Gates) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs304_u1_q2",
-      "unit_id": "dfe3c3a1-d7ee-43b3-871a-9d99b0145074",
-      "q": "2's complement of binary 1010 is:",
-      "options": [
-        "0110",
-        "1010",
-        "0101",
-        "1001"
-      ],
-      "answer": "0110",
-      "topic": "2's Complement) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs304_u2_q1",
-      "unit_id": "38ff70c5-697a-44bf-944d-21c25d56a657",
-      "q": "CMOS logic family has the advantage of:",
-      "options": [
-        "Low power consumption",
-        "Highest speed",
-        "Maximum fan-out",
-        "None"
-      ],
-      "answer": "Low power consumption",
-      "topic": "CMOS) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs304_u2_q2",
-      "unit_id": "38ff70c5-697a-44bf-944d-21c25d56a657",
-      "q": "Propagation delay is the time between:",
-      "options": [
-        "Input change and output change",
-        "Power on and first output",
-        "Two clock edges",
-        "None"
-      ],
-      "answer": "Input change and output change",
-      "topic": "Propagation Delay) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs304_u3_q1",
-      "unit_id": "ee369fa3-257a-4f39-a45f-935222358f7d",
-      "q": "Don't care conditions in K-Map can be treated as:",
-      "options": [
-        "Either 0 or 1",
-        "Only 0",
-        "Only 1",
-        "Must be ignored"
-      ],
-      "answer": "Either 0 or 1",
-      "topic": "Don't Care) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs304_u3_q2",
-      "unit_id": "ee369fa3-257a-4f39-a45f-935222358f7d",
-      "q": "Quine-McCluskey method is preferred over K-Map for:",
-      "options": [
-        "More than 5 variables",
-        "Less than 3 variables",
-        "Only 2 variables",
-        "Never"
-      ],
-      "answer": "More than 5 variables",
-      "topic": "Quine-McCluskey) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs304_u4_q1",
-      "unit_id": "1fc43194-c1d8-4aee-b8d7-0f0ed54b2536",
-      "q": "A 4-to-1 MUX has how many select lines?",
-      "options": [
-        "2",
-        "4",
-        "1",
-        "3"
-      ],
-      "answer": "2",
-      "topic": "Multiplexers) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs304_u4_q2",
-      "unit_id": "1fc43194-c1d8-4aee-b8d7-0f0ed54b2536",
-      "q": "Full Adder has how many inputs?",
-      "options": [
-        "3",
-        "2",
-        "4",
-        "1"
-      ],
-      "answer": "3",
-      "topic": "Full Adder) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs304_u5_q1",
-      "unit_id": "20fd7974-3053-44d6-8787-df1c9d31e53f",
-      "q": "Race-around condition occurs in:",
-      "options": [
-        "JK Flip-Flop when J=K=1",
-        "SR when S=R=1",
-        "D Flip-Flop",
-        "T Flip-Flop"
-      ],
-      "answer": "JK Flip-Flop when J=K=1",
-      "topic": "Race-Around) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs304_u5_q2",
-      "unit_id": "20fd7974-3053-44d6-8787-df1c9d31e53f",
-      "q": "A 3-bit binary counter counts from:",
-      "options": [
-        "0 to 7",
-        "0 to 8",
-        "1 to 8",
-        "1 to 7"
-      ],
-      "answer": "0 to 7",
-      "topic": "Counters) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs405_u1_q1",
-      "unit_id": "5b1e7e07-0093-4149-baba-cea519fb5f35",
-      "q": "Stack follows which principle?",
-      "options": [
-        "LIFO",
-        "FIFO",
-        "LILO",
-        "Random Access"
-      ],
-      "answer": "LIFO",
-      "topic": "Stack ADT) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs405_u1_q2",
-      "unit_id": "5b1e7e07-0093-4149-baba-cea519fb5f35",
-      "q": "Infix to postfix conversion uses which data structure?",
-      "options": [
-        "Stack",
-        "Queue",
-        "Linked List",
-        "Tree"
-      ],
-      "answer": "Stack",
-      "topic": "Infix to Postfix) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs405_u2_q1",
-      "unit_id": "d6eb1fd2-3abf-4001-a988-4b099934eafa",
-      "q": "Circular queue solves the problem of:",
-      "options": [
-        "Memory wastage in linear queue",
-        "Slow operations",
-        "Sorting",
-        "Searching"
-      ],
-      "answer": "Memory wastage in linear queue",
-      "topic": "Circular Queue) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs405_u2_q2",
-      "unit_id": "d6eb1fd2-3abf-4001-a988-4b099934eafa",
-      "q": "Reversing a singly linked list requires minimum:",
-      "options": [
-        "O(n) time, O(1) space",
-        "O(n┬▓) time",
-        "O(n) space",
-        "O(log n) time"
-      ],
-      "answer": "O(n) time, O(1) space",
-      "topic": "Linked List Reversal) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs405_u3_q1",
-      "unit_id": "434c253c-f896-4400-adf9-824fe0ec516a",
-      "q": "Worst-case time complexity of Quick Sort is:",
-      "options": [
-        "O(n┬▓)",
-        "O(n log n)",
-        "O(n)",
-        "O(log n)"
-      ],
-      "answer": "O(n┬▓)",
-      "topic": "Quick Sort) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs405_u3_q2",
-      "unit_id": "434c253c-f896-4400-adf9-824fe0ec516a",
-      "q": "Merge Sort always has time complexity:",
-      "options": [
-        "O(n log n)",
-        "O(n┬▓)",
-        "O(n)",
-        "O(log n)"
-      ],
-      "answer": "O(n log n)",
-      "topic": "Merge Sort) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs405_u4_q1",
-      "unit_id": "d377e429-0cf1-4f43-b5c0-d666dda73e6f",
-      "q": "Balance factor in AVL tree must be:",
-      "options": [
-        "-1, 0, or +1",
-        "0 only",
-        "Any integer",
-        "-2 to +2"
-      ],
-      "answer": "-1, 0, or +1",
-      "topic": "AVL Trees) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs405_u4_q2",
-      "unit_id": "d377e429-0cf1-4f43-b5c0-d666dda73e6f",
-      "q": "Inorder traversal of a BST gives:",
-      "options": [
-        "Sorted ascending order",
-        "Sorted descending",
-        "Random order",
-        "Level order"
-      ],
-      "answer": "Sorted ascending order",
-      "topic": "BST Traversal) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs405_u5_q1",
-      "unit_id": "eb8c237e-4d63-498f-af15-ace67d95cffb",
-      "q": "Dijkstra's algorithm does NOT work with:",
-      "options": [
-        "Negative weight edges",
-        "Positive weights",
-        "Undirected graphs",
-        "Dense graphs"
-      ],
-      "answer": "Negative weight edges",
-      "topic": "Dijkstra's) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs405_u5_q2",
-      "unit_id": "eb8c237e-4d63-498f-af15-ace67d95cffb",
-      "q": "Open addressing is a technique for:",
-      "options": [
-        "Collision resolution in hashing",
-        "Graph traversal",
-        "Tree balancing",
-        "Sorting"
-      ],
-      "answer": "Collision resolution in hashing",
-      "topic": "Hashing) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs406_u1_q1",
-      "unit_id": "0785954c-8638-4335-ae4c-da4f978c282a",
-      "q": "Copy constructor is called when:",
-      "options": [
-        "Object is initialized from another object",
-        "Object is deleted",
-        "Function is called",
-        "Loop runs"
-      ],
-      "answer": "Object is initialized from another object",
-      "topic": "Copy Constructor) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs406_u1_q2",
-      "unit_id": "0785954c-8638-4335-ae4c-da4f978c282a",
-      "q": "Destructor name is prefixed with:",
-      "options": [
-        "~ (tilde)",
-        "# (hash)",
-        "@ (at)",
-        "$ (dollar)"
-      ],
-      "answer": "~ (tilde)",
-      "topic": "Destructors) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs406_u2_q1",
-      "unit_id": "e1031b79-e3ca-4351-89a6-7e8e6678cf24",
-      "q": "Diamond problem occurs in:",
-      "options": [
-        "Multiple inheritance",
-        "Single inheritance",
-        "Multilevel",
-        "Hierarchical"
-      ],
-      "answer": "Multiple inheritance",
-      "topic": "Diamond Problem) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs406_u2_q2",
-      "unit_id": "e1031b79-e3ca-4351-89a6-7e8e6678cf24",
-      "q": "Which operator cannot be overloaded in C++?",
-      "options": [
-        ":: (scope resolution)",
-        "+ (plus)",
-        "<< (left shift)",
-        "== (equality)"
-      ],
-      "answer": ":: (scope resolution)",
-      "topic": "Operator Overloading) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs406_u3_q1",
-      "unit_id": "393816ef-d42c-4598-9a20-a29dba3660db",
-      "q": "A class with at least one pure virtual function is:",
-      "options": [
-        "Abstract class",
-        "Concrete class",
-        "Final class",
-        "Static class"
-      ],
-      "answer": "Abstract class",
-      "topic": "Abstract Classes) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs406_u3_q2",
-      "unit_id": "393816ef-d42c-4598-9a20-a29dba3660db",
-      "q": "VTABLE is created for classes having:",
-      "options": [
-        "Virtual functions",
-        "Static functions",
-        "Inline functions",
-        "Friend functions"
-      ],
-      "answer": "Virtual functions",
-      "topic": "VTABLE) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs406_u4_q1",
-      "unit_id": "1b055d71-6b6e-4382-87ee-f0ef17c9b441",
-      "q": "Templates enable:",
-      "options": [
-        "Generic/type-independent programming",
-        "Faster compilation only",
-        "Memory reduction",
-        "Error handling"
-      ],
-      "answer": "Generic/type-independent programming",
-      "topic": "Templates) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs406_u4_q2",
-      "unit_id": "1b055d71-6b6e-4382-87ee-f0ef17c9b441",
-      "q": "catch(...) catches:",
-      "options": [
-        "All exceptions",
-        "No exceptions",
-        "Only int",
-        "Only runtime_error"
-      ],
-      "answer": "All exceptions",
-      "topic": "Exception Handling) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs406_u5_q1",
-      "unit_id": "7744e3f8-22ce-4cd3-bb95-ebdc361d0dcf",
-      "q": "std::vector in STL provides:",
-      "options": [
-        "Dynamic array with random access",
-        "Linked list",
-        "Hash table",
-        "Binary tree"
-      ],
-      "answer": "Dynamic array with random access",
-      "topic": "STL vector) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs406_u5_q2",
-      "unit_id": "7744e3f8-22ce-4cd3-bb95-ebdc361d0dcf",
-      "q": "ios::app opens file for:",
-      "options": [
-        "Appending at end",
-        "Reading only",
-        "Overwriting",
-        "Binary mode"
-      ],
-      "answer": "Appending at end",
-      "topic": "File I/O) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs407_u1_q1",
-      "unit_id": "b7bce67e-5d40-47ac-90db-fa69b1550dd2",
-      "q": "Spiral model is primarily:",
-      "options": [
-        "Risk-driven",
-        "Document-driven",
-        "Code-driven",
-        "Test-driven"
-      ],
-      "answer": "Risk-driven",
-      "topic": "Spiral Model) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs407_u1_q2",
-      "unit_id": "b7bce67e-5d40-47ac-90db-fa69b1550dd2",
-      "q": "In Agile Scrum, a sprint typically lasts:",
-      "options": [
-        "2-4 weeks",
-        "6 months",
-        "1 day",
-        "1 year"
-      ],
-      "answer": "2-4 weeks",
-      "topic": "Agile/Scrum) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs407_u2_q1",
-      "unit_id": "eb7217a9-4e7d-4502-9956-e944947dcbed",
-      "q": "DFD Level 0 is also called:",
-      "options": [
-        "Context Diagram",
-        "System Flowchart",
-        "ER Diagram",
-        "Class Diagram"
-      ],
-      "answer": "Context Diagram",
-      "topic": "DFD) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs407_u2_q2",
-      "unit_id": "eb7217a9-4e7d-4502-9956-e944947dcbed",
-      "q": "IEEE 830 standard defines:",
-      "options": [
-        "SRS document structure",
-        "Coding standards",
-        "Test plans",
-        "UML notation"
-      ],
-      "answer": "SRS document structure",
-      "topic": "SRS) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs407_u3_q1",
-      "unit_id": "08ae41a0-bccb-4230-9e5f-e6fe81525f92",
-      "q": "COCOMO stands for:",
-      "options": [
-        "Constructive Cost Model",
-        "Computer Cost Method",
-        "Constant Complexity Model",
-        "Code Optimization Model"
-      ],
-      "answer": "Constructive Cost Model",
-      "topic": "COCOMO) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs407_u3_q2",
-      "unit_id": "08ae41a0-bccb-4230-9e5f-e6fe81525f92",
-      "q": "Function Point Analysis measures:",
-      "options": [
-        "Software functionality from user perspective",
-        "Lines of code",
-        "Number of bugs",
-        "Runtime performance"
-      ],
-      "answer": "Software functionality from user perspective",
-      "topic": "Function Points) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs407_u4_q1",
-      "unit_id": "b564b455-41db-4e9a-b7b3-6f6d482598fc",
-      "q": "Best design has:",
-      "options": [
-        "High cohesion, low coupling",
-        "Low cohesion, high coupling",
-        "Both high",
-        "Both low"
-      ],
-      "answer": "High cohesion, low coupling",
-      "topic": "Cohesion & Coupling) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs407_u4_q2",
-      "unit_id": "b564b455-41db-4e9a-b7b3-6f6d482598fc",
-      "q": "Use Case diagrams show:",
-      "options": [
-        "System functionality from user perspective",
-        "Database schema",
-        "Network topology",
-        "Memory layout"
-      ],
-      "answer": "System functionality from user perspective",
-      "topic": "UML) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs407_u5_q1",
-      "unit_id": "63d03324-b14e-4776-851f-7d183a4224c7",
-      "q": "Cyclomatic complexity V(G) = E - N + 2 measures:",
-      "options": [
-        "Number of independent paths",
-        "Code size",
-        "Memory usage",
-        "Speed"
-      ],
-      "answer": "Number of independent paths",
-      "topic": "Cyclomatic Complexity) ON CONFLICT (id"
-    },
-    {
-      "id": "3cs407_u5_q2",
-      "unit_id": "63d03324-b14e-4776-851f-7d183a4224c7",
-      "q": "Boundary Value Analysis tests:",
-      "options": [
-        "Edge values of input domain",
-        "Random values",
-        "All values",
-        "Middle values only"
-      ],
-      "answer": "Edge values of input domain",
-      "topic": "BVA) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs405_u1_q1",
-      "unit_id": "a2ca0388-2c4a-4a79-a5c6-a346e05bd5f0",
-      "q": "Weak entity depends on:",
-      "options": [
-        "Strong entity for identification",
-        "Nothing",
-        "Other weak entities",
-        "Views only"
-      ],
-      "answer": "Strong entity for identification",
-      "topic": "Weak Entities) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs405_u1_q2",
-      "unit_id": "a2ca0388-2c4a-4a79-a5c6-a346e05bd5f0",
-      "q": "3-Schema architecture provides:",
-      "options": [
-        "Data independence",
-        "Data redundancy",
-        "Data inconsistency",
-        "None"
-      ],
-      "answer": "Data independence",
-      "topic": "3-Schema) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs405_u2_q1",
-      "unit_id": "0f0a77a8-72b4-4bce-9b15-7c4a288e1e6a",
-      "q": "Natural Join combines tables based on:",
-      "options": [
-        "Common attribute names",
-        "Primary key only",
-        "Foreign key only",
-        "All columns"
-      ],
-      "answer": "Common attribute names",
-      "topic": "Joins) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs405_u2_q2",
-      "unit_id": "0f0a77a8-72b4-4bce-9b15-7c4a288e1e6a",
-      "q": "A correlated subquery is executed:",
-      "options": [
-        "Once for each row of outer query",
-        "Once only",
-        "Never",
-        "Twice"
-      ],
-      "answer": "Once for each row of outer query",
-      "topic": "Subqueries) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs405_u3_q1",
-      "unit_id": "2ae00d25-55c4-4283-b00f-f2501e5ab69c",
-      "q": "BCNF requires every determinant to be a:",
-      "options": [
-        "Super key",
-        "Foreign key",
-        "Primary key only",
-        "Candidate key only"
-      ],
-      "answer": "Super key",
-      "topic": "BCNF) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs405_u3_q2",
-      "unit_id": "2ae00d25-55c4-4283-b00f-f2501e5ab69c",
-      "q": "A relation is in 3NF if it has no:",
-      "options": [
-        "Transitive dependency on non-prime attribute",
-        "Partial dependency",
-        "Both",
-        "Neither"
-      ],
-      "answer": "Transitive dependency on non-prime attribute",
-      "topic": "3NF) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs405_u4_q1",
-      "unit_id": "39b6688f-cfa2-40fa-8e5c-4785c25718d2",
-      "q": "ACID stands for:",
-      "options": [
-        "Atomicity, Consistency, Isolation, Durability",
-        "All Correct Input Data",
-        "Automated CI/CD",
-        "None"
-      ],
-      "answer": "Atomicity, Consistency, Isolation, Durability",
-      "topic": "ACID) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs405_u4_q2",
-      "unit_id": "39b6688f-cfa2-40fa-8e5c-4785c25718d2",
-      "q": "2PL has two phases:",
-      "options": [
-        "Growing (acquire) and Shrinking (release)",
-        "Read and Write",
-        "Lock and Unlock randomly",
-        "None"
-      ],
-      "answer": "Growing (acquire) and Shrinking (release)",
-      "topic": "2PL) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs405_u5_q1",
-      "unit_id": "72fe13cd-241a-4614-9069-80052ec389a8",
-      "q": "B+ Trees store data pointers only at:",
-      "options": [
-        "Leaf nodes",
-        "Root node",
-        "Internal nodes",
-        "All nodes"
-      ],
-      "answer": "Leaf nodes",
-      "topic": "B+ Trees) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs405_u5_q2",
-      "unit_id": "72fe13cd-241a-4614-9069-80052ec389a8",
-      "q": "Checkpoints reduce:",
-      "options": [
-        "Recovery time after crash",
-        "Storage space",
-        "Query time",
-        "Index size"
-      ],
-      "answer": "Recovery time after crash",
-      "topic": "Checkpoints) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs406_u1_q1",
-      "unit_id": "264b33e4-6cd3-4af5-a58c-17aaf7059ee6",
-      "q": "DFA has exactly one transition for each:",
-      "options": [
-        "Input symbol from each state",
-        "Pair of states",
-        "Output",
-        "None"
-      ],
-      "answer": "Input symbol from each state",
-      "topic": "DFA) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs406_u1_q2",
-      "unit_id": "264b33e4-6cd3-4af5-a58c-17aaf7059ee6",
-      "q": "NFA to DFA conversion uses:",
-      "options": [
-        "Subset construction",
-        "Minimization",
-        "Pumping lemma",
-        "Arden's theorem"
-      ],
-      "answer": "Subset construction",
-      "topic": "NFA to DFA) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs406_u2_q1",
-      "unit_id": "8a79c0f0-6fcc-4a4a-a9ac-6213f2827000",
-      "q": "Pumping lemma is used to prove a language is:",
-      "options": [
-        "NOT regular",
-        "Regular",
-        "Context-free",
-        "Recursive"
-      ],
-      "answer": "NOT regular",
-      "topic": "Pumping Lemma) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs406_u2_q2",
-      "unit_id": "8a79c0f0-6fcc-4a4a-a9ac-6213f2827000",
-      "q": "Arden's theorem converts:",
-      "options": [
-        "DFA/NFA to regular expression",
-        "RE to DFA",
-        "CFG to PDA",
-        "TM to RE"
-      ],
-      "answer": "DFA/NFA to regular expression",
-      "topic": "Arden's Theorem) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs406_u3_q1",
-      "unit_id": "6d7c13ba-24ff-4cf3-9b11-40a95d7359bd",
-      "q": "A grammar is ambiguous if it has:",
-      "options": [
-        "More than one parse tree for some string",
-        "No parse tree",
-        "Only one parse tree",
-        "None"
-      ],
-      "answer": "More than one parse tree for some string",
-      "topic": "Ambiguity) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs406_u3_q2",
-      "unit_id": "6d7c13ba-24ff-4cf3-9b11-40a95d7359bd",
-      "q": "In CNF, every production is of form:",
-      "options": [
-        "AΓåÆBC or AΓåÆa",
-        "AΓåÆaB",
-        "AΓåÆ╬╡",
-        "AΓåÆABCD"
-      ],
-      "answer": "AΓåÆBC or AΓåÆa",
-      "topic": "CNF) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs406_u4_q1",
-      "unit_id": "7fd154df-94fa-4096-b19f-1e9cb2a498eb",
-      "q": "PDA uses which additional storage?",
-      "options": [
-        "Stack",
-        "Queue",
-        "Tape",
-        "Register"
-      ],
-      "answer": "Stack",
-      "topic": "PDA) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs406_u4_q2",
-      "unit_id": "7fd154df-94fa-4096-b19f-1e9cb2a498eb",
-      "q": "DPDA can accept:",
-      "options": [
-        "Subset of context-free languages",
-        "All CFLs",
-        "Regular only",
-        "RE languages"
-      ],
-      "answer": "Subset of context-free languages",
-      "topic": "DPDA) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs406_u5_q1",
-      "unit_id": "d22cb9a5-a4ec-421e-bb48-4b079933f025",
-      "q": "The Halting Problem is:",
-      "options": [
-        "Undecidable",
-        "Decidable",
-        "NP-Complete",
-        "Regular"
-      ],
-      "answer": "Undecidable",
-      "topic": "Halting Problem) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs406_u5_q2",
-      "unit_id": "d22cb9a5-a4ec-421e-bb48-4b079933f025",
-      "q": "Chomsky hierarchy has how many levels?",
-      "options": [
-        "4 (Type 0-3)",
-        "3",
-        "5",
-        "2"
-      ],
-      "answer": "4 (Type 0-3)",
-      "topic": "Chomsky Hierarchy) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs407_u1_q1",
-      "unit_id": "df94cc3d-d6bc-472c-ab70-9f418bf6e404",
-      "q": "OSI model has how many layers?",
-      "options": [
-        "7",
-        "5",
-        "4",
-        "6"
-      ],
-      "answer": "7",
-      "topic": "OSI Model) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs407_u1_q2",
-      "unit_id": "df94cc3d-d6bc-472c-ab70-9f418bf6e404",
-      "q": "Packet switching is more efficient for:",
-      "options": [
-        "Bursty data traffic",
-        "Voice calls only",
-        "Constant bit rate",
-        "Analog signals"
-      ],
-      "answer": "Bursty data traffic",
-      "topic": "Switching) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs407_u2_q1",
-      "unit_id": "4bc85f06-a944-450e-827e-a9b2d9146bab",
-      "q": "CSMA/CD is used in:",
-      "options": [
-        "Ethernet (wired)",
-        "WiFi",
-        "Bluetooth",
-        "Satellite"
-      ],
-      "answer": "Ethernet (wired)",
-      "topic": "CSMA/CD) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs407_u2_q2",
-      "unit_id": "4bc85f06-a944-450e-827e-a9b2d9146bab",
-      "q": "CRC stands for:",
-      "options": [
-        "Cyclic Redundancy Check",
-        "Code Reduction Check",
-        "Circular Routing Control",
-        "None"
-      ],
-      "answer": "Cyclic Redundancy Check",
-      "topic": "CRC) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs407_u3_q1",
-      "unit_id": "0cc8f931-96a5-46fb-80df-5ed52de1f16a",
-      "q": "CIDR notation /24 means subnet mask:",
-      "options": [
-        "255.255.255.0",
-        "255.255.0.0",
-        "255.0.0.0",
-        "255.255.255.128"
-      ],
-      "answer": "255.255.255.0",
-      "topic": "Subnetting) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs407_u3_q2",
-      "unit_id": "0cc8f931-96a5-46fb-80df-5ed52de1f16a",
-      "q": "Count-to-infinity is a problem in:",
-      "options": [
-        "Distance vector routing",
-        "Link state routing",
-        "Static routing",
-        "Default routing"
-      ],
-      "answer": "Distance vector routing",
-      "topic": "Routing) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs407_u4_q1",
-      "unit_id": "9ad1b0e8-25cb-439f-ac33-273960aa8ca2",
-      "q": "TCP 3-way handshake uses flags:",
-      "options": [
-        "SYN, SYN-ACK, ACK",
-        "FIN, ACK, RST",
-        "PSH, URG, ACK",
-        "None"
-      ],
-      "answer": "SYN, SYN-ACK, ACK",
-      "topic": "TCP Handshake) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs407_u4_q2",
-      "unit_id": "9ad1b0e8-25cb-439f-ac33-273960aa8ca2",
-      "q": "UDP is preferred for:",
-      "options": [
-        "Real-time streaming",
-        "File transfer",
-        "Email",
-        "Web browsing"
-      ],
-      "answer": "Real-time streaming",
-      "topic": "UDP) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs407_u5_q1",
-      "unit_id": "9e49bf0d-abc3-4138-8db4-4dc77c1d2aa0",
-      "q": "DNS resolves:",
-      "options": [
-        "Domain names to IP addresses",
-        "IP to MAC",
-        "MAC to IP",
-        "Port to process"
-      ],
-      "answer": "Domain names to IP addresses",
-      "topic": "DNS) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs407_u5_q2",
-      "unit_id": "9e49bf0d-abc3-4138-8db4-4dc77c1d2aa0",
-      "q": "RSA is an example of:",
-      "options": [
-        "Asymmetric key cryptography",
-        "Symmetric key",
-        "Hash function",
-        "MAC algorithm"
-      ],
-      "answer": "Asymmetric key cryptography",
-      "topic": "RSA) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs304_u1_q1",
-      "unit_id": "770fc329-ee06-4890-8982-a1e02501448a",
-      "q": "ALE in 8085 stands for:",
-      "options": [
-        "Address Latch Enable",
-        "Arithmetic Logic Enable",
-        "Auto Load Execute",
-        "None"
-      ],
-      "answer": "Address Latch Enable",
-      "topic": "ALE) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs304_u1_q2",
-      "unit_id": "770fc329-ee06-4890-8982-a1e02501448a",
-      "q": "8085 has how many general purpose registers?",
-      "options": [
-        "6 (B,C,D,E,H,L)",
-        "8",
-        "4",
-        "2"
-      ],
-      "answer": "6 (B,C,D,E,H,L)",
-      "topic": "Registers) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs304_u2_q1",
-      "unit_id": "27abc4d8-1321-48a2-9041-a4ed826d7c62",
-      "q": "MVI A, 32H uses which addressing mode?",
-      "options": [
-        "Immediate",
-        "Direct",
-        "Register",
-        "Register Indirect"
-      ],
-      "answer": "Immediate",
-      "topic": "Addressing Modes) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs304_u2_q2",
-      "unit_id": "27abc4d8-1321-48a2-9041-a4ed826d7c62",
-      "q": "MOV A, M uses:",
-      "options": [
-        "Register indirect addressing",
-        "Immediate",
-        "Direct",
-        "Implicit"
-      ],
-      "answer": "Register indirect addressing",
-      "topic": "Addressing Modes) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs304_u3_q1",
-      "unit_id": "61c30e2a-b522-46b0-814a-fdf0026b6e3c",
-      "q": "Opcode fetch cycle requires minimum:",
-      "options": [
-        "4 T-states",
-        "2 T-states",
-        "6 T-states",
-        "1 T-state"
-      ],
-      "answer": "4 T-states",
-      "topic": "T-States) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs304_u3_q2",
-      "unit_id": "61c30e2a-b522-46b0-814a-fdf0026b6e3c",
-      "q": "8085 operates at clock frequency of:",
-      "options": [
-        "3 MHz (typical)",
-        "1 GHz",
-        "10 MHz",
-        "100 kHz"
-      ],
-      "answer": "3 MHz (typical)",
-      "topic": "Clock) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs304_u4_q1",
-      "unit_id": "3f596b18-dee4-4206-b117-9eb6f834e1c8",
-      "q": "Memory mapped I/O treats I/O ports as:",
-      "options": [
-        "Memory locations",
-        "Special registers",
-        "Stack addresses",
-        "None"
-      ],
-      "answer": "Memory locations",
-      "topic": "Memory Mapped I/O) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs304_u4_q2",
-      "unit_id": "3f596b18-dee4-4206-b117-9eb6f834e1c8",
-      "q": "74LS138 is a:",
-      "options": [
-        "3-to-8 decoder",
-        "8-to-3 encoder",
-        "4-to-1 MUX",
-        "Flip-flop"
-      ],
-      "answer": "3-to-8 decoder",
-      "topic": "Decoder) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs304_u5_q1",
-      "unit_id": "9a40c8cf-e69a-4578-baab-37cf8d9cc08d",
-      "q": "TRAP interrupt in 8085 is:",
-      "options": [
-        "Non-maskable, edge & level triggered",
-        "Maskable",
-        "Software only",
-        "Lowest priority"
-      ],
-      "answer": "Non-maskable, edge & level triggered",
-      "topic": "TRAP) ON CONFLICT (id"
-    },
-    {
-      "id": "4cs304_u5_q2",
-      "unit_id": "9a40c8cf-e69a-4578-baab-37cf8d9cc08d",
-      "q": "8255 PPI has how many ports?",
-      "options": [
-        "3 (Port A, B, C)",
-        "2",
-        "4",
-        "1"
-      ],
-      "answer": "3 (Port A, B, C)",
-      "topic": "8255 PPI) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs403_u1_q1",
-      "unit_id": "f75b91a3-1e05-435b-ab56-e6c58383a0f7",
-      "q": "Dual-mode operation provides:",
-      "options": [
-        "Protection between user and kernel",
-        "Faster processing",
-        "More memory",
-        "Better graphics"
-      ],
-      "answer": "Protection between user and kernel",
-      "topic": "Dual-Mode) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs403_u1_q2",
-      "unit_id": "f75b91a3-1e05-435b-ab56-e6c58383a0f7",
-      "q": "Microkernel runs minimal services in:",
-      "options": [
-        "Kernel space",
-        "User space",
-        "Both equally",
-        "Neither"
-      ],
-      "answer": "Kernel space",
-      "topic": "Microkernel) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs403_u2_q1",
-      "unit_id": "1102d296-b30a-4ec7-8697-c08f179fe812",
-      "q": "Critical section requires:",
-      "options": [
-        "Mutual exclusion, progress, bounded waiting",
-        "Only mutual exclusion",
-        "Only progress",
-        "None"
-      ],
-      "answer": "Mutual exclusion, progress, bounded waiting",
-      "topic": "Critical Section) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs403_u2_q2",
-      "unit_id": "1102d296-b30a-4ec7-8697-c08f179fe812",
-      "q": "A binary semaphore can have values:",
-      "options": [
-        "0 or 1",
-        "Any integer",
-        "Only positive",
-        "Only negative"
-      ],
-      "answer": "0 or 1",
-      "topic": "Semaphores) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs403_u3_q1",
-      "unit_id": "e86e6ad9-ca16-4625-8f3c-7be97c776e9a",
-      "q": "Four necessary conditions for deadlock include:",
-      "options": [
-        "Mutual exclusion, hold-wait, no preemption, circular wait",
-        "Only mutual exclusion",
-        "Only circular wait",
-        "None"
-      ],
-      "answer": "Mutual exclusion, hold-wait, no preemption, circular wait",
-      "topic": "Deadlock) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs403_u3_q2",
-      "unit_id": "e86e6ad9-ca16-4625-8f3c-7be97c776e9a",
-      "q": "Banker's algorithm is used for:",
-      "options": [
-        "Deadlock avoidance",
-        "Deadlock detection",
-        "Deadlock prevention",
-        "Deadlock recovery"
-      ],
-      "answer": "Deadlock avoidance",
-      "topic": "Banker's Algorithm) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs403_u4_q1",
-      "unit_id": "c8167189-3c67-44dd-8d5a-c333cc104d47",
-      "q": "Thrashing occurs when:",
-      "options": [
-        "System spends more time paging than executing",
-        "CPU is idle",
-        "Memory is full",
-        "Disk fails"
-      ],
-      "answer": "System spends more time paging than executing",
-      "topic": "Thrashing) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs403_u4_q2",
-      "unit_id": "c8167189-3c67-44dd-8d5a-c333cc104d47",
-      "q": "Optimal page replacement replaces the page:",
-      "options": [
-        "Not used for longest time in future",
-        "Least recently used",
-        "First loaded",
-        "Most recently used"
-      ],
-      "answer": "Not used for longest time in future",
-      "topic": "Optimal Replacement) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs403_u5_q1",
-      "unit_id": "f41233a6-d323-46fa-865b-63c8676263fa",
-      "q": "SCAN disk scheduling is also called:",
-      "options": [
-        "Elevator algorithm",
-        "Round Robin",
-        "FIFO",
-        "Priority"
-      ],
-      "answer": "Elevator algorithm",
-      "topic": "SCAN) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs403_u5_q2",
-      "unit_id": "f41233a6-d323-46fa-865b-63c8676263fa",
-      "q": "Indexed file allocation uses:",
-      "options": [
-        "Index block with pointers to data blocks",
-        "Contiguous blocks",
-        "Linked list",
-        "None"
-      ],
-      "answer": "Index block with pointers to data blocks",
-      "topic": "File Allocation) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs402_u1_q1",
-      "unit_id": "40942455-045e-4588-9356-697e073b272d",
-      "q": "The first phase of a compiler is:",
-      "options": [
-        "Lexical Analysis",
-        "Syntax Analysis",
-        "Semantic Analysis",
-        "Code Generation"
-      ],
-      "answer": "Lexical Analysis",
-      "topic": "Compiler Phases) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs402_u1_q2",
-      "unit_id": "40942455-045e-4588-9356-697e073b272d",
-      "q": "A lexeme is:",
-      "options": [
-        "Actual character sequence matching a pattern",
-        "Token category",
-        "Parse tree node",
-        "Symbol table entry"
-      ],
-      "answer": "Actual character sequence matching a pattern",
-      "topic": "Lexemes) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs402_u2_q1",
-      "unit_id": "276fa093-c4ec-47b8-a6c0-d2e89abcfac1",
-      "q": "LL(1) parser reads input:",
-      "options": [
-        "Left to right, leftmost derivation, 1 lookahead",
-        "Right to left",
-        "Bottom up",
-        "None"
-      ],
-      "answer": "Left to right, leftmost derivation, 1 lookahead",
-      "topic": "LL(1)) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs402_u2_q2",
-      "unit_id": "276fa093-c4ec-47b8-a6c0-d2e89abcfac1",
-      "q": "FIRST set of a non-terminal includes:",
-      "options": [
-        "Set of terminals that begin strings derivable from it",
-        "All non-terminals",
-        "Empty set only",
-        "Follow set"
-      ],
-      "answer": "Set of terminals that begin strings derivable from it",
-      "topic": "FIRST Set) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs402_u3_q1",
-      "unit_id": "d729f545-aced-475f-af4a-e456f7f8d326",
-      "q": "Synthesized attributes are computed:",
-      "options": [
-        "Bottom-up (from children)",
-        "Top-down (from parent)",
-        "Left to right",
-        "Right to left"
-      ],
-      "answer": "Bottom-up (from children)",
-      "topic": "Attributes) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs402_u3_q2",
-      "unit_id": "d729f545-aced-475f-af4a-e456f7f8d326",
-      "q": "Three-address code uses at most:",
-      "options": [
-        "Three addresses per instruction",
-        "One address",
-        "Unlimited",
-        "Two"
-      ],
-      "answer": "Three addresses per instruction",
-      "topic": "TAC) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs402_u4_q1",
-      "unit_id": "974d545b-871d-41ff-b6ec-744889ba4aca",
-      "q": "Activation record stores:",
-      "options": [
-        "Local variables, return address, parameters",
-        "Only global variables",
-        "File pointers",
-        "Network data"
-      ],
-      "answer": "Local variables, return address, parameters",
-      "topic": "Activation Records) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs402_u4_q2",
-      "unit_id": "974d545b-871d-41ff-b6ec-744889ba4aca",
-      "q": "Symbol table is used during:",
-      "options": [
-        "All phases of compilation",
-        "Only lexical analysis",
-        "Only code generation",
-        "Only parsing"
-      ],
-      "answer": "All phases of compilation",
-      "topic": "Symbol Table) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs402_u5_q1",
-      "unit_id": "004946c3-a490-46cb-bb6a-8e807d36b031",
-      "q": "Constant folding evaluates:",
-      "options": [
-        "Constant expressions at compile time",
-        "Variables at runtime",
-        "Functions at link time",
-        "None"
-      ],
-      "answer": "Constant expressions at compile time",
-      "topic": "Constant Folding) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs402_u5_q2",
-      "unit_id": "004946c3-a490-46cb-bb6a-8e807d36b031",
-      "q": "Strength reduction replaces:",
-      "options": [
-        "Expensive operations with cheaper ones",
-        "Cheap with expensive",
-        "All multiplications",
-        "None"
-      ],
-      "answer": "Expensive operations with cheaper ones",
-      "topic": "Strength Reduction) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs405_u1_q1",
-      "unit_id": "1061a866-4321-4c5c-b51a-5968a82add17",
-      "q": "Master's Theorem applies to recurrences of form:",
-      "options": [
-        "T(n) = aT(n/b) + f(n)",
-        "T(n) = T(n-1) + 1",
-        "T(n) = 2^n",
-        "None"
-      ],
-      "answer": "T(n) = aT(n/b) + f(n)",
-      "topic": "Master's Theorem) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs405_u1_q2",
-      "unit_id": "1061a866-4321-4c5c-b51a-5968a82add17",
-      "q": "Strassen's reduces matrix multiplication complexity to:",
-      "options": [
-        "O(n^2.81)",
-        "O(n┬│)",
-        "O(n┬▓)",
-        "O(n log n)"
-      ],
-      "answer": "O(n^2.81)",
-      "topic": "Strassen's) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs405_u2_q1",
-      "unit_id": "1feb0f46-ebbc-4810-9f53-b3328e30d6cf",
-      "q": "Fractional knapsack uses:",
-      "options": [
-        "Greedy by value/weight ratio",
-        "Dynamic programming",
-        "Backtracking",
-        "Brute force"
-      ],
-      "answer": "Greedy by value/weight ratio",
-      "topic": "Knapsack) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs405_u2_q2",
-      "unit_id": "1feb0f46-ebbc-4810-9f53-b3328e30d6cf",
-      "q": "Huffman coding produces:",
-      "options": [
-        "Prefix-free optimal code",
-        "Fixed-length code",
-        "Non-optimal code",
-        "Binary tree only"
-      ],
-      "answer": "Prefix-free optimal code",
-      "topic": "Huffman) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs405_u3_q1",
-      "unit_id": "237f604f-03bb-4675-bfe2-1b049121ec4c",
-      "q": "0/1 Knapsack differs from fractional because:",
-      "options": [
-        "Items cannot be broken",
-        "Items can be broken",
-        "No weight limit",
-        "No value"
-      ],
-      "answer": "Items cannot be broken",
-      "topic": "0/1 Knapsack) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs405_u3_q2",
-      "unit_id": "237f604f-03bb-4675-bfe2-1b049121ec4c",
-      "q": "Floyd-Warshall finds:",
-      "options": [
-        "All-pairs shortest paths",
-        "Single source shortest path",
-        "MST",
-        "Maximum flow"
-      ],
-      "answer": "All-pairs shortest paths",
-      "topic": "Floyd-Warshall) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs405_u4_q1",
-      "unit_id": "1f73d030-56c0-4f5d-a6e3-a1d4761d5f65",
-      "q": "N-Queens problem places N queens on:",
-      "options": [
-        "N├ùN board with no attacks",
-        "N├ùN board anywhere",
-        "1├ùN board",
-        "N├ù1 board"
-      ],
-      "answer": "N├ùN board with no attacks",
-      "topic": "N-Queens) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs405_u4_q2",
-      "unit_id": "1f73d030-56c0-4f5d-a6e3-a1d4761d5f65",
-      "q": "Branch-and-Bound uses:",
-      "options": [
-        "Bounding function to prune search space",
-        "Only DFS",
-        "Only BFS",
-        "No pruning"
-      ],
-      "answer": "Bounding function to prune search space",
-      "topic": "B&B) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs405_u5_q1",
-      "unit_id": "529c50d4-3806-47de-a5c5-4f407f69ff81",
-      "q": "P = NP question asks if:",
-      "options": [
-        "Every NP problem can be solved in polynomial time",
-        "P is empty",
-        "NP is empty",
-        "All problems are unsolvable"
-      ],
-      "answer": "Every NP problem can be solved in polynomial time",
-      "topic": "P vs NP) ON CONFLICT (id"
-    },
-    {
-      "id": "5cs405_u5_q2",
-      "unit_id": "529c50d4-3806-47de-a5c5-4f407f69ff81",
-      "q": "Cook's theorem proves SAT is:",
-      "options": [
-        "NP-Complete",
-        "P",
-        "Undecidable",
-        "Regular"
-      ],
-      "answer": "NP-Complete",
-      "topic": "Cook's Theorem) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs402_u1_q1",
-      "unit_id": "ef027dca-1468-474e-ad53-221a13210dbf",
-      "q": "L1 regularization (Lasso) produces:",
-      "options": [
-        "Sparse models (feature selection)",
-        "Dense models",
-        "No change",
-        "Increased overfitting"
-      ],
-      "answer": "Sparse models (feature selection)",
-      "topic": "L1 Regularization) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs402_u1_q2",
-      "unit_id": "ef027dca-1468-474e-ad53-221a13210dbf",
-      "q": "High bias indicates:",
-      "options": [
-        "Underfitting",
-        "Overfitting",
-        "Perfect fit",
-        "No training"
-      ],
-      "answer": "Underfitting",
-      "topic": "Bias-Variance) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs402_u2_q1",
-      "unit_id": "94c7a874-918f-4f8f-8a12-97002078455a",
-      "q": "Information Gain is based on:",
-      "options": [
-        "Entropy reduction",
-        "Gini increase",
-        "Variance",
-        "Mean"
-      ],
-      "answer": "Entropy reduction",
-      "topic": "Information Gain) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs402_u2_q2",
-      "unit_id": "94c7a874-918f-4f8f-8a12-97002078455a",
-      "q": "Logistic Regression outputs:",
-      "options": [
-        "Probability between 0 and 1",
-        "Any real number",
-        "Integer only",
-        "Complex number"
-      ],
-      "answer": "Probability between 0 and 1",
-      "topic": "Logistic Regression) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs402_u3_q1",
-      "unit_id": "fbfcbb1c-35f7-4d9f-a497-95ff97164332",
-      "q": "Kernel trick maps data to:",
-      "options": [
-        "Higher dimensional feature space",
-        "Lower dimensions",
-        "Same space",
-        "Binary space"
-      ],
-      "answer": "Higher dimensional feature space",
-      "topic": "Kernel Trick) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs402_u3_q2",
-      "unit_id": "fbfcbb1c-35f7-4d9f-a497-95ff97164332",
-      "q": "Random Forest reduces:",
-      "options": [
-        "Variance through bagging",
-        "Bias",
-        "Both equally",
-        "Neither"
-      ],
-      "answer": "Variance through bagging",
-      "topic": "Random Forest) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs402_u4_q1",
-      "unit_id": "a48e81ae-b9c5-41a5-94da-24f57244ccde",
-      "q": "K-Means++ improves initial centroid selection by:",
-      "options": [
-        "Spreading centroids far apart",
-        "Random selection",
-        "Using all points",
-        "Using first K points"
-      ],
-      "answer": "Spreading centroids far apart",
-      "topic": "K-Means++) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs402_u4_q2",
-      "unit_id": "a48e81ae-b9c5-41a5-94da-24f57244ccde",
-      "q": "PCA finds directions of:",
-      "options": [
-        "Maximum variance",
-        "Minimum variance",
-        "Zero variance",
-        "Random variance"
-      ],
-      "answer": "Maximum variance",
-      "topic": "PCA) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs402_u5_q1",
-      "unit_id": "fccb5502-2235-4cf9-a54b-905ee99a3b1b",
-      "q": "Vanishing gradient problem is worst with:",
-      "options": [
-        "Sigmoid activation in deep networks",
-        "ReLU",
-        "Linear",
-        "None"
-      ],
-      "answer": "Sigmoid activation in deep networks",
-      "topic": "Vanishing Gradient) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs402_u5_q2",
-      "unit_id": "fccb5502-2235-4cf9-a54b-905ee99a3b1b",
-      "q": "Adam optimizer combines:",
-      "options": [
-        "Momentum and RMSprop",
-        "Only SGD",
-        "Only momentum",
-        "None"
-      ],
-      "answer": "Momentum and RMSprop",
-      "topic": "Adam) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs405_u1_q1",
-      "unit_id": "27919393-5de1-405d-b3a7-586b6415953e",
-      "q": "PEAS stands for:",
-      "options": [
-        "Performance, Environment, Actuators, Sensors",
-        "Program, Execute, Analyze, Store",
-        "None",
-        "Plan, Evaluate, Act, Sense"
-      ],
-      "answer": "Performance, Environment, Actuators, Sensors",
-      "topic": "PEAS) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs405_u1_q2",
-      "unit_id": "27919393-5de1-405d-b3a7-586b6415953e",
-      "q": "A utility-based agent selects actions that:",
-      "options": [
-        "Maximize expected utility",
-        "Follow fixed rules",
-        "Random actions",
-        "Minimize cost only"
-      ],
-      "answer": "Maximize expected utility",
-      "topic": "Agents) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs405_u2_q1",
-      "unit_id": "d52e2775-1f3e-445a-af5d-98cfa353334b",
-      "q": "A* is optimal when heuristic is:",
-      "options": [
-        "Admissible (never overestimates)",
-        "Inadmissible",
-        "Zero",
-        "Infinite"
-      ],
-      "answer": "Admissible (never overestimates)",
-      "topic": "A*) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs405_u2_q2",
-      "unit_id": "d52e2775-1f3e-445a-af5d-98cfa353334b",
-      "q": "Iterative Deepening Search combines advantages of:",
-      "options": [
-        "BFS (completeness) and DFS (space)",
-        "Only BFS",
-        "Only DFS",
-        "None"
-      ],
-      "answer": "BFS (completeness) and DFS (space)",
-      "topic": "IDS) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs405_u3_q1",
-      "unit_id": "ae13d0f9-a597-4990-b169-7c368f3a8337",
-      "q": "Alpha-Beta pruning reduces Minimax time complexity from:",
-      "options": [
-        "O(b^d) to O(b^(d/2))",
-        "No reduction",
-        "O(n┬▓) to O(n)",
-        "O(2^n) to O(n)"
-      ],
-      "answer": "O(b^d) to O(b^(d/2))",
-      "topic": "Alpha-Beta) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs405_u3_q2",
-      "unit_id": "ae13d0f9-a597-4990-b169-7c368f3a8337",
-      "q": "CSP consists of:",
-      "options": [
-        "Variables, domains, constraints",
-        "Only variables",
-        "Only constraints",
-        "Functions only"
-      ],
-      "answer": "Variables, domains, constraints",
-      "topic": "CSP) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs405_u4_q1",
-      "unit_id": "25bf8bdd-6430-4be1-a808-49682e8d00ff",
-      "q": "Resolution refutation proves a statement by:",
-      "options": [
-        "Assuming negation and deriving contradiction",
-        "Direct proof",
-        "Induction",
-        "None"
-      ],
-      "answer": "Assuming negation and deriving contradiction",
-      "topic": "Resolution) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs405_u4_q2",
-      "unit_id": "25bf8bdd-6430-4be1-a808-49682e8d00ff",
-      "q": "Most General Unifier (MGU) is:",
-      "options": [
-        "Most general substitution making two terms identical",
-        "Any substitution",
-        "Empty substitution",
-        "None"
-      ],
-      "answer": "Most general substitution making two terms identical",
-      "topic": "MGU) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs405_u5_q1",
-      "unit_id": "8cbfcc4f-4a76-4bbd-b725-5596cdae95e9",
-      "q": "Bayesian Network represents:",
-      "options": [
-        "Conditional dependencies among random variables",
-        "Only independent variables",
-        "Deterministic relations",
-        "None"
-      ],
-      "answer": "Conditional dependencies among random variables",
-      "topic": "BBN) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs405_u5_q2",
-      "unit_id": "8cbfcc4f-4a76-4bbd-b725-5596cdae95e9",
-      "q": "MYCIN is an expert system for:",
-      "options": [
-        "Medical diagnosis",
-        "Weather prediction",
-        "Stock trading",
-        "Game playing"
-      ],
-      "answer": "Medical diagnosis",
-      "topic": "MYCIN) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs406_u1_q1",
-      "unit_id": "c97d9113-af7d-498c-b3d3-03a62fc2e55c",
-      "q": "NIST defines how many essential characteristics of cloud?",
-      "options": [
-        "5",
-        "3",
-        "7",
-        "10"
-      ],
-      "answer": "5",
-      "topic": "NIST) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs406_u1_q2",
-      "unit_id": "c97d9113-af7d-498c-b3d3-03a62fc2e55c",
-      "q": "Hybrid cloud combines:",
-      "options": [
-        "Public and private clouds",
-        "Only public",
-        "Only private",
-        "None"
-      ],
-      "answer": "Public and private clouds",
-      "topic": "Deployment Models) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs406_u2_q1",
-      "unit_id": "ed616710-fad7-4f47-85ed-ec17039873f2",
-      "q": "In IaaS, customer manages:",
-      "options": [
-        "OS, applications, data",
-        "Only hardware",
-        "Nothing",
-        "Only network"
-      ],
-      "answer": "OS, applications, data",
-      "topic": "IaaS) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs406_u2_q2",
-      "unit_id": "ed616710-fad7-4f47-85ed-ec17039873f2",
-      "q": "Multi-tenancy means:",
-      "options": [
-        "Multiple users share same infrastructure",
-        "Single user per server",
-        "No sharing",
-        "Physical separation"
-      ],
-      "answer": "Multiple users share same infrastructure",
-      "topic": "Multi-tenancy) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs406_u3_q1",
-      "unit_id": "bc589ce1-f419-4ccc-a501-b98ec627d2c0",
-      "q": "Type-1 hypervisor runs on:",
-      "options": [
-        "Bare metal (directly on hardware)",
-        "Host OS",
-        "Application layer",
-        "None"
-      ],
-      "answer": "Bare metal (directly on hardware)",
-      "topic": "Hypervisors) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs406_u3_q2",
-      "unit_id": "bc589ce1-f419-4ccc-a501-b98ec627d2c0",
-      "q": "Docker containers are lighter than VMs because:",
-      "options": [
-        "They share host OS kernel",
-        "They have their own OS",
-        "They use more RAM",
-        "None"
-      ],
-      "answer": "They share host OS kernel",
-      "topic": "Docker) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs406_u4_q1",
-      "unit_id": "9533efff-1941-4c3b-80ef-9c505b6814d3",
-      "q": "In HDFS, NameNode stores:",
-      "options": [
-        "Metadata (file system namespace)",
-        "Actual data blocks",
-        "Application code",
-        "User credentials"
-      ],
-      "answer": "Metadata (file system namespace)",
-      "topic": "HDFS) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs406_u4_q2",
-      "unit_id": "9533efff-1941-4c3b-80ef-9c505b6814d3",
-      "q": "MapReduce Reduce phase:",
-      "options": [
-        "Aggregates intermediate key-value pairs",
-        "Splits input",
-        "Maps functions",
-        "None"
-      ],
-      "answer": "Aggregates intermediate key-value pairs",
-      "topic": "MapReduce) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs406_u5_q1",
-      "unit_id": "db303e3f-8f53-4bec-ae8d-3438dfe4e17d",
-      "q": "Shared Responsibility Model means:",
-      "options": [
-        "Cloud provider and customer share security duties",
-        "Only provider is responsible",
-        "Only customer",
-        "Government handles it"
-      ],
-      "answer": "Cloud provider and customer share security duties",
-      "topic": "Shared Responsibility) ON CONFLICT (id"
-    },
-    {
-      "id": "6cs406_u5_q2",
-      "unit_id": "db303e3f-8f53-4bec-ae8d-3438dfe4e17d",
-      "q": "SLA specifies:",
-      "options": [
-        "Service availability, performance guarantees, penalties",
-        "Only pricing",
-        "Only features",
-        "None"
-      ],
-      "answer": "Service availability, performance guarantees, penalties",
-      "topic": "SLA) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs401_u1_q1",
-      "unit_id": "4346670d-b720-42af-be20-bf141980ccde",
-      "q": "Publish-Subscribe model in IoT uses:",
-      "options": [
-        "Message broker between publishers and subscribers",
-        "Direct connection",
-        "No intermediary",
-        "None"
-      ],
-      "answer": "Message broker between publishers and subscribers",
-      "topic": "Pub-Sub) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs401_u1_q2",
-      "unit_id": "4346670d-b720-42af-be20-bf141980ccde",
-      "q": "IoT has how many standard deployment levels?",
-      "options": [
-        "6",
-        "3",
-        "4",
-        "10"
-      ],
-      "answer": "6",
-      "topic": "Deployment) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs401_u2_q1",
-      "unit_id": "866406eb-2f7c-474e-bf78-67ceac78b079",
-      "q": "MQTT uses which transport protocol?",
-      "options": [
-        "TCP",
-        "UDP",
-        "SCTP",
-        "None"
-      ],
-      "answer": "TCP",
-      "topic": "MQTT) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs401_u2_q2",
-      "unit_id": "866406eb-2f7c-474e-bf78-67ceac78b079",
-      "q": "CoAP is designed for:",
-      "options": [
-        "Constrained devices and networks",
-        "High-performance servers",
-        "Desktop apps",
-        "None"
-      ],
-      "answer": "Constrained devices and networks",
-      "topic": "CoAP) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs401_u3_q1",
-      "unit_id": "aef11f6f-1331-4e0c-881b-46f86261a5f4",
-      "q": "Raspberry Pi runs:",
-      "options": [
-        "Full Linux OS",
-        "Only firmware",
-        "No OS",
-        "Windows only"
-      ],
-      "answer": "Full Linux OS",
-      "topic": "Raspberry Pi) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs401_u3_q2",
-      "unit_id": "aef11f6f-1331-4e0c-881b-46f86261a5f4",
-      "q": "DHT11 sensor measures:",
-      "options": [
-        "Temperature and humidity",
-        "Pressure only",
-        "Light only",
-        "Sound"
-      ],
-      "answer": "Temperature and humidity",
-      "topic": "Sensors) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs401_u4_q1",
-      "unit_id": "dd620f83-e278-4edd-bf93-b5155b0b4b9e",
-      "q": "Edge computing processes data:",
-      "options": [
-        "Near the data source",
-        "In central cloud only",
-        "On user's phone",
-        "None"
-      ],
-      "answer": "Near the data source",
-      "topic": "Edge Computing) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs401_u4_q2",
-      "unit_id": "dd620f83-e278-4edd-bf93-b5155b0b4b9e",
-      "q": "ThingSpeak is used for:",
-      "options": [
-        "IoT data visualization and analytics",
-        "Social media",
-        "E-commerce",
-        "Gaming"
-      ],
-      "answer": "IoT data visualization and analytics",
-      "topic": "ThingSpeak) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs401_u5_q1",
-      "unit_id": "21ff41c0-9743-49a0-9e75-626e5d3c8ce1",
-      "q": "IIoT stands for:",
-      "options": [
-        "Industrial Internet of Things",
-        "International IoT",
-        "Internal IoT",
-        "Integrated IoT"
-      ],
-      "answer": "Industrial Internet of Things",
-      "topic": "IIoT) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs401_u5_q2",
-      "unit_id": "21ff41c0-9743-49a0-9e75-626e5d3c8ce1",
-      "q": "Major IoT security concern is:",
-      "options": [
-        "Resource-constrained devices lack encryption",
-        "Too much processing power",
-        "Unlimited bandwidth",
-        "None"
-      ],
-      "answer": "Resource-constrained devices lack encryption",
-      "topic": "IoT Security) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs511_u1_q1",
-      "unit_id": "966304eb-9c08-4b50-9f35-5b1309d82721",
-      "q": "The 5 V's of Big Data are:",
-      "options": [
-        "Volume, Velocity, Variety, Veracity, Value",
-        "Only Volume and Velocity",
-        "3 V's",
-        "None"
-      ],
-      "answer": "Volume, Velocity, Variety, Veracity, Value",
-      "topic": "5 V's) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs511_u1_q2",
-      "unit_id": "966304eb-9c08-4b50-9f35-5b1309d82721",
-      "q": "Hadoop is primarily designed for:",
-      "options": [
-        "Distributed batch processing of large datasets",
-        "Real-time gaming",
-        "Desktop applications",
-        "None"
-      ],
-      "answer": "Distributed batch processing of large datasets",
-      "topic": "Hadoop) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs511_u2_q1",
-      "unit_id": "066df610-1fc0-46d3-9d38-63ca39c44122",
-      "q": "YARN stands for:",
-      "options": [
-        "Yet Another Resource Negotiator",
-        "Your Application Resource Network",
-        "None",
-        "Young Automated Runner Node"
-      ],
-      "answer": "Yet Another Resource Negotiator",
-      "topic": "YARN) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs511_u2_q2",
-      "unit_id": "066df610-1fc0-46d3-9d38-63ca39c44122",
-      "q": "Default HDFS block size is:",
-      "options": [
-        "128 MB",
-        "64 KB",
-        "1 GB",
-        "4 KB"
-      ],
-      "answer": "128 MB",
-      "topic": "HDFS Blocks) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs511_u3_q1",
-      "unit_id": "0202960b-d48d-4868-8d6e-63e9e3ac5012",
-      "q": "RDD in Spark stands for:",
-      "options": [
-        "Resilient Distributed Dataset",
-        "Remote Data Distribution",
-        "Rapid Data Delivery",
-        "None"
-      ],
-      "answer": "Resilient Distributed Dataset",
-      "topic": "RDD) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs511_u3_q2",
-      "unit_id": "0202960b-d48d-4868-8d6e-63e9e3ac5012",
-      "q": "Spark is faster than MapReduce because:",
-      "options": [
-        "In-memory processing",
-        "Better disk I/O",
-        "Simpler code",
-        "None"
-      ],
-      "answer": "In-memory processing",
-      "topic": "Spark Performance) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs511_u4_q1",
-      "unit_id": "43c243ad-9d56-40f9-836f-78f5fd228ff0",
-      "q": "CAP theorem states a distributed system can guarantee:",
-      "options": [
-        "At most 2 of 3: Consistency, Availability, Partition tolerance",
-        "All 3 always",
-        "Only 1",
-        "None"
-      ],
-      "answer": "At most 2 of 3: Consistency, Availability, Partition tolerance",
-      "topic": "CAP) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs511_u4_q2",
-      "unit_id": "43c243ad-9d56-40f9-836f-78f5fd228ff0",
-      "q": "Apache Kafka is used for:",
-      "options": [
-        "Real-time stream processing",
-        "Batch processing only",
-        "Desktop apps",
-        "None"
-      ],
-      "answer": "Real-time stream processing",
-      "topic": "Kafka) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs511_u5_q1",
-      "unit_id": "3d0c13b9-01b4-4a7a-89ca-dd37362b6354",
-      "q": "Hive converts HiveQL queries to:",
-      "options": [
-        "MapReduce/Spark jobs",
-        "Direct SQL execution",
-        "C++ code",
-        "None"
-      ],
-      "answer": "MapReduce/Spark jobs",
-      "topic": "Hive) ON CONFLICT (id"
-    },
-    {
-      "id": "7cs511_u5_q2",
-      "unit_id": "3d0c13b9-01b4-4a7a-89ca-dd37362b6354",
-      "q": "Collaborative filtering recommends based on:",
-      "options": [
-        "Similar users' preferences",
-        "Content features only",
-        "Random selection",
-        "None"
-      ],
-      "answer": "Similar users' preferences",
-      "topic": "Collaborative Filtering) ON CONFLICT (id"
-    },
-    {
-      "id": "8cs511_u1_q1",
-      "unit_id": "261b0d06-f918-4ed4-aa60-4c24f49e9665",
-      "q": "Merkle root provides:",
-      "options": [
-        "Integrity verification for all transactions in a block",
-        "Encryption",
-        "Routing",
-        "None"
-      ],
-      "answer": "Integrity verification for all transactions in a block",
-      "topic": "Merkle Trees) ON CONFLICT (id"
-    },
-    {
-      "id": "8cs511_u1_q2",
-      "unit_id": "261b0d06-f918-4ed4-aa60-4c24f49e9665",
-      "q": "SHA-256 produces output of:",
-      "options": [
-        "256 bits",
-        "128 bits",
-        "512 bits",
-        "64 bits"
-      ],
-      "answer": "256 bits",
-      "topic": "SHA-256) ON CONFLICT (id"
-    },
-    {
-      "id": "8cs511_u2_q1",
-      "unit_id": "8407f34b-6465-4eea-a52f-d97a595aaf21",
-      "q": "Proof of Work requires miners to:",
-      "options": [
-        "Find a nonce producing hash below target",
-        "Vote on blocks",
-        "Stake tokens",
-        "None"
-      ],
-      "answer": "Find a nonce producing hash below target",
-      "topic": "PoW) ON CONFLICT (id"
-    },
-    {
-      "id": "8cs511_u2_q2",
-      "unit_id": "8407f34b-6465-4eea-a52f-d97a595aaf21",
-      "q": "PoS selects validators based on:",
-      "options": [
-        "Amount of staked cryptocurrency",
-        "Computing power",
-        "Random",
-        "Age only"
-      ],
-      "answer": "Amount of staked cryptocurrency",
-      "topic": "PoS) ON CONFLICT (id"
-    },
-    {
-      "id": "8cs511_u3_q1",
-      "unit_id": "30698a45-a821-42d7-9fea-1909a6dcfc38",
-      "q": "Gas in Ethereum prevents:",
-      "options": [
-        "Infinite loops and DoS attacks",
-        "Data storage",
-        "Network connectivity",
-        "None"
-      ],
-      "answer": "Infinite loops and DoS attacks",
-      "topic": "Gas) ON CONFLICT (id"
-    },
-    {
-      "id": "8cs511_u3_q2",
-      "unit_id": "30698a45-a821-42d7-9fea-1909a6dcfc38",
-      "q": "Reentrancy attack exploits:",
-      "options": [
-        "External calls before state updates",
-        "Gas limits",
-        "Block size",
-        "None"
-      ],
-      "answer": "External calls before state updates",
-      "topic": "Reentrancy) ON CONFLICT (id"
-    },
-    {
-      "id": "8cs511_u4_q1",
-      "unit_id": "2f31a8ed-e049-48d6-b334-19f6ca83383d",
-      "q": "Hyperledger Fabric is a:",
-      "options": [
-        "Permissioned blockchain framework",
-        "Public blockchain",
-        "Cryptocurrency",
-        "None"
-      ],
-      "answer": "Permissioned blockchain framework",
-      "topic": "Hyperledger) ON CONFLICT (id"
-    },
-    {
-      "id": "8cs511_u4_q2",
-      "unit_id": "2f31a8ed-e049-48d6-b334-19f6ca83383d",
-      "q": "Chaincode in Hyperledger is equivalent to:",
-      "options": [
-        "Smart contracts",
-        "Mining algorithms",
-        "Consensus protocols",
-        "None"
-      ],
-      "answer": "Smart contracts",
-      "topic": "Chaincode) ON CONFLICT (id"
-    },
-    {
-      "id": "8cs511_u5_q1",
-      "unit_id": "3d702339-e8d4-41d5-bb4f-418442685e48",
-      "q": "Blockchain scalability trilemma involves:",
-      "options": [
-        "Decentralization, security, scalability",
-        "Speed, cost, size",
-        "None",
-        "Only speed and cost"
-      ],
-      "answer": "Decentralization, security, scalability",
-      "topic": "Trilemma) ON CONFLICT (id"
-    },
-    {
-      "id": "8cs511_u5_q2",
-      "unit_id": "3d702339-e8d4-41d5-bb4f-418442685e48",
-      "q": "Layer-2 solutions include:",
-      "options": [
-        "Rollups and Lightning Network",
-        "Changing consensus",
-        "Increasing block size",
-        "None"
-      ],
-      "answer": "Rollups and Lightning Network",
-      "topic": "Layer-2) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai201_u1_q1",
-      "unit_id": "77af78fa-fd4b-473b-a973-8ee39d3ae7ff",
-      "q": "SVD decomposes matrix A into:",
-      "options": [
-        "U╬úV^T",
-        "LU",
-        "QR",
-        "A┬▓"
-      ],
-      "answer": "U╬úV^T",
-      "topic": "SVD) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai201_u1_q2",
-      "unit_id": "77af78fa-fd4b-473b-a973-8ee39d3ae7ff",
-      "q": "PCA finds directions of:",
-      "options": [
-        "Maximum variance",
-        "Minimum variance",
-        "Zero correlation",
-        "Random"
-      ],
-      "answer": "Maximum variance",
-      "topic": "PCA) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai201_u2_q1",
-      "unit_id": "f188003a-fb8a-497b-ab77-995572c9bfdc",
-      "q": "Hessian matrix contains:",
-      "options": [
-        "Second-order partial derivatives",
-        "First derivatives only",
-        "Integrals",
-        "Constants"
-      ],
-      "answer": "Second-order partial derivatives",
-      "topic": "Hessian) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai201_u2_q2",
-      "unit_id": "f188003a-fb8a-497b-ab77-995572c9bfdc",
-      "q": "Gradient descent moves in direction of:",
-      "options": [
-        "Negative gradient",
-        "Positive gradient",
-        "Random",
-        "Along contour"
-      ],
-      "answer": "Negative gradient",
-      "topic": "Gradient Descent) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai201_u3_q1",
-      "unit_id": "3d9d1a16-d8b4-4fb4-b8cb-37901c8e8912",
-      "q": "KKT conditions generalize Lagrange multipliers for:",
-      "options": [
-        "Inequality constraints",
-        "Only equality",
-        "Unconstrained problems",
-        "None"
-      ],
-      "answer": "Inequality constraints",
-      "topic": "KKT) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai201_u3_q2",
-      "unit_id": "3d9d1a16-d8b4-4fb4-b8cb-37901c8e8912",
-      "q": "Strong duality holds when:",
-      "options": [
-        "Primal and dual optimal values are equal",
-        "They differ",
-        "No feasible solution",
-        "None"
-      ],
-      "answer": "Primal and dual optimal values are equal",
-      "topic": "Duality) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai201_u4_q1",
-      "unit_id": "51518798-d02d-475c-86be-bdfc5257fa29",
-      "q": "FFT reduces DFT complexity from O(N┬▓) to:",
-      "options": [
-        "O(N log N)",
-        "O(N)",
-        "O(log N)",
-        "O(N┬│)"
-      ],
-      "answer": "O(N log N)",
-      "topic": "FFT) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai201_u4_q2",
-      "unit_id": "51518798-d02d-475c-86be-bdfc5257fa29",
-      "q": "Convolution in time domain equals:",
-      "options": [
-        "Multiplication in frequency domain",
-        "Division",
-        "Addition",
-        "Subtraction"
-      ],
-      "answer": "Multiplication in frequency domain",
-      "topic": "Convolution) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai201_u5_q1",
-      "unit_id": "86ba9dcb-e87d-452c-8f0f-8dad2c5f5391",
-      "q": "Newton-Raphson has convergence order:",
-      "options": [
-        "Quadratic (p=2)",
-        "Linear (p=1)",
-        "Cubic (p=3)",
-        "None"
-      ],
-      "answer": "Quadratic (p=2)",
-      "topic": "Newton-Raphson) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai201_u5_q2",
-      "unit_id": "86ba9dcb-e87d-452c-8f0f-8dad2c5f5391",
-      "q": "RK4 method has order of accuracy:",
-      "options": [
-        "4th order",
-        "1st order",
-        "2nd order",
-        "6th order"
-      ],
-      "answer": "4th order",
-      "topic": "RK4) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai405_u1_q1",
-      "unit_id": "f802fe4f-6c8c-4a61-829a-8ffb5c28bf0a",
-      "q": "Time complexity of infix to postfix conversion is:",
-      "options": [
-        "O(N)",
-        "O(N┬▓)",
-        "O(N log N)",
-        "O(1)"
-      ],
-      "answer": "O(N)",
-      "topic": "Infix to Postfix) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai405_u1_q2",
-      "unit_id": "f802fe4f-6c8c-4a61-829a-8ffb5c28bf0a",
-      "q": "OS uses which structure for recursive calls?",
-      "options": [
-        "Stack",
-        "Queue",
-        "Priority Queue",
-        "B+ Tree"
-      ],
-      "answer": "Stack",
-      "topic": "Recursion Stack) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai405_u2_q1",
-      "unit_id": "4ee3ac1c-6e7e-4b7c-845a-209b1d7f249a",
-      "q": "Circular queue advantage over linear:",
-      "options": [
-        "Reuses freed space",
-        "Faster operations",
-        "Less memory",
-        "None"
-      ],
-      "answer": "Reuses freed space",
-      "topic": "Circular Queue) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai405_u2_q2",
-      "unit_id": "4ee3ac1c-6e7e-4b7c-845a-209b1d7f249a",
-      "q": "Doubly linked list advantage:",
-      "options": [
-        "Traversal in both directions",
-        "Less memory",
-        "Faster search",
-        "Simpler code"
-      ],
-      "answer": "Traversal in both directions",
-      "topic": "Doubly LL) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai405_u3_q1",
-      "unit_id": "6a133b1d-61cd-431f-b3c9-bd4487dae3a9",
-      "q": "Quick Sort worst case occurs when:",
-      "options": [
-        "Already sorted array with bad pivot",
-        "Random array",
-        "Reversed array only",
-        "Never"
-      ],
-      "answer": "Already sorted array with bad pivot",
-      "topic": "Quick Sort) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai405_u3_q2",
-      "unit_id": "6a133b1d-61cd-431f-b3c9-bd4487dae3a9",
-      "q": "Heap Sort uses:",
-      "options": [
-        "Max/Min heap data structure",
-        "Stack",
-        "Queue",
-        "Linked List"
-      ],
-      "answer": "Max/Min heap data structure",
-      "topic": "Heap Sort) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai405_u4_q1",
-      "unit_id": "0a33f8ca-1b17-451d-94f9-b85c9b4efcb6",
-      "q": "AVL tree guarantees search time:",
-      "options": [
-        "O(log n)",
-        "O(n)",
-        "O(n┬▓)",
-        "O(1)"
-      ],
-      "answer": "O(log n)",
-      "topic": "AVL Trees) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai405_u4_q2",
-      "unit_id": "0a33f8ca-1b17-451d-94f9-b85c9b4efcb6",
-      "q": "LR rotation in AVL is:",
-      "options": [
-        "Left rotation on child, then right on node",
-        "Right then left",
-        "Only left",
-        "Only right"
-      ],
-      "answer": "Left rotation on child, then right on node",
-      "topic": "AVL Rotations) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai405_u5_q1",
-      "unit_id": "c346b9d6-b365-4c12-85af-e1268cbcc891",
-      "q": "Kruskal's algorithm uses:",
-      "options": [
-        "Disjoint Set Union (Union-Find)",
-        "Stack",
-        "Queue",
-        "Hash table"
-      ],
-      "answer": "Disjoint Set Union (Union-Find)",
-      "topic": "Kruskal's) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai405_u5_q2",
-      "unit_id": "c346b9d6-b365-4c12-85af-e1268cbcc891",
-      "q": "Chaining resolves hash collisions using:",
-      "options": [
-        "Linked lists at each bucket",
-        "Open addressing",
-        "Rehashing",
-        "None"
-      ],
-      "answer": "Linked lists at each bucket",
-      "topic": "Chaining) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai407_u1_q1",
-      "unit_id": "9542eb2f-ecee-4a20-b55a-e1632b0a9738",
-      "q": "A Python generator uses:",
-      "options": [
-        "yield keyword",
-        "return keyword",
-        "print",
-        "import"
-      ],
-      "answer": "yield keyword",
-      "topic": "Generators) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai407_u1_q2",
-      "unit_id": "9542eb2f-ecee-4a20-b55a-e1632b0a9738",
-      "q": "Dictionary comprehension syntax is:",
-      "options": [
-        "{k:v for k,v in iterable}",
-        "[k:v for k,v]",
-        "(k,v for k,v)",
-        "None"
-      ],
-      "answer": "{k:v for k,v in iterable}",
-      "topic": "Comprehensions) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai407_u2_q1",
-      "unit_id": "5a225556-fec6-4070-bdce-884fe4fd32fa",
-      "q": "NumPy broadcasting allows operations on arrays with:",
-      "options": [
-        "Different but compatible shapes",
-        "Only same shapes",
-        "Only scalars",
-        "None"
-      ],
-      "answer": "Different but compatible shapes",
-      "topic": "Broadcasting) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai407_u2_q2",
-      "unit_id": "5a225556-fec6-4070-bdce-884fe4fd32fa",
-      "q": "Vectorization in NumPy is faster because:",
-      "options": [
-        "Avoids Python loops, uses optimized C",
-        "Uses more RAM",
-        "Compiles to assembly",
-        "None"
-      ],
-      "answer": "Avoids Python loops, uses optimized C",
-      "topic": "Vectorization) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai407_u3_q1",
-      "unit_id": "24d784d6-c336-4aad-9d11-1f5526c4d7eb",
-      "q": "df.loc[] uses:",
-      "options": [
-        "Label-based indexing",
-        "Integer-based indexing",
-        "Random access",
-        "None"
-      ],
-      "answer": "Label-based indexing",
-      "topic": "loc/iloc) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai407_u3_q2",
-      "unit_id": "24d784d6-c336-4aad-9d11-1f5526c4d7eb",
-      "q": "groupby() in Pandas is used for:",
-      "options": [
-        "Split-apply-combine operations",
-        "Sorting only",
-        "Filtering only",
-        "Merging"
-      ],
-      "answer": "Split-apply-combine operations",
-      "topic": "groupby) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai407_u4_q1",
-      "unit_id": "fb338322-3d06-4c11-ad2e-83540b4dc371",
-      "q": "Box plot displays:",
-      "options": [
-        "Five-number summary (min, Q1, median, Q3, max)",
-        "Mean only",
-        "Mode only",
-        "Standard deviation"
-      ],
-      "answer": "Five-number summary (min, Q1, median, Q3, max)",
-      "topic": "Box Plot) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai407_u4_q2",
-      "unit_id": "fb338322-3d06-4c11-ad2e-83540b4dc371",
-      "q": "Correlation heatmap shows:",
-      "options": [
-        "Pairwise correlation between features",
-        "Time series",
-        "Distributions",
-        "None"
-      ],
-      "answer": "Pairwise correlation between features",
-      "topic": "Heatmap) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai407_u5_q1",
-      "unit_id": "80169e70-ced9-4ab5-acc2-cc8e2dce1a1e",
-      "q": "fit_transform() does:",
-      "options": [
-        "Fit on data then transform it",
-        "Only fit",
-        "Only transform",
-        "Neither"
-      ],
-      "answer": "Fit on data then transform it",
-      "topic": "fit_transform) ON CONFLICT (id"
-    },
-    {
-      "id": "3cai407_u5_q2",
-      "unit_id": "80169e70-ced9-4ab5-acc2-cc8e2dce1a1e",
-      "q": "StandardScaler transforms features to have:",
-      "options": [
-        "Mean 0 and std 1",
-        "Mean 1 and std 0",
-        "Range [0,1]",
-        "Range [-1,1]"
-      ],
-      "answer": "Mean 0 and std 1",
-      "topic": "Scaling) ON CONFLICT (id"
-    },
-    {
-      "id": "4cai407_u1_q1",
-      "unit_id": "9c450d83-67fd-4a7f-8f54-006e4b7c0fc0",
-      "q": "Bayes' theorem computes:",
-      "options": [
-        "Posterior probability from prior and likelihood",
-        "Only prior",
-        "Only likelihood",
-        "None"
-      ],
-      "answer": "Posterior probability from prior and likelihood",
-      "topic": "Bayes) ON CONFLICT (id"
-    },
-    {
-      "id": "4cai407_u1_q2",
-      "unit_id": "9c450d83-67fd-4a7f-8f54-006e4b7c0fc0",
-      "q": "CDF is always:",
-      "options": [
-        "Non-decreasing",
-        "Decreasing",
-        "Constant",
-        "Oscillating"
-      ],
-      "answer": "Non-decreasing",
-      "topic": "CDF) ON CONFLICT (id"
-    },
-    {
-      "id": "4cai407_u2_q1",
-      "unit_id": "b7bab33e-ba11-4564-9e31-d82aedb53c9b",
-      "q": "Central Limit Theorem states sample means approach:",
-      "options": [
-        "Normal distribution as n increases",
-        "Uniform distribution",
-        "Poisson",
-        "Exponential"
-      ],
-      "answer": "Normal distribution as n increases",
-      "topic": "CLT) ON CONFLICT (id"
-    },
-    {
-      "id": "4cai407_u2_q2",
-      "unit_id": "b7bab33e-ba11-4564-9e31-d82aedb53c9b",
-      "q": "68-95-99.7 rule applies to:",
-      "options": [
-        "Normal distribution",
-        "Poisson",
-        "Binomial",
-        "Uniform"
-      ],
-      "answer": "Normal distribution",
-      "topic": "Empirical Rule) ON CONFLICT (id"
-    },
-    {
-      "id": "4cai407_u3_q1",
-      "unit_id": "df570315-18bb-423e-b12f-02a67ff0e0b5",
-      "q": "Positive skewness means:",
-      "options": [
-        "Right tail is longer",
-        "Left tail is longer",
-        "Symmetric",
-        "No tail"
-      ],
-      "answer": "Right tail is longer",
-      "topic": "Skewness) ON CONFLICT (id"
-    },
-    {
-      "id": "4cai407_u3_q2",
-      "unit_id": "df570315-18bb-423e-b12f-02a67ff0e0b5",
-      "q": "MGF uniquely determines:",
-      "options": [
-        "The probability distribution",
-        "Only the mean",
-        "Only variance",
-        "Nothing"
-      ],
-      "answer": "The probability distribution",
-      "topic": "MGF) ON CONFLICT (id"
-    },
-    {
-      "id": "4cai407_u4_q1",
-      "unit_id": "0a8b3cf2-070b-4f20-abcc-a69b6e1562a3",
-      "q": "Type-I error is:",
-      "options": [
-        "Rejecting true null hypothesis",
-        "Accepting false null",
-        "Neither",
-        "Both"
-      ],
-      "answer": "Rejecting true null hypothesis",
-      "topic": "Type-I Error) ON CONFLICT (id"
-    },
-    {
-      "id": "4cai407_u4_q2",
-      "unit_id": "0a8b3cf2-070b-4f20-abcc-a69b6e1562a3",
-      "q": "MLE finds parameters that:",
-      "options": [
-        "Maximize likelihood of observed data",
-        "Minimize likelihood",
-        "Average parameters",
-        "None"
-      ],
-      "answer": "Maximize likelihood of observed data",
-      "topic": "MLE) ON CONFLICT (id"
-    },
-    {
-      "id": "4cai407_u5_q1",
-      "unit_id": "d073a318-9124-4663-898c-4477f1ddddb6",
-      "q": "R┬▓ value of 0.95 means:",
-      "options": [
-        "95% variance is explained by the model",
-        "5% accuracy",
-        "95% error",
-        "None"
-      ],
-      "answer": "95% variance is explained by the model",
-      "topic": "R┬▓) ON CONFLICT (id"
-    },
-    {
-      "id": "4cai407_u5_q2",
-      "unit_id": "d073a318-9124-4663-898c-4477f1ddddb6",
-      "q": "Spearman correlation uses:",
-      "options": [
-        "Ranks instead of actual values",
-        "Only actual values",
-        "Frequencies",
-        "None"
-      ],
-      "answer": "Ranks instead of actual values",
-      "topic": "Spearman) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai404_u1_q1",
-      "unit_id": "899335b4-6546-4c1f-b21a-484a4f0547c5",
-      "q": "A model-based reflex agent maintains:",
-      "options": [
-        "Internal state about the world",
-        "No state",
-        "Only rules",
-        "Only goals"
-      ],
-      "answer": "Internal state about the world",
-      "topic": "Agents) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai404_u1_q2",
-      "unit_id": "899335b4-6546-4c1f-b21a-484a4f0547c5",
-      "q": "Partially observable environment means:",
-      "options": [
-        "Agent cannot see full state",
-        "Agent sees everything",
-        "No sensors",
-        "None"
-      ],
-      "answer": "Agent cannot see full state",
-      "topic": "Environments) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai404_u2_q1",
-      "unit_id": "5368219c-b09a-4d42-8781-3f5df68e9e3a",
-      "q": "A* guarantees optimal solution when heuristic is:",
-      "options": [
-        "Admissible and consistent",
-        "Inadmissible",
-        "Zero always",
-        "Infinite"
-      ],
-      "answer": "Admissible and consistent",
-      "topic": "A* Optimality) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai404_u2_q2",
-      "unit_id": "5368219c-b09a-4d42-8781-3f5df68e9e3a",
-      "q": "UCS expands node with:",
-      "options": [
-        "Lowest path cost g(n)",
-        "Highest heuristic",
-        "Random",
-        "Deepest first"
-      ],
-      "answer": "Lowest path cost g(n)",
-      "topic": "UCS) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai404_u3_q1",
-      "unit_id": "071a3756-42f8-41bb-a6ef-490faa94070d",
-      "q": "In optimal case, Alpha-Beta pruning reduces branching factor to:",
-      "options": [
-        "ΓêÜb (square root of b)",
-        "b",
-        "b┬▓",
-        "1"
-      ],
-      "answer": "ΓêÜb (square root of b)",
-      "topic": "Alpha-Beta) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai404_u3_q2",
-      "unit_id": "071a3756-42f8-41bb-a6ef-490faa94070d",
-      "q": "AC-3 enforces:",
-      "options": [
-        "Arc consistency in CSPs",
-        "Node consistency",
-        "Path consistency",
-        "None"
-      ],
-      "answer": "Arc consistency in CSPs",
-      "topic": "AC-3) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai404_u4_q1",
-      "unit_id": "d680b6c2-4037-454f-aab9-6ca7654a1259",
-      "q": "Skolemization removes:",
-      "options": [
-        "Existential quantifiers",
-        "Universal quantifiers",
-        "All quantifiers",
-        "None"
-      ],
-      "answer": "Existential quantifiers",
-      "topic": "Skolemization) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai404_u4_q2",
-      "unit_id": "d680b6c2-4037-454f-aab9-6ca7654a1259",
-      "q": "Resolution requires formulas in:",
-      "options": [
-        "Clause Form (CNF)",
-        "DNF",
-        "Horn form only",
-        "None"
-      ],
-      "answer": "Clause Form (CNF)",
-      "topic": "Resolution) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai404_u5_q1",
-      "unit_id": "f5d25145-7d93-4a3d-b802-1fe1f6cd0b47",
-      "q": "D-separation in Bayesian Networks determines:",
-      "options": [
-        "Conditional independence",
-        "Dependence only",
-        "Causal direction",
-        "None"
-      ],
-      "answer": "Conditional independence",
-      "topic": "D-separation) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai404_u5_q2",
-      "unit_id": "f5d25145-7d93-4a3d-b802-1fe1f6cd0b47",
-      "q": "Variable elimination computes:",
-      "options": [
-        "Exact inference in Bayesian Networks",
-        "Approximate inference",
-        "Only prior",
-        "None"
-      ],
-      "answer": "Exact inference in Bayesian Networks",
-      "topic": "Inference) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai405_u1_q1",
-      "unit_id": "a21194e5-d8b4-46df-b1a0-5ac99dbc336e",
-      "q": "Master's theorem case 1: if f(n) = O(n^(log_b(a)-╬╡)), T(n) =",
-      "options": [
-        "╬ÿ(n^(log_b(a)))",
-        "╬ÿ(f(n))",
-        "╬ÿ(n log n)",
-        "None"
-      ],
-      "answer": "╬ÿ(n^(log_b(a)))",
-      "topic": "Master's Theorem) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai405_u1_q2",
-      "unit_id": "a21194e5-d8b4-46df-b1a0-5ac99dbc336e",
-      "q": "Strassen uses how many multiplications?",
-      "options": [
-        "7",
-        "8",
-        "6",
-        "9"
-      ],
-      "answer": "7",
-      "topic": "Strassen's) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai405_u2_q1",
-      "unit_id": "88c5c853-c373-419d-84f6-1a9927f6309b",
-      "q": "Huffman coding is optimal for:",
-      "options": [
-        "Variable-length prefix-free encoding",
-        "Fixed-length encoding",
-        "Run-length encoding",
-        "None"
-      ],
-      "answer": "Variable-length prefix-free encoding",
-      "topic": "Huffman) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai405_u2_q2",
-      "unit_id": "88c5c853-c373-419d-84f6-1a9927f6309b",
-      "q": "Greedy choice property means:",
-      "options": [
-        "Locally optimal choice leads to global optimum",
-        "Always worst choice",
-        "Random choice",
-        "None"
-      ],
-      "answer": "Locally optimal choice leads to global optimum",
-      "topic": "Greedy) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai405_u3_q1",
-      "unit_id": "409466ae-6817-4c19-bb5a-9b9ebcdf80ce",
-      "q": "DP uses:",
-      "options": [
-        "Overlapping subproblems and optimal substructure",
-        "Only recursion",
-        "Only iteration",
-        "Greedy choices"
-      ],
-      "answer": "Overlapping subproblems and optimal substructure",
-      "topic": "DP Principles) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai405_u3_q2",
-      "unit_id": "409466ae-6817-4c19-bb5a-9b9ebcdf80ce",
-      "q": "Matrix Chain Multiplication finds:",
-      "options": [
-        "Optimal parenthesization to minimize scalar multiplications",
-        "Maximum multiplications",
-        "Determinant",
-        "Inverse"
-      ],
-      "answer": "Optimal parenthesization to minimize scalar multiplications",
-      "topic": "MCM) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai405_u4_q1",
-      "unit_id": "f08ff778-da3e-427e-a960-f12ca4bcddf2",
-      "q": "Backtracking systematically:",
-      "options": [
-        "Explores and abandons partial solutions",
-        "Tries all solutions without pruning",
-        "Uses only greedy",
-        "None"
-      ],
-      "answer": "Explores and abandons partial solutions",
-      "topic": "Backtracking) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai405_u4_q2",
-      "unit_id": "f08ff778-da3e-427e-a960-f12ca4bcddf2",
-      "q": "Branch-and-Bound uses bounding function to:",
-      "options": [
-        "Prune non-promising branches",
-        "Expand all branches",
-        "Sort branches",
-        "None"
-      ],
-      "answer": "Prune non-promising branches",
-      "topic": "B&B) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai405_u5_q1",
-      "unit_id": "afbed511-5ed2-4b0a-be2d-3bcb497f6f20",
-      "q": "NP-Complete problems are:",
-      "options": [
-        "In NP and at least as hard as every NP problem",
-        "In P",
-        "Undecidable",
-        "None"
-      ],
-      "answer": "In NP and at least as hard as every NP problem",
-      "topic": "NP-Complete) ON CONFLICT (id"
-    },
-    {
-      "id": "5cai405_u5_q2",
-      "unit_id": "afbed511-5ed2-4b0a-be2d-3bcb497f6f20",
-      "q": "SAT (Boolean Satisfiability) was first proved:",
-      "options": [
-        "NP-Complete by Cook",
-        "P by Turing",
-        "Undecidable",
-        "Regular"
-      ],
-      "answer": "NP-Complete by Cook",
-      "topic": "SAT) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai402_u1_q1",
-      "unit_id": "7b63613a-90e2-432b-be07-02499e71475b",
-      "q": "K-fold cross-validation splits data into:",
-      "options": [
-        "K equal folds, trains on K-1, tests on 1",
-        "2 halves",
-        "No split",
-        "Random"
-      ],
-      "answer": "K equal folds, trains on K-1, tests on 1",
-      "topic": "Cross-Validation) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai402_u1_q2",
-      "unit_id": "7b63613a-90e2-432b-be07-02499e71475b",
-      "q": "AUC of 0.5 means classifier performs:",
-      "options": [
-        "Same as random guessing",
-        "Perfectly",
-        "Inversely",
-        "None"
-      ],
-      "answer": "Same as random guessing",
-      "topic": "AUC) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai402_u2_q1",
-      "unit_id": "3c6abed8-4d93-4e4d-a3f1-61d21a2c71fe",
-      "q": "Entropy of a pure node is:",
-      "options": [
-        "0",
-        "1",
-        "Infinity",
-        "0.5"
-      ],
-      "answer": "0",
-      "topic": "Entropy) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai402_u2_q2",
-      "unit_id": "3c6abed8-4d93-4e4d-a3f1-61d21a2c71fe",
-      "q": "Naive Bayes assumes features are:",
-      "options": [
-        "Conditionally independent given class",
-        "Always dependent",
-        "Correlated",
-        "None"
-      ],
-      "answer": "Conditionally independent given class",
-      "topic": "Naive Bayes) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai402_u3_q1",
-      "unit_id": "efd87cc4-1513-4e5c-85cf-aeb760ece2d1",
-      "q": "SVM finds hyperplane that:",
-      "options": [
-        "Maximizes margin between classes",
-        "Minimizes margin",
-        "Passes through origin",
-        "None"
-      ],
-      "answer": "Maximizes margin between classes",
-      "topic": "SVM) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai402_u3_q2",
-      "unit_id": "efd87cc4-1513-4e5c-85cf-aeb760ece2d1",
-      "q": "Bagging reduces:",
-      "options": [
-        "Variance",
-        "Bias",
-        "Both equally",
-        "Neither"
-      ],
-      "answer": "Variance",
-      "topic": "Bagging) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai402_u4_q1",
-      "unit_id": "8985659a-a3be-430f-98fe-075ddbc99a74",
-      "q": "DBSCAN does not require:",
-      "options": [
-        "Pre-specifying number of clusters",
-        "Density parameter",
-        "Distance metric",
-        "Points"
-      ],
-      "answer": "Pre-specifying number of clusters",
-      "topic": "DBSCAN) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai402_u4_q2",
-      "unit_id": "8985659a-a3be-430f-98fe-075ddbc99a74",
-      "q": "Elbow method helps determine:",
-      "options": [
-        "Optimal K in K-Means",
-        "Learning rate",
-        "Batch size",
-        "None"
-      ],
-      "answer": "Optimal K in K-Means",
-      "topic": "Elbow Method) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai402_u5_q1",
-      "unit_id": "6804ff22-1813-48af-8938-32b13da6804d",
-      "q": "ReLU activation function outputs:",
-      "options": [
-        "max(0, x)",
-        "sigmoid(x)",
-        "tanh(x)",
-        "x┬▓"
-      ],
-      "answer": "max(0, x)",
-      "topic": "ReLU) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai402_u5_q2",
-      "unit_id": "6804ff22-1813-48af-8938-32b13da6804d",
-      "q": "Backpropagation computes gradients using:",
-      "options": [
-        "Chain rule of calculus",
-        "Matrix inverse",
-        "Random sampling",
-        "None"
-      ],
-      "answer": "Chain rule of calculus",
-      "topic": "Backpropagation) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai405_u1_q1",
-      "unit_id": "0131038d-6e19-4e33-a6e9-5d647f09cdb5",
-      "q": "Dropout randomly sets neurons to zero during:",
-      "options": [
-        "Training only",
-        "Testing only",
-        "Both",
-        "Neither"
-      ],
-      "answer": "Training only",
-      "topic": "Dropout) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai405_u1_q2",
-      "unit_id": "0131038d-6e19-4e33-a6e9-5d647f09cdb5",
-      "q": "Batch Normalization normalizes:",
-      "options": [
-        "Activations within a mini-batch",
-        "Weights",
-        "Gradients",
-        "Loss"
-      ],
-      "answer": "Activations within a mini-batch",
-      "topic": "Batch Norm) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai405_u2_q1",
-      "unit_id": "63905568-2035-46e6-bfa5-83db48e27825",
-      "q": "Output size formula for convolution is:",
-      "options": [
-        "(W-F+2P)/S + 1",
-        "W├ùF",
-        "W+F",
-        "W-F"
-      ],
-      "answer": "(W-F+2P)/S + 1",
-      "topic": "Convolution) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai405_u2_q2",
-      "unit_id": "63905568-2035-46e6-bfa5-83db48e27825",
-      "q": "ResNet skip connections solve:",
-      "options": [
-        "Vanishing gradient in very deep networks",
-        "Overfitting only",
-        "Underfitting only",
-        "None"
-      ],
-      "answer": "Vanishing gradient in very deep networks",
-      "topic": "ResNet) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai405_u3_q1",
-      "unit_id": "3fc98cae-08ce-4f2a-99e8-ad326a7b743f",
-      "q": "BPTT stands for:",
-      "options": [
-        "Backpropagation Through Time",
-        "Basic Processing Through Training",
-        "None",
-        "Batch Processing Temporal Training"
-      ],
-      "answer": "Backpropagation Through Time",
-      "topic": "BPTT) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai405_u3_q2",
-      "unit_id": "3fc98cae-08ce-4f2a-99e8-ad326a7b743f",
-      "q": "Gradient clipping prevents:",
-      "options": [
-        "Exploding gradients",
-        "Vanishing gradients",
-        "Both",
-        "Neither"
-      ],
-      "answer": "Exploding gradients",
-      "topic": "Gradient Clipping) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai405_u4_q1",
-      "unit_id": "76d88ee1-f2bc-4156-a934-e605c970a266",
-      "q": "LSTM Forget Gate decides:",
-      "options": [
-        "What information to discard from cell state",
-        "What to output",
-        "Learning rate",
-        "Batch size"
-      ],
-      "answer": "What information to discard from cell state",
-      "topic": "Forget Gate) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai405_u4_q2",
-      "unit_id": "76d88ee1-f2bc-4156-a934-e605c970a266",
-      "q": "GRU has fewer parameters than LSTM because:",
-      "options": [
-        "It combines forget and input gates into update gate",
-        "It has no gates",
-        "It uses more layers",
-        "None"
-      ],
-      "answer": "It combines forget and input gates into update gate",
-      "topic": "GRU) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai405_u5_q1",
-      "unit_id": "24d1643f-be38-4bc0-8ec1-075b2194e40b",
-      "q": "GAN minimax objective trains:",
-      "options": [
-        "Generator and Discriminator adversarially",
-        "Only generator",
-        "Only discriminator",
-        "Neither"
-      ],
-      "answer": "Generator and Discriminator adversarially",
-      "topic": "GAN) ON CONFLICT (id"
-    },
-    {
-      "id": "6cai405_u5_q2",
-      "unit_id": "24d1643f-be38-4bc0-8ec1-075b2194e40b",
-      "q": "Reparameterization trick in VAE enables:",
-      "options": [
-        "Backpropagation through stochastic sampling",
-        "Faster training",
-        "Less memory",
-        "None"
-      ],
-      "answer": "Backpropagation through stochastic sampling",
-      "topic": "VAE) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai401_u1_q1",
-      "unit_id": "e1cd716c-ca3a-405f-9ee8-5ce38229fc57",
-      "q": "BPE tokenization:",
-      "options": [
-        "Iteratively merges most frequent byte pairs",
-        "Splits by whitespace only",
-        "Uses regex",
-        "Random splitting"
-      ],
-      "answer": "Iteratively merges most frequent byte pairs",
-      "topic": "BPE) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai401_u1_q2",
-      "unit_id": "e1cd716c-ca3a-405f-9ee8-5ce38229fc57",
-      "q": "Lemmatization differs from stemming by:",
-      "options": [
-        "Producing valid dictionary words",
-        "Being faster",
-        "Ignoring context",
-        "None"
-      ],
-      "answer": "Producing valid dictionary words",
-      "topic": "Lemmatization) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai401_u2_q1",
-      "unit_id": "b0311dc2-d1c7-4db2-a382-2f634bc50d09",
-      "q": "Skip-Gram predicts:",
-      "options": [
-        "Context words from center word",
-        "Center word from context",
-        "Next sentence",
-        "None"
-      ],
-      "answer": "Context words from center word",
-      "topic": "Skip-Gram) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai401_u2_q2",
-      "unit_id": "b0311dc2-d1c7-4db2-a382-2f634bc50d09",
-      "q": "TF-IDF gives high weight to terms that are:",
-      "options": [
-        "Frequent in document but rare across corpus",
-        "Common everywhere",
-        "Only in one document",
-        "None"
-      ],
-      "answer": "Frequent in document but rare across corpus",
-      "topic": "TF-IDF) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai401_u3_q1",
-      "unit_id": "dc359856-3530-411a-96f4-342f7904e011",
-      "q": "Scaling by 1/ΓêÜdk in attention prevents:",
-      "options": [
-        "Softmax saturation from large dot products",
-        "Underfitting",
-        "Overfitting",
-        "None"
-      ],
-      "answer": "Softmax saturation from large dot products",
-      "topic": "Attention) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai401_u3_q2",
-      "unit_id": "dc359856-3530-411a-96f4-342f7904e011",
-      "q": "Positional encoding adds:",
-      "options": [
-        "Order information to embeddings",
-        "More parameters",
-        "Noise",
-        "None"
-      ],
-      "answer": "Order information to embeddings",
-      "topic": "Positional Encoding) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai401_u4_q1",
-      "unit_id": "32fb1f0a-ac65-4daf-af02-120139c24c71",
-      "q": "BERT uses which attention masking?",
-      "options": [
-        "Bidirectional (sees all tokens)",
-        "Left-to-right only",
-        "Right-to-left only",
-        "Random"
-      ],
-      "answer": "Bidirectional (sees all tokens)",
-      "topic": "BERT) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai401_u4_q2",
-      "unit_id": "32fb1f0a-ac65-4daf-af02-120139c24c71",
-      "q": "GPT is autoregressive, meaning:",
-      "options": [
-        "Each token only attends to previous tokens",
-        "All tokens attend to all",
-        "No attention",
-        "Random attention"
-      ],
-      "answer": "Each token only attends to previous tokens",
-      "topic": "GPT) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai401_u5_q1",
-      "unit_id": "5f40a1e4-9519-4fb9-b811-7ca0f874bc2c",
-      "q": "BLEU score measures:",
-      "options": [
-        "Translation quality via n-gram overlap",
-        "Sentiment accuracy",
-        "Named entity accuracy",
-        "None"
-      ],
-      "answer": "Translation quality via n-gram overlap",
-      "topic": "BLEU) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai401_u5_q2",
-      "unit_id": "5f40a1e4-9519-4fb9-b811-7ca0f874bc2c",
-      "q": "Few-shot prompting provides:",
-      "options": [
-        "Examples in the prompt to guide LLM output",
-        "No examples",
-        "Full training data",
-        "None"
-      ],
-      "answer": "Examples in the prompt to guide LLM output",
-      "topic": "Few-Shot) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai512_u1_q1",
-      "unit_id": "87406bb8-7de6-400a-a89c-bbd1bc8ed176",
-      "q": "Bellman optimality equation gives:",
-      "options": [
-        "Value of optimal policy",
-        "Random policy value",
-        "Average reward",
-        "None"
-      ],
-      "answer": "Value of optimal policy",
-      "topic": "Bellman) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai512_u1_q2",
-      "unit_id": "87406bb8-7de6-400a-a89c-bbd1bc8ed176",
-      "q": "Discount factor ╬│ close to 0 means agent is:",
-      "options": [
-        "Myopic (short-sighted)",
-        "Far-sighted",
-        "Neutral",
-        "None"
-      ],
-      "answer": "Myopic (short-sighted)",
-      "topic": "Discount Factor) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai512_u2_q1",
-      "unit_id": "cebfd5ad-4b3e-4e08-988e-2e8ad4ea6784",
-      "q": "Value Iteration updates values using:",
-      "options": [
-        "Bellman optimality backup",
-        "Random updates",
-        "Policy gradient",
-        "None"
-      ],
-      "answer": "Bellman optimality backup",
-      "topic": "Value Iteration) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai512_u2_q2",
-      "unit_id": "cebfd5ad-4b3e-4e08-988e-2e8ad4ea6784",
-      "q": "Policy Iteration alternates between:",
-      "options": [
-        "Policy evaluation and policy improvement",
-        "Only evaluation",
-        "Only improvement",
-        "None"
-      ],
-      "answer": "Policy evaluation and policy improvement",
-      "topic": "Policy Iteration) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai512_u3_q1",
-      "unit_id": "056aa8c4-8f75-41c9-804c-7a6c82358821",
-      "q": "Q-Learning is off-policy because:",
-      "options": [
-        "It learns optimal policy regardless of behavior policy",
-        "It follows only learned policy",
-        "It uses no policy",
-        "None"
-      ],
-      "answer": "It learns optimal policy regardless of behavior policy",
-      "topic": "Q-Learning) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai512_u3_q2",
-      "unit_id": "056aa8c4-8f75-41c9-804c-7a6c82358821",
-      "q": "╬╡-greedy balances:",
-      "options": [
-        "Exploration and exploitation",
-        "Only exploration",
-        "Only exploitation",
-        "Neither"
-      ],
-      "answer": "Exploration and exploitation",
-      "topic": "╬╡-greedy) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai512_u4_q1",
-      "unit_id": "12ce2e22-c9d7-4218-b77c-c13556160aca",
-      "q": "Experience Replay in DQN:",
-      "options": [
-        "Stores and samples past transitions to break correlation",
-        "Replays the game",
-        "Saves model weights",
-        "None"
-      ],
-      "answer": "Stores and samples past transitions to break correlation",
-      "topic": "Experience Replay) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai512_u4_q2",
-      "unit_id": "12ce2e22-c9d7-4218-b77c-c13556160aca",
-      "q": "Actor-Critic combines:",
-      "options": [
-        "Policy gradient (actor) and value estimation (critic)",
-        "Two actors",
-        "Two critics",
-        "None"
-      ],
-      "answer": "Policy gradient (actor) and value estimation (critic)",
-      "topic": "Actor-Critic) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai512_u5_q1",
-      "unit_id": "e354e4f4-165d-438e-a7b8-787b3032eaa1",
-      "q": "PPO's clipped objective prevents:",
-      "options": [
-        "Too large policy updates",
-        "Too small updates",
-        "All updates",
-        "None"
-      ],
-      "answer": "Too large policy updates",
-      "topic": "PPO) ON CONFLICT (id"
-    },
-    {
-      "id": "7cai512_u5_q2",
-      "unit_id": "e354e4f4-165d-438e-a7b8-787b3032eaa1",
-      "q": "DDPG handles:",
-      "options": [
-        "Continuous action spaces",
-        "Only discrete actions",
-        "Only tabular",
-        "None"
-      ],
-      "answer": "Continuous action spaces",
-      "topic": "DDPG) ON CONFLICT (id"
-    },
-    {
-      "id": "8cai511_u1_q1",
-      "unit_id": "5d0d7ca8-31dc-4d7e-a1c9-80dea269d6bb",
-      "q": "GQA reduces memory by:",
-      "options": [
-        "Sharing KV heads across query heads",
-        "More heads",
-        "No sharing",
-        "None"
-      ],
-      "answer": "Sharing KV heads across query heads",
-      "topic": "GQA) ON CONFLICT (id"
-    },
-    {
-      "id": "8cai511_u1_q2",
-      "unit_id": "5d0d7ca8-31dc-4d7e-a1c9-80dea269d6bb",
-      "q": "MoE activates:",
-      "options": [
-        "Only subset of expert networks per token",
-        "All experts",
-        "No experts",
-        "Random layers"
-      ],
-      "answer": "Only subset of expert networks per token",
-      "topic": "MoE) ON CONFLICT (id"
-    },
-    {
-      "id": "8cai511_u2_q1",
-      "unit_id": "615a8069-f5a1-4ba3-9627-873a1ecf01a1",
-      "q": "Latent Diffusion operates in:",
-      "options": [
-        "Compressed latent space (faster)",
-        "Pixel space",
-        "Frequency domain",
-        "None"
-      ],
-      "answer": "Compressed latent space (faster)",
-      "topic": "Latent Diffusion) ON CONFLICT (id"
-    },
-    {
-      "id": "8cai511_u2_q2",
-      "unit_id": "615a8069-f5a1-4ba3-9627-873a1ecf01a1",
-      "q": "CLIP aligns:",
-      "options": [
-        "Text and image embeddings in shared space",
-        "Only text",
-        "Only images",
-        "Audio and video"
-      ],
-      "answer": "Text and image embeddings in shared space",
-      "topic": "CLIP) ON CONFLICT (id"
-    },
-    {
-      "id": "8cai511_u3_q1",
-      "unit_id": "330d9d56-43ff-40b4-8410-794d12e06e7a",
-      "q": "Chinchilla scaling law recommends:",
-      "options": [
-        "~20 tokens per parameter for compute-optimal training",
-        "1 token per parameter",
-        "100 tokens",
-        "None"
-      ],
-      "answer": "~20 tokens per parameter for compute-optimal training",
-      "topic": "Chinchilla) ON CONFLICT (id"
-    },
-    {
-      "id": "8cai511_u3_q2",
-      "unit_id": "330d9d56-43ff-40b4-8410-794d12e06e7a",
-      "q": "ZeRO Stage 3 partitions:",
-      "options": [
-        "Optimizer states, gradients, AND parameters",
-        "Only optimizer",
-        "Only gradients",
-        "None"
-      ],
-      "answer": "Optimizer states, gradients, AND parameters",
-      "topic": "ZeRO) ON CONFLICT (id"
-    },
-    {
-      "id": "8cai511_u4_q1",
-      "unit_id": "0c5fa949-ab64-405e-829d-903fbea51010",
-      "q": "LoRA adds:",
-      "options": [
-        "Low-rank decomposition matrices to frozen weights",
-        "New layers",
-        "More data",
-        "None"
-      ],
-      "answer": "Low-rank decomposition matrices to frozen weights",
-      "topic": "LoRA) ON CONFLICT (id"
-    },
-    {
-      "id": "8cai511_u4_q2",
-      "unit_id": "0c5fa949-ab64-405e-829d-903fbea51010",
-      "q": "DPO eliminates need for:",
-      "options": [
-        "Explicit reward model in RLHF",
-        "Training data",
-        "Loss function",
-        "None"
-      ],
-      "answer": "Explicit reward model in RLHF",
-      "topic": "DPO) ON CONFLICT (id"
-    },
-    {
-      "id": "8cai511_u5_q1",
-      "unit_id": "816ceee7-e04f-4069-afd8-c4dfab26b01b",
-      "q": "RAG retrieves:",
-      "options": [
-        "Relevant documents to augment LLM generation",
-        "Random documents",
-        "Only from training data",
-        "None"
-      ],
-      "answer": "Relevant documents to augment LLM generation",
-      "topic": "RAG) ON CONFLICT (id"
-    },
-    {
-      "id": "8cai511_u5_q2",
-      "unit_id": "816ceee7-e04f-4069-afd8-c4dfab26b01b",
-      "q": "ReAct framework alternates:",
-      "options": [
-        "Reasoning and acting steps",
-        "Only reasoning",
-        "Only acting",
-        "None"
-      ],
-      "answer": "Reasoning and acting steps",
-      "topic": "ReAct) ON CONFLICT (id"
-    }
-  ]
+  "questions": []
 }

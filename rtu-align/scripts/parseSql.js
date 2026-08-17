@@ -1,7 +1,7 @@
 import fs from 'fs';
 
-// Read original SQL backup or recreate with proper line parser
-const sql = fs.readFileSync('scripts/original_supabase.sql', 'utf16le');
+// Read SQL file with proper line parser
+const sql = fs.readFileSync('supabase_schema_and_data.sql', 'utf8');
 const lines = sql.split('\n');
 
 const branches = [];
@@ -11,8 +11,12 @@ const units = [];
 const questions = [];
 
 function parseSqlValues(line) {
+  // Strip trailing "ON CONFLICT ... DO NOTHING;" or ";"
+  let cleanLine = line.replace(/ON\s+CONFLICT\s*\([^\)]*\)\s*DO\s+NOTHING;?$/i, '').trim();
+  if (cleanLine.endsWith(';')) cleanLine = cleanLine.slice(0, -1).trim();
+
   // Extract content inside VALUES (...)
-  const valMatch = line.match(/VALUES\s*\(([\s\S]+)\)/);
+  const valMatch = cleanLine.match(/VALUES\s*\(([\s\S]+)\)$/);
   if (!valMatch) return [];
   const raw = valMatch[1].trim();
 
@@ -40,10 +44,12 @@ function parseSqlValues(line) {
   if (cur.trim()) tokens.push(cur.trim());
 
   return tokens.map(t => {
-    if (t.startsWith("'") && t.endsWith("'")) {
-      return t.slice(1, -1);
+    let val = t;
+    if (val.startsWith("'") && val.endsWith("'")) {
+      val = val.slice(1, -1);
     }
-    return t;
+    // Clean any lingering ON CONFLICT suffixes if present
+    return val.replace(/\)\s*ON\s+CONFLICT\s*\([^\)]*$/i, '').trim();
   });
 }
 
