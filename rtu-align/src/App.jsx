@@ -200,6 +200,7 @@ function App() {
               <DiagnosticQuiz
                 subject={selectedSubject}
                 onComplete={handleQuizComplete}
+                onOpenTutor={handleOpenTutor}
               />
             )}
 
@@ -260,7 +261,7 @@ function App() {
                 <div className="bento-card">
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-base font-bold text-white font-heading">Unit-by-Unit Deep Dive</h3>
-                    <span className="text-xs text-slate-400">5 Syllabus Units</span>
+                    <span className="text-xs text-slate-400">{quizResults.unitDetails?.length || 5} Syllabus Units</span>
                   </div>
 
                   <div className="space-y-3" role="list">

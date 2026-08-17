@@ -17,7 +17,7 @@ function shuffleArray(array, seedOffset = 0) {
   return arr;
 }
 
-export default function DiagnosticQuiz({ subject, onComplete }) {
+export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
   // Memoize questions and shuffle options so answer position varies across A, B, C, D
   const allQuestions = useMemo(() => {
     let globalQIndex = 0;
@@ -262,6 +262,16 @@ export default function DiagnosticQuiz({ subject, onComplete }) {
                       RTU Syllabus Topic: <span className="text-cyan-300">{currentQ.topic}</span>
                     </div>
                   )}
+                  {currentQ.topic && onOpenTutor && (
+                    <button
+                      type="button"
+                      onClick={() => onOpenTutor(currentQ.topic, currentQ.unitNumber)}
+                      className="mt-2.5 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-violet-600/20 hover:bg-violet-600/40 border border-violet-500/30 text-violet-200 text-xs font-semibold transition-all cursor-pointer group focus-ring"
+                    >
+                      <Sparkles className="w-3.5 h-3.5 text-violet-400 group-hover:rotate-12 transition-transform" />
+                      <span>Deep-dive with AI Topic Tutor →</span>
+                    </button>
+                  )}
                 </div>
               </motion.div>
             )}
@@ -294,18 +304,19 @@ export default function DiagnosticQuiz({ subject, onComplete }) {
         </p>
       </div>
 
-      {/* Progress step dots */}
-      <div className="flex justify-center items-center gap-2 pt-2" aria-hidden="true">
+      {/* Progress step dots / Segmented mini-bar */}
+      <div className="flex flex-wrap justify-center items-center gap-1.5 pt-2 max-w-full px-2" aria-hidden="true">
         {allQuestions.map((q, idx) => (
           <div
             key={q.id || idx}
             className={`transition-all duration-300 rounded-full ${
               idx === currentIdx 
-                ? 'w-6 h-2 bg-blue-500 shadow-md shadow-blue-500/50' 
+                ? 'w-5 sm:w-6 h-1.5 sm:h-2 bg-blue-500 shadow-md shadow-blue-500/50' 
                 : idx < currentIdx 
-                  ? (answers[q.id] === q.answer ? 'w-2 h-2 bg-emerald-400' : 'w-2 h-2 bg-rose-400') 
-                  : 'w-2 h-2 bg-white/10'
+                  ? (answers[q.id] === q.answer ? 'w-1.5 sm:w-2 h-1.5 sm:h-2 bg-emerald-400' : 'w-1.5 sm:w-2 h-1.5 sm:h-2 bg-rose-400') 
+                  : 'w-1.5 sm:w-2 h-1.5 sm:h-2 bg-white/10'
             }`}
+            title={`Question ${idx + 1}`}
           />
         ))}
       </div>

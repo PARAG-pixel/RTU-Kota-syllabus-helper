@@ -334,29 +334,67 @@ export default function SprintRoadmap({ roadmap, onRegenerate, isRegenerating = 
                           </div>
                         )}
 
-                        {/* Focus Topics */}
+                        {/* Focus Topics: Prominent AI Topic Master Deck */}
                         {day.topics && day.topics.length > 0 && (
-                          <div className="space-y-2">
-                            <div className="flex items-center justify-between">
-                              <h5 className="text-xs font-semibold text-slate-300 uppercase tracking-wider">
-                                Target RTU Syllabus Topics
-                              </h5>
-                              <span className="text-[11px] text-violet-300 font-medium flex items-center gap-1">
-                                <Sparkles className="w-3 h-3" /> Click any topic to learn with AI Tutor
-                              </span>
-                            </div>
-                            <div className="flex flex-wrap gap-1.5">
-                              {day.topics.map((t, tIdx) => (
-                                <button
-                                  key={tIdx}
-                                  onClick={() => onOpenTutor && onOpenTutor(t, day.focusUnit)}
-                                  className="px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-violet-600/20 border border-white/[0.08] hover:border-violet-500/40 text-xs text-slate-300 hover:text-white transition-all flex items-center gap-1.5 group cursor-pointer focus-ring"
-                                  title={`Learn "${t}" with AI Topic Tutor`}
-                                >
-                                  <Sparkles className="w-3 h-3 text-violet-400 opacity-60 group-hover:opacity-100" />
-                                  <span>{t}</span>
-                                </button>
-                              ))}
+                          <div className="space-y-3 pt-2">
+                            <div className="bg-gradient-to-r from-violet-900/30 via-indigo-900/20 to-cyan-900/20 border border-violet-500/30 rounded-2xl p-4 md:p-5 relative overflow-hidden">
+                              {/* Ambient glow */}
+                              <div className="absolute right-0 top-0 w-32 h-32 bg-violet-500/10 rounded-full blur-2xl pointer-events-none" />
+
+                              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                                <div className="flex items-center gap-2">
+                                  <div className="p-1.5 rounded-lg bg-violet-500/20 text-violet-300 border border-violet-500/30 flex-shrink-0">
+                                    <Sparkles className="w-4 h-4 text-violet-400 animate-pulse" />
+                                  </div>
+                                  <div>
+                                    <h5 className="text-xs sm:text-sm font-bold text-white font-heading uppercase tracking-wider">
+                                      AI Topic Master • Deep-Dive Coaching
+                                    </h5>
+                                    <p className="text-[11px] text-slate-300">
+                                      Tap any topic below to open the dedicated RTU Professor lesson & interactive chat
+                                    </p>
+                                  </div>
+                                </div>
+                                <span className="inline-flex items-center gap-1 text-[10px] font-bold text-cyan-300 bg-cyan-500/10 px-2.5 py-1 rounded-full border border-cyan-500/20 self-start sm:self-auto">
+                                  <span>{day.topics.length} Syllabus Modules</span>
+                                </span>
+                              </div>
+
+                              {/* Large Prominent Topic Cards Grid */}
+                              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-1">
+                                {day.topics.map((t, tIdx) => (
+                                  <motion.button
+                                    key={tIdx}
+                                    whileHover={{ scale: 1.02, y: -2 }}
+                                    whileTap={{ scale: 0.98 }}
+                                    onClick={() => onOpenTutor && onOpenTutor(t, day.focusUnit)}
+                                    className="p-3.5 sm:p-4 rounded-xl bg-[#080d1e]/90 hover:bg-violet-950/40 border border-violet-500/25 hover:border-violet-400/60 shadow-lg shadow-black/40 text-left transition-all flex items-center justify-between gap-3 group cursor-pointer focus-ring"
+                                    title={`Click to open AI Topic Tutor for "${t}"`}
+                                  >
+                                    <div className="flex items-start gap-3 min-w-0">
+                                      <div className="w-7 h-7 rounded-lg bg-violet-500/15 border border-violet-500/30 flex items-center justify-center text-violet-400 flex-shrink-0 mt-0.5 group-hover:bg-violet-500 group-hover:text-white transition-all">
+                                        <BookOpen className="w-3.5 h-3.5" />
+                                      </div>
+                                      <div className="min-w-0">
+                                        <div className="text-xs sm:text-sm font-bold text-white group-hover:text-cyan-300 transition-colors leading-snug break-words">
+                                          {t}
+                                        </div>
+                                        <div className="text-[10px] text-slate-400 flex items-center gap-1.5 mt-0.5">
+                                          <span>Unit {day.focusUnit}</span>
+                                          <span>•</span>
+                                          <span className="text-violet-300 font-medium">Part A/B/C Blueprint</span>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div className="flex items-center gap-1 px-2 py-1 rounded-lg bg-violet-500/10 group-hover:bg-cyan-500/20 text-violet-300 group-hover:text-cyan-300 border border-violet-500/20 group-hover:border-cyan-500/30 text-[10px] font-bold flex-shrink-0 transition-all">
+                                      <Sparkles className="w-3 h-3 text-cyan-400" />
+                                      <span className="hidden sm:inline">Learn</span>
+                                      <span>→</span>
+                                    </div>
+                                  </motion.button>
+                                ))}
+                              </div>
                             </div>
                           </div>
                         )}
