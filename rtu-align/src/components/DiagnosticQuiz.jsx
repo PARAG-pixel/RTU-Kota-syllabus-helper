@@ -2,13 +2,17 @@ import { useState, useMemo, useEffect, useCallback } from 'react';
 
 import { CheckCircle, XCircle, Clock, ArrowRight, CornerDownLeft, Flame, Sparkles } from 'lucide-react';
 
+import { generateAIQuestion } from '../services/geminiChatService';
+
 const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
 
 export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
-  // Memoize questions and shuffle options so answer position varies across A, B, C, D
-  const allQuestions = useMemo(() => {
+  const [allQuestions, setAllQuestions] = useState([]);
+  
+  // Initial load
+  useEffect(() => {
     let globalQIndex = 0;
-    return subject.units.flatMap((unit, uIdx) =>
+    const initial = subject.units.flatMap((unit, uIdx) =>
       unit.questions.map(q => {
         globalQIndex++;
         return {
@@ -16,11 +20,57 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
           unitNumber: uIdx + 1,
           unitTitle: unit.title,
           isHighYield: (unit.high_yield ?? 3) <= 2,
-          options: shuffleArray(q.options, globalQIndex)
+          options: shuffleArray(q.options),
+          isAI: false
         };
       })
     );
+    setAllQuestions(initial);
   }, [subject]);
+
+  // Background AI generation
+  useEffect(() => {
+    if (allQuestions.length === 0) return;
+    
+    // Use a simple ref-like pattern on the window to prevent StrictMode double-firing
+    if (window._aiQuestionsGeneratedForSubject === subject.code) return;
+    window._aiQuestionsGeneratedForSubject = subject.code;
+
+    const generateAsync = async () => {
+      for (let i = 0; i < subject.units.length; i++) {
+        const unit = subject.units[i];
+        
+        // Generate 4 questions concurrently
+        const promises = Array.from({ length: 4 }).map(() => generateAIQuestion(subject, i + 1, unit.topics));
+        const aiQs = await Promise.all(promises);
+        
+        const validQs = aiQs.filter(q => q && q.q && q.options && q.answer).map(q => ({
+          ...q,
+          id: `ai_${Math.random().toString(36).substr(2, 9)}`,
+          unitNumber: i + 1,
+          unitTitle: unit.title,
+          isHighYield: (unit.high_yield ?? 3) <= 2,
+          options: shuffleArray(q.options),
+          isAI: true
+        }));
+
+        if (validQs.length > 0) {
+          setAllQuestions(prev => {
+            const next = [...prev];
+            const lastIdx = next.findLastIndex(q => q.unitNumber === i + 1 && !q.isAI);
+            if (lastIdx !== -1) {
+              next.splice(lastIdx + 1, 0, ...validQs);
+            } else {
+              next.push(...validQs);
+            }
+            return next;
+          });
+        }
+      }
+    };
+    
+    generateAsync();
+  }, [subject, allQuestions.length]);
 
   const [currentIdx, setCurrentIdx] = useState(0);
   const [answers, setAnswers] = useState({});
