@@ -1,26 +1,16 @@
 import { GraduationCap, ArrowLeft, ChevronRight, Sparkles } from 'lucide-react';
-import { motion } from 'framer-motion';
+
 
 export default function Navbar({ breadcrumb, onBack, canGoBack }) {
   return (
-    <motion.nav 
-      initial={{ y: -20, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      className="sticky top-0 z-50 bg-[#060913]/80 backdrop-blur-xl border-b border-white/[0.08] px-4 md:px-8 py-3.5"
-    >
+    <nav className="slide-up sticky top-0 z-50 bg-[#060913]/80 backdrop-blur-xl border-b border-white/[0.08] px-4 md:px-8 py-3.5">
       <div className="max-w-6xl mx-auto flex items-center justify-between gap-4">
         {/* Left: Back + Brand Logo */}
         <div className="flex items-center gap-3">
           {canGoBack && (
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={onBack}
-              className="p-2 rounded-xl bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.08] text-gray-300 hover:text-white transition-colors"
-              title="Go Back"
-            >
+            <button className="p-2 rounded-xl bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.08] text-gray-300 hover:text-white transition-colors">
               <ArrowLeft className="w-4 h-4" />
-            </motion.button>
+            </button>
           )}
 
           <div className="flex items-center gap-3 cursor-pointer" onClick={canGoBack ? onBack : undefined}>
@@ -65,6 +55,6 @@ export default function Navbar({ breadcrumb, onBack, canGoBack }) {
           </div>
         </div>
       </div>
-    </motion.nav>
+    </nav>
   );
 }

@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+
 import { Sparkles, X, Send, BookOpen, MessageSquare, AlertTriangle, Loader2, HelpCircle } from 'lucide-react';
 import { fetchTopicLesson, sendTutorChatMessage } from '../services/geminiChatService';
 
@@ -77,25 +77,13 @@ export default function TopicTutorDrawer({ isOpen, onClose, topic, unitNumber, s
   if (!isOpen) return null;
 
   return (
-    <AnimatePresence>
+    
       <div className="fixed inset-0 z-50 flex justify-end">
         {/* Backdrop */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          onClick={onClose}
-          className="fixed inset-0 bg-black/70 backdrop-blur-sm"
-        />
+        <div className="slide-up fixed inset-0 bg-black/70 backdrop-blur-sm"></div>
 
         {/* Slide-over Drawer Panel */}
-        <motion.div
-          initial={{ x: '100%' }}
-          animate={{ x: 0 }}
-          exit={{ x: '100%' }}
-          transition={{ type: 'spring', damping: 28, stiffness: 280 }}
-          className="relative z-10 w-full sm:max-w-2xl bg-[#0a0f1e] border-l border-white/[0.12] h-full shadow-2xl flex flex-col overflow-hidden"
-        >
+        <div className="slide-up relative z-10 w-full sm:max-w-2xl bg-[#0a0f1e] border-l border-white/[0.12] h-full shadow-2xl flex flex-col overflow-hidden">
           {/* Header */}
           <div className="p-4 sm:p-6 border-b border-white/[0.08] bg-slate-900/80 backdrop-blur-xl flex items-start justify-between gap-3">
             <div className="space-y-1 min-w-0 flex-1">
@@ -346,8 +334,8 @@ export default function TopicTutorDrawer({ isOpen, onClose, topic, unitNumber, s
               </button>
             </form>
           </div>
-        </motion.div>
+        </div>
       </div>
-    </AnimatePresence>
+    
   );
 }

@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+
 import { ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, Tooltip } from 'recharts';
 import { Activity } from 'lucide-react';
 
@@ -31,12 +31,7 @@ export default function RadarGapChart({ results }) {
   }));
 
   return (
-    <motion.div 
-      initial={{ opacity: 0, scale: 0.95 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.4 }}
-      className="bento-card"
-    >
+    <div className="slide-up bento-card">
       <div className="flex items-center justify-between mb-2">
         <div className="flex items-center gap-2.5">
           <div className="p-2 rounded-xl bg-violet-500/10 border border-violet-500/20 text-violet-400">
@@ -104,6 +99,6 @@ export default function RadarGapChart({ results }) {
           </div>
         ))}
       </div>
-    </motion.div>
+    </div>
   );
 }

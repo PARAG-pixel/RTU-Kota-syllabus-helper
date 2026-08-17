@@ -9,7 +9,7 @@ import TopicTutorDrawer from './components/TopicTutorDrawer';
 import { evaluateQuiz } from './services/scoringEngine';
 import { generateLocalRoadmap, generateGeminiRoadmap } from './services/roadmapGenerator';
 import { fetchRtuData } from './services/supabaseClient';
-import { motion } from 'framer-motion';
+
 import { RotateCcw, Loader2, AlertCircle, ArrowRight, Flame, CheckCircle2, ShieldAlert } from 'lucide-react';
 
 function App() {
@@ -19,13 +19,14 @@ function App() {
   const [dataError, setDataError] = useState(null);
 
   // Navigation State
-  const [step, setStep] = useState('branch'); // branch | semester | subject | quiz | results | roadmap
-  const [selectionStep, setSelectionStep] = useState('branch'); // sub-step within selection
+  const [step, setStep] = useState('selection'); // selection | quiz | results | roadmap
 
   // Selection State
   const [selectedBranch, setSelectedBranch] = useState(null);
   const [selectedSemester, setSelectedSemester] = useState(null);
   const [selectedSubject, setSelectedSubject] = useState(null);
+
+  const selectionStep = !selectedBranch ? 'branch' : !selectedSemester ? 'semester' : 'subject';
 
   // Results State
   const [quizResults, setQuizResults] = useState(null);
@@ -63,39 +64,25 @@ function App() {
   }, [loadData]);
 
   const goBack = useCallback(() => {
-    if (step === 'roadmap') {
-      setStep('results');
-      return;
-    }
+    if (step === 'roadmap') return setStep('results');
     if (step === 'results') {
       setStep('quiz');
-      setQuizResults(null);
-      return;
+      return setQuizResults(null);
     }
     if (step === 'quiz') {
-      setStep('branch');
-      setSelectionStep('subject');
-      return;
+      setStep('selection');
+      return setSelectedSubject(null);
     }
-    if (step === 'branch') {
-      if (selectionStep === 'subject') {
-        setSelectionStep('semester');
-        setSelectedSubject(null);
-      } else if (selectionStep === 'semester') {
-        setSelectionStep('branch');
-        setSelectedSemester(null);
-      }
+    if (step === 'selection') {
+      if (selectedSemester) setSelectedSemester(null);
+      else if (selectedBranch) setSelectedBranch(null);
     }
-  }, [step, selectionStep]);
+  }, [step, selectedSemester, selectedBranch]);
 
   const handleBranchSelect = useCallback((type, value) => {
-    if (type === 'branch') {
-      setSelectedBranch(value);
-      setSelectionStep('semester');
-    } else if (type === 'semester') {
-      setSelectedSemester(value);
-      setSelectionStep('subject');
-    } else if (type === 'subject') {
+    if (type === 'branch') setSelectedBranch(value);
+    else if (type === 'semester') setSelectedSemester(value);
+    else if (type === 'subject') {
       setSelectedSubject(value);
       setStep('quiz');
     }
@@ -128,8 +115,7 @@ function App() {
   }, [GEMINI_API_KEY, selectedSubject, quizResults]);
 
   const handleRestart = useCallback(() => {
-    setStep('branch');
-    setSelectionStep('branch');
+    setStep('selection');
     setSelectedBranch(null);
     setSelectedSemester(null);
     setSelectedSubject(null);
@@ -146,7 +132,7 @@ function App() {
   if (step === 'results') breadcrumb.push('Gap Analysis');
   if (step === 'roadmap') breadcrumb.push('Sprint Roadmap');
 
-  const canGoBack = step !== 'branch' || selectionStep !== 'branch';
+  const canGoBack = step !== 'selection' || selectionStep !== 'branch';
 
   return (
     <div className="min-h-screen flex flex-col bg-grid-pattern">
@@ -186,7 +172,7 @@ function App() {
         ) : (
           <>
             {/* Branch / Semester / Subject Selection */}
-            {step === 'branch' && rtuData && (
+            {step === 'selection' && rtuData && (
               <BranchSelector
                 rtuData={rtuData}
                 onSelect={handleBranchSelect}
@@ -206,7 +192,7 @@ function App() {
 
             {/* Gap Analysis Bento Grid Dashboard */}
             {step === 'results' && quizResults && (
-              <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
+              <div className="slide-up space-y-6">
                 {/* Hero Summary Bento Card */}
                 <div className="bento-card bg-gradient-to-r from-slate-900/90 via-slate-900/70 to-blue-950/40 border-blue-500/20">
                   <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
@@ -311,10 +297,7 @@ function App() {
                           </div>
 
                           <div className="h-1.5 rounded-full bg-slate-800 overflow-hidden">
-                            <motion.div
-                              initial={{ width: 0 }}
-                              animate={{ width: `${u.score}%` }}
-                              transition={{ duration: 0.8, delay: u.unit * 0.08 }}
+                            <div style={{ width: `${u.score}%` }}
                               className={`h-full rounded-full ${
                                 u.status === 'strong' ? 'bg-emerald-400' :
                                 u.status === 'moderate' ? 'bg-amber-400' :
@@ -330,9 +313,7 @@ function App() {
 
                 {/* Primary Action Row */}
                 <div className="flex flex-col sm:flex-row gap-4 justify-center pt-2">
-                  <motion.button
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
+                  <button 
                     onClick={() => {
                       setStep('roadmap');
                       handleGenerateRoadmap(5);
@@ -341,7 +322,7 @@ function App() {
                   >
                     <span>Generate AI Sprint Roadmap</span>
                     <ArrowRight className="w-5 h-5" />
-                  </motion.button>
+                  </button>
 
                   <button 
                     onClick={handleRestart} 
@@ -350,7 +331,7 @@ function App() {
                     <RotateCcw className="w-4 h-4" /> Start New Assessment
                   </button>
                 </div>
-              </motion.div>
+              </div>
             )}
 
             {/* Sprint Roadmap View */}

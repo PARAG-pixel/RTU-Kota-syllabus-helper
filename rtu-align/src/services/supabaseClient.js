@@ -1,5 +1,5 @@
 import { createClient } from '@supabase/supabase-js';
-import localRtuData from '../data/rtuData.js';
+import { rtuData as localRtuData } from '../data/rtuData.js';
 
 const DEFAULT_SUPABASE_URL = 'https://bibhxukpmzmcazjfylcm.supabase.co';
 const DEFAULT_SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJpYmh4dWtwbXptY2F6amZ5bGNtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODY4NzE5MzAsImV4cCI6MjEwMjQ0NzkzMH0.7sKlZ8t0P_K1ogdF3j6BWMsleVWEPPWP4PsvEgKwapI';
@@ -9,7 +9,7 @@ const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || DEFAULT_SUPABA
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
-export async function fetchRtuData() {
+export async function fetchRtuData(force = false) {
   try {
     // Fetch all tables from Supabase
     const [
@@ -28,7 +28,7 @@ export async function fetchRtuData() {
 
     // If fetch failed or is empty or incomplete, use local dataset
     if (!branches || !semesters || !subjects || !units || !questions || questions.length < 500) {
-      console.log('Using local complete 4-questions-per-unit dataset');
+      console.log('Using local complete dataset (fallback)');
       return localRtuData;
     }
 

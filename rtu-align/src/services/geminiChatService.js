@@ -110,3 +110,34 @@ Give a direct, concise, syllabus-accurate explanation tailored for RTU Kota exam
     return `[RTU Study Assistant] In ${subject.name} (Unit ${unitNumber}), "${topic}" focuses heavily on clear step-by-step derivations and exact formulas. Ensure you practice previous year RTU questions and state all boundary conditions in your answer booklet.`;
   }
 }
+
+export async function generateAIQuestion(subject, unitNumber, unitTopics) {
+  try {
+    const topicStr = Array.isArray(unitTopics) ? unitTopics.join(", ") : unitTopics;
+    const prompt = `You are an RTU Kota Professor generating a diagnostic multiple-choice question.
+Subject: ${subject.name} (Code: ${subject.code})
+Unit ${unitNumber} Topics: ${topicStr}
+
+Generate ONE unique, high-quality multiple choice question testing a core concept from these topics.
+Provide a JSON response with these exact keys:
+{
+  "q": "The question text",
+  "options": ["Option A", "Option B", "Option C", "Option D"],
+  "answer": "The exact string of the correct option",
+  "topic": "The specific syllabus topic being tested"
+}
+
+Respond ONLY with valid JSON, NO markdown wrapping.`;
+
+    const text = await executeGeminiPrompt(prompt);
+    const cleaned = text.replace(/```json/gi, '').replace(/```/g, '').trim();
+    const jsonMatch = cleaned.match(/\{[\s\S]*\}/);
+
+    if (jsonMatch) {
+      return JSON.parse(jsonMatch[0]);
+    }
+  } catch (err) {
+    console.warn('Gemini generateAIQuestion failed:', err);
+  }
+  return null;
+}

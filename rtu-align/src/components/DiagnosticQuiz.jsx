@@ -1,26 +1,18 @@
 import { useState, useMemo, useEffect, useCallback } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+
 import { CheckCircle, XCircle, Clock, ArrowRight, CornerDownLeft, Flame, Sparkles } from 'lucide-react';
 
-// Fisher-Yates shuffle with answer position rotation guarantee
-function shuffleArray(array, seedOffset = 0) {
-  const arr = [...array];
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
-  if (arr.length > 1 && seedOffset > 0) {
-    const shift = seedOffset % arr.length;
-    return [...arr.slice(shift), ...arr.slice(0, shift)];
-  }
-  return arr;
-}
+import { generateAIQuestion } from '../services/geminiChatService';
+
+const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
 
 export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
-  // Memoize questions and shuffle options so answer position varies across A, B, C, D
-  const allQuestions = useMemo(() => {
+  const [allQuestions, setAllQuestions] = useState([]);
+  
+  // Initial load
+  useEffect(() => {
     let globalQIndex = 0;
-    return subject.units.flatMap((unit, uIdx) =>
+    const initial = subject.units.flatMap((unit, uIdx) =>
       unit.questions.map(q => {
         globalQIndex++;
         return {
@@ -28,11 +20,57 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
           unitNumber: uIdx + 1,
           unitTitle: unit.title,
           isHighYield: (unit.high_yield ?? 3) <= 2,
-          options: shuffleArray(q.options, globalQIndex)
+          options: shuffleArray(q.options),
+          isAI: false
         };
       })
     );
+    setAllQuestions(initial);
   }, [subject]);
+
+  // Background AI generation
+  useEffect(() => {
+    if (allQuestions.length === 0) return;
+    
+    // Use a simple ref-like pattern on the window to prevent StrictMode double-firing
+    if (window._aiQuestionsGeneratedForSubject === subject.code) return;
+    window._aiQuestionsGeneratedForSubject = subject.code;
+
+    const generateAsync = async () => {
+      for (let i = 0; i < subject.units.length; i++) {
+        const unit = subject.units[i];
+        
+        // Generate 4 questions concurrently
+        const promises = Array.from({ length: 4 }).map(() => generateAIQuestion(subject, i + 1, unit.topics));
+        const aiQs = await Promise.all(promises);
+        
+        const validQs = aiQs.filter(q => q && q.q && q.options && q.answer).map(q => ({
+          ...q,
+          id: `ai_${Math.random().toString(36).substr(2, 9)}`,
+          unitNumber: i + 1,
+          unitTitle: unit.title,
+          isHighYield: (unit.high_yield ?? 3) <= 2,
+          options: shuffleArray(q.options),
+          isAI: true
+        }));
+
+        if (validQs.length > 0) {
+          setAllQuestions(prev => {
+            const next = [...prev];
+            const lastIdx = next.findLastIndex(q => q.unitNumber === i + 1 && !q.isAI);
+            if (lastIdx !== -1) {
+              next.splice(lastIdx + 1, 0, ...validQs);
+            } else {
+              next.push(...validQs);
+            }
+            return next;
+          });
+        }
+      }
+    };
+    
+    generateAsync();
+  }, [subject, allQuestions.length]);
 
   const [currentIdx, setCurrentIdx] = useState(0);
   const [answers, setAnswers] = useState({});
@@ -112,7 +150,7 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
   };
 
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="max-w-2xl mx-auto space-y-6">
+    <div className="slide-up max-w-2xl mx-auto space-y-6">
       {/* Header Info */}
       <div className="flex items-center justify-between">
         <div>
@@ -148,24 +186,13 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
         </div>
 
         <div className="progress-bar">
-          <motion.div
-            className="progress-bar-fill"
-            animate={{ width: `${progress}%` }}
-            transition={{ duration: 0.4 }}
-          />
+          <div className="slide-up progress-bar-fill" style={{ width: `${progress}%` }}></div>
         </div>
       </div>
 
       {/* Question Card */}
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={currentIdx}
-          initial={{ opacity: 0, x: 30 }}
-          animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: -30 }}
-          transition={{ duration: 0.2 }}
-          className="glass-card p-6 md:p-8 space-y-6"
-        >
+      
+        <div className="slide-up glass-card p-6 md:p-8 space-y-6">
           <div className="flex items-start gap-3.5">
             <span className="flex-shrink-0 w-8 h-8 rounded-xl bg-gradient-to-br from-blue-500/20 to-violet-500/20 border border-blue-500/30 text-blue-400 font-bold text-sm flex items-center justify-center font-mono">
               Q{currentIdx + 1}
@@ -188,10 +215,8 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
               const letter = String.fromCharCode(65 + idx);
 
               return (
-                <motion.button
+                <button
                   key={idx}
-                  whileHover={!showResult ? { scale: 1.01 } : {}}
-                  whileTap={!showResult ? { scale: 0.99 } : {}}
                   onClick={() => handleOptionSelect(opt)}
                   className={`${optClass} w-full text-left flex items-center gap-3.5 py-3.5 px-4`}
                   disabled={showResult}
@@ -209,16 +234,14 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
                   {showResult && opt === selectedOption && !isCorrect && opt !== currentQ.answer && (
                     <XCircle className="w-5 h-5 text-rose-400 ml-auto flex-shrink-0" />
                   )}
-                </motion.button>
+                </button>
               );
             })}
           </div>
 
           {/* Feedback message */}
           {showResult && (
-            <motion.div
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
+            <div
               className={`p-4 rounded-xl text-sm border flex items-start gap-3 ${isCorrect
                   ? 'bg-emerald-500/10 text-emerald-300 border-emerald-500/30'
                   : 'bg-rose-500/10 text-rose-300 border-rose-500/30'
@@ -254,16 +277,14 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
                   </button>
                 )}
               </div>
-            </motion.div>
+            </div>
           )}
-        </motion.div>
-      </AnimatePresence>
+        </div>
+      
 
       {/* Action Button & Shortcuts Hint */}
       <div className="space-y-3">
-        <motion.button
-          whileHover={{ scale: 1.01 }}
-          whileTap={{ scale: 0.99 }}
+        <button
           onClick={handleConfirm}
           disabled={!selectedOption}
           className={`btn-primary w-full flex items-center justify-center gap-2 py-3.5 ${!selectedOption ? 'opacity-50 cursor-not-allowed' : ''
@@ -276,7 +297,7 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
           <span className="hidden sm:inline-flex items-center text-[10px] font-mono bg-white/20 px-2 py-0.5 rounded ml-1 opacity-80">
             <CornerDownLeft className="w-3 h-3 mr-0.5" /> ↵
           </span>
-        </motion.button>
+        </button>
 
         <p className="text-center text-[11px] text-gray-500">
           Pro-tip: Press <kbd className="px-1.5 py-0.5 bg-white/10 rounded text-gray-300 font-mono text-[10px]">A</kbd>-<kbd className="px-1.5 py-0.5 bg-white/10 rounded text-gray-300 font-mono text-[10px]">D</kbd> or <kbd className="px-1.5 py-0.5 bg-white/10 rounded text-gray-300 font-mono text-[10px]">1</kbd>-<kbd className="px-1.5 py-0.5 bg-white/10 rounded text-gray-300 font-mono text-[10px]">4</kbd> on your keyboard, and press <kbd className="px-1.5 py-0.5 bg-white/10 rounded text-gray-300 font-mono text-[10px]">Enter</kbd> to proceed.
@@ -298,6 +319,6 @@ export default function DiagnosticQuiz({ subject, onComplete, onOpenTutor }) {
           />
         ))}
       </div>
-    </motion.div>
+    </div>
   );
 }
